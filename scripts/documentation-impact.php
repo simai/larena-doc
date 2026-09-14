@@ -314,7 +314,7 @@ function buildSourceContract(string $root, array $map): array
             $source = $sourceIndex[$rule['source']];
             $contractParts[$rule['source']] = digestRepositoryFiles($source['absolute_repository'], $rule['paths']);
             foreach ($rule['paths'] as $pattern) {
-                $provenance[] = $rule['source'] . '@' . $source['current_revision'] . ':' . $pattern;
+                $provenance[] = $rule['source'] . '@' . $source['verified_revision'] . ':' . $pattern;
             }
         }
         ksort($contractParts, SORT_STRING);
@@ -364,8 +364,8 @@ function buildSourceContract(string $root, array $map): array
     }
     usort($entities, static fn (array $a, array $b): int => strcmp($a['key'], $b['key']));
     $revisionParts = [];
-    foreach ($sourceIndex as $id => $source) {
-        $revisionParts[$id] = $source['current_revision'];
+    foreach ($entities as $entity) {
+        $revisionParts[$entity['key']] = hash('sha256', canonicalJson($entity['public_contract']));
     }
     ksort($revisionParts, SORT_STRING);
 

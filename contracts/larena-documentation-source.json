@@ -2,7 +2,7 @@
     "schema": "docara.documentation_source.v1",
     "id": "larena",
     "provider": "contract_json",
-    "revision": "c28393444dd35d230389136c6d4a6f621b7f513cd3ff92d6cc89d10263a20cf0",
+    "revision": "dcb4076b20758aedd360a8fed9941c7f61df7c872da469668c13a04dc0fb02f0",
     "entities": [
         {
             "key": "larena.package.access",
