@@ -1,16 +1,22 @@
 {
     "require": {
         "php": ">=8.4.1",
-        "simai/docara": "2.9.0"
+        "simai/docara": "2.9.1"
     },
     "scripts": {
         "docs:status": "@php scripts/documentation-impact.php status",
         "docs:impact": "@php scripts/documentation-impact.php impact",
+        "docs:engine:status": "@php scripts/docara-release-status.php",
+        "docs:engine:check": "@php scripts/docara-release-status.php --require-current",
         "docs:source:check": "@php scripts/documentation-impact.php source-contract",
         "docs:source:write": "@php scripts/documentation-impact.php source-contract --write",
-        "docs:test": "@php tests/documentation-impact-test.php",
+        "docs:test": [
+            "@php tests/documentation-impact-test.php",
+            "@php tests/docara-release-status-test.php"
+        ],
         "docs:check": [
             "@docs:test",
+            "@docs:engine:check",
             "@php scripts/documentation-impact.php check --require-docara"
         ]
     }

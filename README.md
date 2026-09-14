@@ -1,7 +1,7 @@
 # Larena Documentation
 
 Russian documentation for the Larena developer foundation. The site is built
-with Docara 2.9.0 and is intended to be served locally at
+with Docara 2.9.1 and is intended to be served locally at
 `https://larena-doc.test`.
 
 ## Build
@@ -30,6 +30,7 @@ a package change:
 
 ```bash
 "$LARENA_DOC_PHP" "$LARENA_DOC_COMPOSER" docs:status
+"$LARENA_DOC_PHP" "$LARENA_DOC_COMPOSER" docs:engine:status
 "$LARENA_DOC_PHP" "$LARENA_DOC_COMPOSER" docs:check
 ```
 
@@ -38,6 +39,10 @@ The machine-readable map is
 `contracts/larena-documentation-decisions.json`. The generated Docara source
 contract and `documentation.lock.json` must remain current. See
 `docs/maintenance.md` for the update procedure.
+
+The engine status also prevents a published site from silently remaining on an
+older stable tag while substantive Docara changes already exist on upstream
+`main`.
 
 ## Local site
 

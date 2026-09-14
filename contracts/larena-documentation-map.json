@@ -1,1406 +1,1407 @@
 {
-  "schema": "larena.documentation_map.v1",
-  "source_contract_file": "contracts/larena-documentation-source.json",
-  "decision_file": "contracts/larena-documentation-decisions.json",
-  "sources": [
-    {
-      "id": "specs",
-      "label": "Larena Specs",
-      "repository": "../larena-specs",
-      "verified_revision": "044124944750fa2cefef1b2db659975e94ad6f9f",
-      "public_paths": [
-        "README.md",
-        "standards/**",
-        "specs/packages/**",
-        "graph/specs/**"
-      ]
-    },
-    {
-      "id": "root",
-      "label": "Larena Root",
-      "repository": "../larena",
-      "verified_revision": "98dd55f2ea4bc8428907d386d7949633d6b8115e",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        ".env.example",
-        "routes/**",
-        "docs/developer/**",
-        "scripts/larena-runtime.php"
-      ]
-    },
-    {
-      "id": "workspace",
-      "label": "Larena Workspace",
-      "repository": "../larena-workspace",
-      "verified_revision": "749cd11e1844cff40a7c768002737cb8c85aaaf7",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "packages.json",
-        "scripts/**"
-      ]
-    },
-    {
-      "id": "package.core",
-      "label": "larena/core",
-      "repository": "../larena-workspace/packages/core",
-      "verified_revision": "47123f2e79fd8852c91af7eafb4b03754425ac4a",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.setting",
-      "label": "larena/setting",
-      "repository": "../larena-workspace/packages/setting",
-      "verified_revision": "5cf41d20252be9cefa72f1730a505b25e45b481b",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.lang",
-      "label": "larena/lang",
-      "repository": "../larena-workspace/packages/lang",
-      "verified_revision": "b668a2ff3d4d39958938a40ce7a57771d554f101",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.auth",
-      "label": "larena/auth",
-      "repository": "../larena-workspace/packages/auth",
-      "verified_revision": "9a2c93842e1a9e949f6e6f82499eec5cd883d47c",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.access",
-      "label": "larena/access",
-      "repository": "../larena-workspace/packages/access",
-      "verified_revision": "0c504fc86a02cd499664a8233d24c54a6854b788",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.property",
-      "label": "larena/property",
-      "repository": "../larena-workspace/packages/property",
-      "verified_revision": "b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.storage",
-      "label": "larena/storage",
-      "repository": "../larena-workspace/packages/storage",
-      "verified_revision": "b361f6e16ed8b5e18d78b47b9d9fa6620b588a16",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.filesystem",
-      "label": "larena/filesystem",
-      "repository": "../larena-workspace/packages/filesystem",
-      "verified_revision": "996093e547237f740af8c2cb2a0fca96cabd4c96",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.dataview",
-      "label": "larena/dataview",
-      "repository": "../larena-workspace/packages/dataview",
-      "verified_revision": "685919570a7a57654528c4577bd119e436189e23",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.layout",
-      "label": "larena/layout",
-      "repository": "../larena-workspace/packages/layout",
-      "verified_revision": "30c4ab5f452584d7c95d6186ed4d4b9ab999a5f5",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.ui",
-      "label": "larena/ui",
-      "repository": "../larena-workspace/packages/ui",
-      "verified_revision": "7506dac223bfe981144e2f40d42ef3826b5d58b8",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    },
-    {
-      "id": "package.admin",
-      "label": "larena/admin",
-      "repository": "../larena-workspace/packages/admin",
-      "verified_revision": "e9c2969b80f279e38e700ccf2fa013580b2383a0",
-      "public_paths": [
-        "README.md",
-        "composer.json",
-        "module.yaml",
-        "config/**",
-        "routes/**",
-        "docs/developer/**",
-        "src/Contracts/**"
-      ]
-    }
-  ],
-  "pages": [
-    {
-      "id": "home",
-      "path": "content/ru/index.md",
-      "route": "/ru/",
-      "title": "Larena",
-      "audience": "Разработчики и технические руководители",
-      "outcome": "Понять назначение документации и выбрать следующий раздел.",
-      "owner": "larena-doc",
-      "sources": [
+    "schema": "larena.documentation_map.v1",
+    "source_contract_file": "contracts/larena-documentation-source.json",
+    "decision_file": "contracts/larena-documentation-decisions.json",
+    "sources": [
         {
-          "source": "specs",
-          "paths": [
-            "README.md"
-          ]
+            "id": "specs",
+            "label": "Larena Specs",
+            "repository": "../larena-specs",
+            "verified_revision": "5209e5f25158b2127eff3a21f51a716ca68f01f9",
+            "public_paths": [
+                "README.md",
+                "standards/**",
+                "specs/packages/**",
+                "graph/specs/**"
+            ],
+            "last_decision": "bce7692bb4ad1aeee199940452b29b44c6da05a5174c11c803cb28aa69b64f4a"
         },
         {
-          "source": "root",
-          "paths": [
-            "README.md",
-            "composer.json"
-          ]
+            "id": "root",
+            "label": "Larena Root",
+            "repository": "../larena",
+            "verified_revision": "98dd55f2ea4bc8428907d386d7949633d6b8115e",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                ".env.example",
+                "routes/**",
+                "docs/developer/**",
+                "scripts/larena-runtime.php"
+            ]
         },
         {
-          "source": "workspace",
-          "paths": [
-            "README.md",
-            "composer.json"
-          ]
+            "id": "workspace",
+            "label": "Larena Workspace",
+            "repository": "../larena-workspace",
+            "verified_revision": "749cd11e1844cff40a7c768002737cb8c85aaaf7",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "packages.json",
+                "scripts/**"
+            ]
+        },
+        {
+            "id": "package.core",
+            "label": "larena/core",
+            "repository": "../larena-workspace/packages/core",
+            "verified_revision": "47123f2e79fd8852c91af7eafb4b03754425ac4a",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.setting",
+            "label": "larena/setting",
+            "repository": "../larena-workspace/packages/setting",
+            "verified_revision": "5cf41d20252be9cefa72f1730a505b25e45b481b",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.lang",
+            "label": "larena/lang",
+            "repository": "../larena-workspace/packages/lang",
+            "verified_revision": "b668a2ff3d4d39958938a40ce7a57771d554f101",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.auth",
+            "label": "larena/auth",
+            "repository": "../larena-workspace/packages/auth",
+            "verified_revision": "9a2c93842e1a9e949f6e6f82499eec5cd883d47c",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.access",
+            "label": "larena/access",
+            "repository": "../larena-workspace/packages/access",
+            "verified_revision": "0c504fc86a02cd499664a8233d24c54a6854b788",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.property",
+            "label": "larena/property",
+            "repository": "../larena-workspace/packages/property",
+            "verified_revision": "b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.storage",
+            "label": "larena/storage",
+            "repository": "../larena-workspace/packages/storage",
+            "verified_revision": "b361f6e16ed8b5e18d78b47b9d9fa6620b588a16",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.filesystem",
+            "label": "larena/filesystem",
+            "repository": "../larena-workspace/packages/filesystem",
+            "verified_revision": "996093e547237f740af8c2cb2a0fca96cabd4c96",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.dataview",
+            "label": "larena/dataview",
+            "repository": "../larena-workspace/packages/dataview",
+            "verified_revision": "685919570a7a57654528c4577bd119e436189e23",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.layout",
+            "label": "larena/layout",
+            "repository": "../larena-workspace/packages/layout",
+            "verified_revision": "30c4ab5f452584d7c95d6186ed4d4b9ab999a5f5",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.ui",
+            "label": "larena/ui",
+            "repository": "../larena-workspace/packages/ui",
+            "verified_revision": "7506dac223bfe981144e2f40d42ef3826b5d58b8",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.admin",
+            "label": "larena/admin",
+            "repository": "../larena-workspace/packages/admin",
+            "verified_revision": "e9c2969b80f279e38e700ccf2fa013580b2383a0",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
         }
-      ]
-    },
-    {
-      "id": "start",
-      "path": "content/ru/start/index.md",
-      "route": "/ru/start/",
-      "title": "Начало работы",
-      "audience": "Разработчики, впервые запускающие Larena",
-      "outcome": "Установить проверенную сборку и открыть первый экран.",
-      "owner": "larena-doc",
-      "sources": [
+    ],
+    "pages": [
         {
-          "source": "root",
-          "paths": [
-            "README.md",
-            "composer.json",
-            ".env.example",
-            "routes/**"
-          ]
+            "id": "home",
+            "path": "content/ru/index.md",
+            "route": "/ru/",
+            "title": "Larena",
+            "audience": "Разработчики и технические руководители",
+            "outcome": "Понять назначение документации и выбрать следующий раздел.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "README.md"
+                    ]
+                },
+                {
+                    "source": "root",
+                    "paths": [
+                        "README.md",
+                        "composer.json"
+                    ]
+                },
+                {
+                    "source": "workspace",
+                    "paths": [
+                        "README.md",
+                        "composer.json"
+                    ]
+                }
+            ]
         },
         {
-          "source": "workspace",
-          "paths": [
-            "README.md",
-            "composer.json"
-          ]
+            "id": "start",
+            "path": "content/ru/start/index.md",
+            "route": "/ru/start/",
+            "title": "Начало работы",
+            "audience": "Разработчики, впервые запускающие Larena",
+            "outcome": "Установить проверенную сборку и открыть первый экран.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "root",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        ".env.example",
+                        "routes/**"
+                    ]
+                },
+                {
+                    "source": "workspace",
+                    "paths": [
+                        "README.md",
+                        "composer.json"
+                    ]
+                },
+                {
+                    "source": "package.core",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.auth",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
         },
         {
-          "source": "package.core",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
+            "id": "concepts",
+            "path": "content/ru/concepts/index.md",
+            "route": "/ru/concepts/",
+            "title": "Основные понятия",
+            "audience": "Разработчики Larena",
+            "outcome": "Понимать роли базовых пакетов и их границы.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/**/package.json",
+                        "specs/packages/**/dna.json"
+                    ]
+                },
+                {
+                    "source": "package.core",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.setting",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.lang",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.auth",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.access",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.property",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.filesystem",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.dataview",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.layout",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.ui",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
         },
         {
-          "source": "package.auth",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
+            "id": "cms",
+            "path": "content/ru/cms/index.md",
+            "route": "/ru/cms/",
+            "title": "Работа с CMS",
+            "audience": "Администраторы и разработчики",
+            "outcome": "Понять доступные операции проверенной CMS.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/setting/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/auth/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/access/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.setting",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.auth",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.access",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
         },
         {
-          "source": "package.admin",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
+            "id": "development",
+            "path": "content/ru/development/index.md",
+            "route": "/ru/development/",
+            "title": "Разработка",
+            "audience": "Разработчики приложений",
+            "outcome": "Выбрать публичные контракты для сборки функции.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/core/**"
+                    ]
+                },
+                {
+                    "source": "package.core",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/property/**"
+                    ]
+                },
+                {
+                    "source": "package.property",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/storage/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/dataview/**"
+                    ]
+                },
+                {
+                    "source": "package.dataview",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/layout/**"
+                    ]
+                },
+                {
+                    "source": "package.layout",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/ui/**"
+                    ]
+                },
+                {
+                    "source": "package.ui",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "development.materials-catalog",
+            "path": "content/ru/development/materials-catalog.md",
+            "route": "/ru/development/materials-catalog/",
+            "title": "Каталог материалов",
+            "audience": "Разработчики приложений",
+            "outcome": "Пройти проверенный сквозной сценарий.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/property/**"
+                    ]
+                },
+                {
+                    "source": "package.property",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/storage/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/dataview/**"
+                    ]
+                },
+                {
+                    "source": "package.dataview",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/layout/**"
+                    ]
+                },
+                {
+                    "source": "package.layout",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/ui/**"
+                    ]
+                },
+                {
+                    "source": "package.ui",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/access/**"
+                    ]
+                },
+                {
+                    "source": "package.access",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "standards",
+            "path": "content/ru/standards/index.md",
+            "route": "/ru/standards/",
+            "title": "Стандарты и контракты",
+            "audience": "Авторы пакетов и ревьюеры",
+            "outcome": "Найти канонический стандарт и область его действия.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "standards/**",
+                        "graph/specs/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "packages",
+            "path": "content/ru/packages/index.md",
+            "route": "/ru/packages/",
+            "title": "Пакеты",
+            "audience": "Разработчики Larena",
+            "outcome": "Выбрать пакет по ответственности.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/**/package.json",
+                        "specs/packages/**/dna.json"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "operations",
+            "path": "content/ru/operations/index.md",
+            "route": "/ru/operations/",
+            "title": "Эксплуатация",
+            "audience": "Разработчики и операторы",
+            "outcome": "Диагностировать проверенную локальную сборку.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "root",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "scripts/larena-runtime.php"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.filesystem",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "versions",
+            "path": "content/ru/versions/index.md",
+            "route": "/ru/versions/",
+            "title": "Версии и ограничения",
+            "audience": "Все читатели",
+            "outcome": "Определить документируемую сборку и её ограничения.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/**/package.json",
+                        "specs/packages/**/dna.json"
+                    ]
+                },
+                {
+                    "source": "root",
+                    "paths": [
+                        "composer.json"
+                    ]
+                },
+                {
+                    "source": "workspace",
+                    "paths": [
+                        "composer.json",
+                        "packages.json"
+                    ]
+                },
+                {
+                    "source": "package.core",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.setting",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.lang",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.auth",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.access",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.property",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.filesystem",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.dataview",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.layout",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.ui",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "composer.json",
+                        "module.yaml"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "packages.core",
+            "path": "content/ru/packages/core.md",
+            "route": "/ru/packages/core/",
+            "title": "larena/core",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/core.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/core/**"
+                    ]
+                },
+                {
+                    "source": "package.core",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.core"
+        },
+        {
+            "id": "packages.setting",
+            "path": "content/ru/packages/setting.md",
+            "route": "/ru/packages/setting/",
+            "title": "larena/setting",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/setting.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/setting/**"
+                    ]
+                },
+                {
+                    "source": "package.setting",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.setting"
+        },
+        {
+            "id": "packages.lang",
+            "path": "content/ru/packages/lang.md",
+            "route": "/ru/packages/lang/",
+            "title": "larena/lang",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/lang.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/lang/**"
+                    ]
+                },
+                {
+                    "source": "package.lang",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.lang"
+        },
+        {
+            "id": "packages.auth",
+            "path": "content/ru/packages/auth.md",
+            "route": "/ru/packages/auth/",
+            "title": "larena/auth",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/auth.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/auth/**"
+                    ]
+                },
+                {
+                    "source": "package.auth",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.auth"
+        },
+        {
+            "id": "packages.access",
+            "path": "content/ru/packages/access.md",
+            "route": "/ru/packages/access/",
+            "title": "larena/access",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/access.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/access/**"
+                    ]
+                },
+                {
+                    "source": "package.access",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.access"
+        },
+        {
+            "id": "packages.property",
+            "path": "content/ru/packages/property.md",
+            "route": "/ru/packages/property/",
+            "title": "larena/property",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/property.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/property/**"
+                    ]
+                },
+                {
+                    "source": "package.property",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.property"
+        },
+        {
+            "id": "packages.storage",
+            "path": "content/ru/packages/storage.md",
+            "route": "/ru/packages/storage/",
+            "title": "larena/storage",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/storage.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/storage/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.storage"
+        },
+        {
+            "id": "packages.filesystem",
+            "path": "content/ru/packages/filesystem.md",
+            "route": "/ru/packages/filesystem/",
+            "title": "larena/filesystem",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/filesystem.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/filesystem/**"
+                    ]
+                },
+                {
+                    "source": "package.filesystem",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.filesystem"
+        },
+        {
+            "id": "packages.dataview",
+            "path": "content/ru/packages/dataview.md",
+            "route": "/ru/packages/dataview/",
+            "title": "larena/dataview",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/dataview.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/dataview/**"
+                    ]
+                },
+                {
+                    "source": "package.dataview",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.dataview"
+        },
+        {
+            "id": "packages.layout",
+            "path": "content/ru/packages/layout.md",
+            "route": "/ru/packages/layout/",
+            "title": "larena/layout",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/layout.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/layout/**"
+                    ]
+                },
+                {
+                    "source": "package.layout",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.layout"
+        },
+        {
+            "id": "packages.ui",
+            "path": "content/ru/packages/ui.md",
+            "route": "/ru/packages/ui/",
+            "title": "larena/ui",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/ui.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/ui/**"
+                    ]
+                },
+                {
+                    "source": "package.ui",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.ui"
+        },
+        {
+            "id": "packages.admin",
+            "path": "content/ru/packages/admin.md",
+            "route": "/ru/packages/admin/",
+            "title": "larena/admin",
+            "audience": "Разработчики пакетов и приложений",
+            "outcome": "Использовать подтверждённые публичные контракты larena/admin.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ],
+            "docara_entity": "larena.package.admin"
         }
-      ]
-    },
-    {
-      "id": "concepts",
-      "path": "content/ru/concepts/index.md",
-      "route": "/ru/concepts/",
-      "title": "Основные понятия",
-      "audience": "Разработчики Larena",
-      "outcome": "Понимать роли базовых пакетов и их границы.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/**/package.json",
-            "specs/packages/**/dna.json"
-          ]
-        },
-        {
-          "source": "package.core",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.setting",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.lang",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.auth",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.access",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.property",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.storage",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.filesystem",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.dataview",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.layout",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.ui",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.admin",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cms",
-      "path": "content/ru/cms/index.md",
-      "route": "/ru/cms/",
-      "title": "Работа с CMS",
-      "audience": "Администраторы и разработчики",
-      "outcome": "Понять доступные операции проверенной CMS.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/setting/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/auth/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/access/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/admin/**"
-          ]
-        },
-        {
-          "source": "package.setting",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.auth",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.access",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.admin",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "development",
-      "path": "content/ru/development/index.md",
-      "route": "/ru/development/",
-      "title": "Разработка",
-      "audience": "Разработчики приложений",
-      "outcome": "Выбрать публичные контракты для сборки функции.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/core/**"
-          ]
-        },
-        {
-          "source": "package.core",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/property/**"
-          ]
-        },
-        {
-          "source": "package.property",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/storage/**"
-          ]
-        },
-        {
-          "source": "package.storage",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/dataview/**"
-          ]
-        },
-        {
-          "source": "package.dataview",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/layout/**"
-          ]
-        },
-        {
-          "source": "package.layout",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/ui/**"
-          ]
-        },
-        {
-          "source": "package.ui",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/admin/**"
-          ]
-        },
-        {
-          "source": "package.admin",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "development.materials-catalog",
-      "path": "content/ru/development/materials-catalog.md",
-      "route": "/ru/development/materials-catalog/",
-      "title": "Каталог материалов",
-      "audience": "Разработчики приложений",
-      "outcome": "Пройти проверенный сквозной сценарий.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/property/**"
-          ]
-        },
-        {
-          "source": "package.property",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/storage/**"
-          ]
-        },
-        {
-          "source": "package.storage",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/dataview/**"
-          ]
-        },
-        {
-          "source": "package.dataview",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/layout/**"
-          ]
-        },
-        {
-          "source": "package.layout",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/ui/**"
-          ]
-        },
-        {
-          "source": "package.ui",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/admin/**"
-          ]
-        },
-        {
-          "source": "package.admin",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/access/**"
-          ]
-        },
-        {
-          "source": "package.access",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "standards",
-      "path": "content/ru/standards/index.md",
-      "route": "/ru/standards/",
-      "title": "Стандарты и контракты",
-      "audience": "Авторы пакетов и ревьюеры",
-      "outcome": "Найти канонический стандарт и область его действия.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "standards/**",
-            "graph/specs/**"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "packages",
-      "path": "content/ru/packages/index.md",
-      "route": "/ru/packages/",
-      "title": "Пакеты",
-      "audience": "Разработчики Larena",
-      "outcome": "Выбрать пакет по ответственности.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/**/package.json",
-            "specs/packages/**/dna.json"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "operations",
-      "path": "content/ru/operations/index.md",
-      "route": "/ru/operations/",
-      "title": "Эксплуатация",
-      "audience": "Разработчики и операторы",
-      "outcome": "Диагностировать проверенную локальную сборку.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "root",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "scripts/larena-runtime.php"
-          ]
-        },
-        {
-          "source": "package.admin",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.storage",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        },
-        {
-          "source": "package.filesystem",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "versions",
-      "path": "content/ru/versions/index.md",
-      "route": "/ru/versions/",
-      "title": "Версии и ограничения",
-      "audience": "Все читатели",
-      "outcome": "Определить документируемую сборку и её ограничения.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/**/package.json",
-            "specs/packages/**/dna.json"
-          ]
-        },
-        {
-          "source": "root",
-          "paths": [
-            "composer.json"
-          ]
-        },
-        {
-          "source": "workspace",
-          "paths": [
-            "composer.json",
-            "packages.json"
-          ]
-        },
-        {
-          "source": "package.core",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.setting",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.lang",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.auth",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.access",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.property",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.storage",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.filesystem",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.dataview",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.layout",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.ui",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        },
-        {
-          "source": "package.admin",
-          "paths": [
-            "composer.json",
-            "module.yaml"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "packages.core",
-      "path": "content/ru/packages/core.md",
-      "route": "/ru/packages/core/",
-      "title": "larena/core",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/core.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/core/**"
-          ]
-        },
-        {
-          "source": "package.core",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.core"
-    },
-    {
-      "id": "packages.setting",
-      "path": "content/ru/packages/setting.md",
-      "route": "/ru/packages/setting/",
-      "title": "larena/setting",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/setting.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/setting/**"
-          ]
-        },
-        {
-          "source": "package.setting",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.setting"
-    },
-    {
-      "id": "packages.lang",
-      "path": "content/ru/packages/lang.md",
-      "route": "/ru/packages/lang/",
-      "title": "larena/lang",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/lang.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/lang/**"
-          ]
-        },
-        {
-          "source": "package.lang",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.lang"
-    },
-    {
-      "id": "packages.auth",
-      "path": "content/ru/packages/auth.md",
-      "route": "/ru/packages/auth/",
-      "title": "larena/auth",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/auth.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/auth/**"
-          ]
-        },
-        {
-          "source": "package.auth",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.auth"
-    },
-    {
-      "id": "packages.access",
-      "path": "content/ru/packages/access.md",
-      "route": "/ru/packages/access/",
-      "title": "larena/access",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/access.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/access/**"
-          ]
-        },
-        {
-          "source": "package.access",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.access"
-    },
-    {
-      "id": "packages.property",
-      "path": "content/ru/packages/property.md",
-      "route": "/ru/packages/property/",
-      "title": "larena/property",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/property.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/property/**"
-          ]
-        },
-        {
-          "source": "package.property",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.property"
-    },
-    {
-      "id": "packages.storage",
-      "path": "content/ru/packages/storage.md",
-      "route": "/ru/packages/storage/",
-      "title": "larena/storage",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/storage.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/storage/**"
-          ]
-        },
-        {
-          "source": "package.storage",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.storage"
-    },
-    {
-      "id": "packages.filesystem",
-      "path": "content/ru/packages/filesystem.md",
-      "route": "/ru/packages/filesystem/",
-      "title": "larena/filesystem",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/filesystem.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/filesystem/**"
-          ]
-        },
-        {
-          "source": "package.filesystem",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.filesystem"
-    },
-    {
-      "id": "packages.dataview",
-      "path": "content/ru/packages/dataview.md",
-      "route": "/ru/packages/dataview/",
-      "title": "larena/dataview",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/dataview.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/dataview/**"
-          ]
-        },
-        {
-          "source": "package.dataview",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.dataview"
-    },
-    {
-      "id": "packages.layout",
-      "path": "content/ru/packages/layout.md",
-      "route": "/ru/packages/layout/",
-      "title": "larena/layout",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/layout.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/layout/**"
-          ]
-        },
-        {
-          "source": "package.layout",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.layout"
-    },
-    {
-      "id": "packages.ui",
-      "path": "content/ru/packages/ui.md",
-      "route": "/ru/packages/ui/",
-      "title": "larena/ui",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/ui.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/ui/**"
-          ]
-        },
-        {
-          "source": "package.ui",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.ui"
-    },
-    {
-      "id": "packages.admin",
-      "path": "content/ru/packages/admin.md",
-      "route": "/ru/packages/admin/",
-      "title": "larena/admin",
-      "audience": "Разработчики пакетов и приложений",
-      "outcome": "Использовать подтверждённые публичные контракты larena/admin.",
-      "owner": "larena-doc",
-      "sources": [
-        {
-          "source": "specs",
-          "paths": [
-            "specs/packages/admin/**"
-          ]
-        },
-        {
-          "source": "package.admin",
-          "paths": [
-            "README.md",
-            "composer.json",
-            "module.yaml",
-            "config/**",
-            "routes/**",
-            "docs/developer/**",
-            "src/Contracts/**"
-          ]
-        }
-      ],
-      "docara_entity": "larena.package.admin"
-    }
-  ]
+    ]
 }

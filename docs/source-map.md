@@ -5,8 +5,8 @@ edition; it does not change ownership of the sources.
 
 | Source | Revision | Use |
 | --- | --- | --- |
-| `simai/docara` | tag `v2.9.0`, commit `6eaccb10c8550e877e391f8d441e811bfcb693ac` | Site compiler and schemas |
-| `simai/larena-specs` | `044124944750fa2cefef1b2db659975e94ad6f9f` | Canonical package identities, requirements and standards |
+| `simai/docara` | tag `v2.9.1`, commit `72b475b06ad3acf5c07f9a9f85d123c5620021fd` | Site compiler and schemas |
+| `simai/larena-specs` | `5209e5f25158b2127eff3a21f51a716ca68f01f9` | Canonical package identities, requirements and standards; later backup-only changes were reviewed as outside the 12-package first edition |
 | `simai/larena-workspace` | `749cd11e1844cff40a7c768002737cb8c85aaaf7` | Development assembly and package locations |
 | `simai/larena` | `98dd55f2ea4bc8428907d386d7949633d6b8115e` | Executable entry app, installation and integrated checks |
 

@@ -4,6 +4,8 @@
 /.phpunit.cache/
 /.playwright-cli/
 /.docara/documentation-plans/
+/.docara/rollbacks/
+/.docara/upgrades/
 /.DS_Store
 /.env
 /.env.*

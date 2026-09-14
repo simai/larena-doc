@@ -54,8 +54,18 @@
    ```
 
 5. Run `composer docs:check`. It verifies the impact map, decision state,
-   generated source projection, the 12 Docara bindings and the isolated
-   negative/positive contract test.
+   generated source projection, the 12 Docara bindings, the isolated contract
+   tests and Docara release freshness. The freshness gate compares the exact
+   version and source revision in `composer.lock` with the latest stable tag,
+   then rejects substantive commits left on upstream `main` after that tag.
+   The publication-only `.github/release-request.json` marker is ignored.
+
+   Use `composer docs:engine:status` for an informational report. Override the
+   default Composer source URL only for a controlled local mirror:
+
+   ```bash
+   DOCARA_UPSTREAM_REPOSITORY=/path/to/docara composer docs:engine:status
+   ```
 6. Run `"$LARENA_DOC_PHP" vendor/bin/docara validate project --json` with PHP
    8.4.1 or newer and review authoring reports.
 7. Run a complete production build and `verify-static`, serve those exact
