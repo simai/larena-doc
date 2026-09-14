@@ -1,0 +1,17 @@
+{
+    "require": {
+        "php": ">=8.4.1",
+        "simai/docara": "2.9.0"
+    },
+    "scripts": {
+        "docs:status": "@php scripts/documentation-impact.php status",
+        "docs:impact": "@php scripts/documentation-impact.php impact",
+        "docs:source:check": "@php scripts/documentation-impact.php source-contract",
+        "docs:source:write": "@php scripts/documentation-impact.php source-contract --write",
+        "docs:test": "@php tests/documentation-impact-test.php",
+        "docs:check": [
+            "@docs:test",
+            "@php scripts/documentation-impact.php check --require-docara"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "composer_lock_sha256": "d9bb009434f418a035d7400563c94c6711bba7bc8c25ab4c3ddc61f3ded4c6ba",
+    "mode": "consumer_composer_lock",
+    "moving_references_allowed": false,
+    "owner": "consumer",
+    "packages": {
+        "illuminate/filesystem": {
+            "reference": "dc0b7440f12753060b574fa8c20c2db259fa37c9",
+            "version": "v12.69.2"
+        },
+        "illuminate/support": {
+            "reference": "7d7a7d2dc5084aa4b1fd8b0a42094e1d3fb51e00",
+            "version": "v12.69.2"
+        },
+        "illuminate/view": {
+            "reference": "83bf8a22bb61145bcc1b8912103f6fb85078e35c",
+            "version": "v12.69.2"
+        },
+        "league/commonmark": {
+            "reference": "9d489ab67a02960fd8ffe624d93f751daf95439e",
+            "version": "2.10.1"
+        },
+        "symfony/console": {
+            "reference": "23d6f88a29f6d0eac45bd77d70307adf83ba7ab0",
+            "version": "v7.4.18"
+        },
+        "symfony/process": {
+            "reference": "058d17fc284cce14efb2385783b55014a461b176",
+            "version": "v7.4.18"
+        }
+    },
+    "runtime_tuple_sha256": "11d850a8263f1328dcb2d0e7c4c9383f6b43c9969436f6afa4917d981c62366c",
+    "schema": "docara.dependency_lock.v1"
+}

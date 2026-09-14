@@ -1,0 +1,6 @@
+{
+  "schema": "docara.section.v1",
+  "title": "Документация Larena",
+  "preset": "docs",
+  "layout": {"container": {"max": 7}}
+}

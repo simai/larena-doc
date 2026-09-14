@@ -1,0 +1,151 @@
+{
+    "entries": [
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.access",
+            "kind": "package",
+            "page_path": "content/ru/packages/access.md",
+            "page_sha256": "fa80bb33bd8605873d1eae78e36b6b643922f297c4077638a26367285d3efb16",
+            "review": "ai_verified",
+            "route": "/ru/packages/access/",
+            "source": "larena",
+            "source_sha256": "0092fc75b7ff162617af53b0ab16634c3b019c91093f58d9d389ec8169265f83"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.admin",
+            "kind": "package",
+            "page_path": "content/ru/packages/admin.md",
+            "page_sha256": "8796626b36c7438809f8acb13f6b37744d8b567ef92eb065c3986ef5a1bf3eae",
+            "review": "ai_verified",
+            "route": "/ru/packages/admin/",
+            "source": "larena",
+            "source_sha256": "32ebf47bace341af3ec35bbee575ba4c3eec06467e612cc4e9ee300d7a03889d"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.auth",
+            "kind": "package",
+            "page_path": "content/ru/packages/auth.md",
+            "page_sha256": "c6568b459de9d3e7c1a88b4c2df052c7f04902628eb66667aad3e59ec5ce13ef",
+            "review": "ai_verified",
+            "route": "/ru/packages/auth/",
+            "source": "larena",
+            "source_sha256": "7a5ad569ea6140c7cf2f41b620cacf95d6824aa236a52a3bfeff9271b9e2e52b"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.core",
+            "kind": "package",
+            "page_path": "content/ru/packages/core.md",
+            "page_sha256": "401ba862b4197485e4e25ec4d61e9ac853619e261b71ed92e8adc99690ac2dfc",
+            "review": "ai_verified",
+            "route": "/ru/packages/core/",
+            "source": "larena",
+            "source_sha256": "cd184153b9c31ce540df2fe1f9e4268bafd07b3c0fd62dea0ad85520c65e51a9"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.dataview",
+            "kind": "package",
+            "page_path": "content/ru/packages/dataview.md",
+            "page_sha256": "d9c4b557d49d764ad8acce911f6a14d0a59d81f3037051bf9aab958bf5741fa3",
+            "review": "ai_verified",
+            "route": "/ru/packages/dataview/",
+            "source": "larena",
+            "source_sha256": "351be92d5bc47261ef93bd3fc28a5f17c0512c823df1aad35df81e2ebe7f4bec"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.filesystem",
+            "kind": "package",
+            "page_path": "content/ru/packages/filesystem.md",
+            "page_sha256": "ab185e7df0598911194057b2fbd7e01a311068b2cbb73dcb380f584afbc90220",
+            "review": "ai_verified",
+            "route": "/ru/packages/filesystem/",
+            "source": "larena",
+            "source_sha256": "241011eef957661b2ad99e8667b5a0d50d6ee18abb6640ab05a343ee63a753e3"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.lang",
+            "kind": "package",
+            "page_path": "content/ru/packages/lang.md",
+            "page_sha256": "857209dfa6b929c4714ffaf71aede5d68e94ee490767a1febc34ea26d3b03f0e",
+            "review": "ai_verified",
+            "route": "/ru/packages/lang/",
+            "source": "larena",
+            "source_sha256": "6259858c1aaf22f912fcfbe17912c42e750505c3e22e624ffcb8b71fb151fdfe"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.layout",
+            "kind": "package",
+            "page_path": "content/ru/packages/layout.md",
+            "page_sha256": "721f2aea322b4396f2c6631792a0449a35534f238fa485c90b877ff4009cb43f",
+            "review": "ai_verified",
+            "route": "/ru/packages/layout/",
+            "source": "larena",
+            "source_sha256": "5ae4f8872d734ff566c309b815b32eb6875bb8a80f5a3b7579e7a89af158fb30"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.property",
+            "kind": "package",
+            "page_path": "content/ru/packages/property.md",
+            "page_sha256": "8a2b7d5b79ef6306da5cc9591c9b31daeb7d0a12c45ab6631822df2c41ad34cc",
+            "review": "ai_verified",
+            "route": "/ru/packages/property/",
+            "source": "larena",
+            "source_sha256": "cfff6ac2e7e1b0c281eb5b0175fd56c5dd28deeeb701fa826180ce60c8aa8932"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.setting",
+            "kind": "package",
+            "page_path": "content/ru/packages/setting.md",
+            "page_sha256": "dff5d09f22829ba7632f2340b0d8473c8ec7c3e320ad1a19632306ee8592cffd",
+            "review": "ai_verified",
+            "route": "/ru/packages/setting/",
+            "source": "larena",
+            "source_sha256": "8c0e1d2f1cfa60fd40e7b28ee12d50ae0af9e410cb2603d621880f1c4a7ed03e"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.storage",
+            "kind": "package",
+            "page_path": "content/ru/packages/storage.md",
+            "page_sha256": "8618878639c4a54a5e67089450be65f03737bab22c5395cf1d0d4b43386d789b",
+            "review": "ai_verified",
+            "route": "/ru/packages/storage/",
+            "source": "larena",
+            "source_sha256": "4e438106b182d01b694a0cc66a143e3a67c24dd425e8dc5fad2c79558818fedb"
+        },
+        {
+            "examples": [],
+            "examples_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+            "key": "larena.package.ui",
+            "kind": "package",
+            "page_path": "content/ru/packages/ui.md",
+            "page_sha256": "b4aa4a02c192ec13c586e3c4b4c2c12397e723b75341f644c22dc4df437dafa8",
+            "review": "ai_verified",
+            "route": "/ru/packages/ui/",
+            "source": "larena",
+            "source_sha256": "8b490451bef578254f9ab3f2f32c538a78fb47beb89b4333e9fe35283c89fff8"
+        }
+    ],
+    "exclusions": [],
+    "schema": "docara.documentation_lock.v1",
+    "source_locale": "ru"
+}

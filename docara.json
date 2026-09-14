@@ -1,0 +1,80 @@
+{
+  "schema": "docara.site.v1",
+  "title": "Larena Documentation",
+  "preset": "docs",
+  "content_root": "content/ru",
+  "framework_lock": "simai-framework.lock.json",
+  "smart": {
+    "namespace": "project"
+  },
+  "default_locale": "ru",
+  "locales": {
+    "missing_page_policy": "skip",
+    "ru": {
+      "label": "Русский",
+      "direction": "ltr",
+      "content_root": "content/ru",
+      "public_prefix": "ru",
+      "fallbacks": []
+    }
+  },
+  "locale_routing": {
+    "strategy": "prefixed",
+    "root": "redirect",
+    "detect_browser_language": false,
+    "legacy_unprefixed_redirects": true
+  },
+  "documentation_version": "developer-foundation-2026-09-14",
+  "redirects_file": "redirects.json",
+  "base_url": "/",
+  "branding": {
+    "title": "Larena",
+    "mode": "compact",
+    "size": "large",
+    "favicon": "assets/favicon.ico"
+  },
+  "layout": {
+    "key": "docara.docs",
+    "container": {"max": 7},
+    "scrollbar": {"preset": "overlay"}
+  },
+  "settings": {
+    "theme": "system",
+    "modal_blur": "none",
+    "ui_radius": "default"
+  },
+  "reader_preferences": {
+    "enabled": true,
+    "view": "side-panel",
+    "groups": [
+      {
+        "id": "appearance",
+        "fields": ["appearance.theme", "appearance.modal_blur", "appearance.ui_radius"]
+      }
+    ]
+  },
+  "search": {
+    "enabled": true,
+    "indexed": true
+  },
+  "documentation_tracking": {
+    "enabled": true,
+    "source_locale": "ru",
+    "mode": "report",
+    "lock_file": "documentation.lock.json",
+    "sources": [
+      {
+        "id": "larena",
+        "provider": "contract_json",
+        "file": "contracts/larena-documentation-source.json"
+      }
+    ]
+  },
+  "reading": {
+    "breadcrumbs": true,
+    "toc": true,
+    "mobile_toc": "auto",
+    "toc_depth": 3,
+    "previous_next": true
+  }
+}

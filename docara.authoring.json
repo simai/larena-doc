@@ -1,0 +1,12 @@
+{
+  "schema": "docara.authoring.v1",
+  "audiences": ["administrator", "developer", "maintainer"],
+  "default_profile": "explanation",
+  "rules": [
+    {"match": "start/**", "profile": "how_to"},
+    {"match": "development/**", "profile": "tutorial"},
+    {"match": "packages/**", "profile": "reference"},
+    {"match": "operations/**", "profile": "how_to"},
+    {"match": "versions/**", "profile": "reference"}
+  ]
+}

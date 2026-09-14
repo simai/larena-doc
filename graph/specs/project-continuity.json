@@ -1,0 +1,73 @@
+{
+  "objects": [
+    {
+      "changed_surfaces": [
+        "composer.json",
+        "composer.lock",
+        "content/ru",
+        "docara.json",
+        "docs",
+        "graph/specs"
+      ],
+      "checks": [
+        {
+          "evidence_ref": "docs/acceptance.md",
+          "id": "browser.https_search_responsive_keyboard",
+          "verdict": "pass"
+        },
+        {
+          "evidence_ref": "docs/acceptance.md",
+          "id": "docara.doctor",
+          "verdict": "pass"
+        },
+        {
+          "evidence_ref": "docs/acceptance.md",
+          "id": "docara.validate",
+          "verdict": "pass"
+        },
+        {
+          "evidence_ref": "docs/acceptance.md",
+          "id": "docara.verify_static",
+          "verdict": "pass"
+        }
+      ],
+      "evidence_refs": [
+        "docs/acceptance.md",
+        "docs/coverage.md",
+        "docs/gaps.md",
+        "docs/source-map.md"
+      ],
+      "id": "evidence.continuity.99c1a8e21c469eba",
+      "kind": "evidence",
+      "profile": "project_management",
+      "provenance_digest": "sha256:99c1a8e21c469eba742c4cc26f734731f1765b40dc81ecee11f63722b5ac0e93",
+      "readiness": "accepted",
+      "requirement_refs": [
+        "requirement.larena_doc.v1.site"
+      ],
+      "source_revision": null,
+      "summary": "The first Russian Larena documentation edition is built from pinned Docara sources and served through the verified local HTTPS contour.",
+      "task_digest": "sha256:d16e553b0c764dda9713f62f8c1e86a69db50184e9ef1ed70b114a5e4aaedae3",
+      "title": "Verified task result 99c1a8e21c469eba"
+    },
+    {
+      "boundary": "stage_complete",
+      "case_signature": "28397be666153079e3bd2a23",
+      "evidence_refs": [
+        "evidence.continuity.99c1a8e21c469eba"
+      ],
+      "id": "regression_case.continuity.99c1a8e21c469eba",
+      "kind": "regression_case",
+      "profile": "implementation_control",
+      "provenance_digest": "sha256:99c1a8e21c469eba742c4cc26f734731f1765b40dc81ecee11f63722b5ac0e93",
+      "readiness": "accepted",
+      "requirement_refs": [
+        "requirement.larena_doc.v1.site"
+      ],
+      "summary": "The first Russian Larena documentation edition is built from pinned Docara sources and served through the verified local HTTPS contour.",
+      "task_digest": "sha256:d16e553b0c764dda9713f62f8c1e86a69db50184e9ef1ed70b114a5e4aaedae3",
+      "title": "Verified reusable case 99c1a8e21c469eba"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

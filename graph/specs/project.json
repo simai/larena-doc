@@ -1,0 +1,14 @@
+[
+  {
+    "id": "project_dna.project.larena-doc.b84757511795",
+    "kind": "project_dna",
+    "profile": "project_management",
+    "provenance": "transactional_project_bootstrap",
+    "readiness": "accepted",
+    "source_refs": [
+      "graph.json"
+    ],
+    "summary": "Portable project context rooted in the opened project folder.",
+    "title": "larena-doc"
+  }
+]
