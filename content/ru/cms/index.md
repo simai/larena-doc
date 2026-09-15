@@ -33,3 +33,5 @@ translation_key: larena.cms
 Для технического понимания откройте [сквозной сценарий](/development/materials-catalog/)
 и страницы [Admin](/packages/admin/), [Storage](/packages/storage/) и
 [Access](/packages/access/).
+
+Технический эталон нового пути — [страница входа через Composition Recipe](/cms/login-composition/).

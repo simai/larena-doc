@@ -73,6 +73,176 @@
             "page_sha256": [],
             "accepted_at": "2026-09-14T13:03:44+00:00",
             "id": "bce7692bb4ad1aeee199940452b29b44c6da05a5174c11c803cb28aa69b64f4a"
+        },
+        {
+            "source": "root",
+            "from_revision": "98dd55f2ea4bc8428907d386d7949633d6b8115e",
+            "to_revision": "9292877b7d81113ae01bcaea74be76bab23abf64",
+            "changed_paths": [
+                "docs/developer/auth/readiness.md",
+                "docs/developer/minimal-cms-v1-developer-preview.md",
+                "docs/developer/storage-backed-page-runtime.md",
+                "routes/storage-page.php"
+            ],
+            "changed_paths_sha256": "f561a2ab2ecc6489fe65f5544ca4d109133b9810f83cc39c6bc32817053de6fd",
+            "impacted_pages": [
+                "start"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Updated the Larena composition overview, runtime profiles, installation evidence and public navigation.",
+            "updated_pages": [
+                "start"
+            ],
+            "page_sha256": {
+                "start": "c2d7c4df7f64d5bf84a85543b4a067627b588c86adf65d9b4042788f12014d73"
+            },
+            "accepted_at": "2026-09-15T21:41:34+00:00",
+            "id": "590fd3dc032a5085586fbf219cce562386979cf4ddd0b26041a028279542ab98"
+        },
+        {
+            "source": "package.auth",
+            "from_revision": "9a2c93842e1a9e949f6e6f82499eec5cd883d47c",
+            "to_revision": "117d036937378c90e4e44fc7f9a01e899f1faeeb",
+            "changed_paths": [
+                "README.md"
+            ],
+            "changed_paths_sha256": "b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5",
+            "impacted_pages": [
+                "cms",
+                "concepts",
+                "packages.auth",
+                "start"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Documented the declarative login composition, Auth ownership boundary and operator flow.",
+            "updated_pages": [
+                "cms",
+                "concepts",
+                "packages.auth",
+                "start"
+            ],
+            "page_sha256": {
+                "cms": "03a22b5a632a1c6211651229765ac5e778541271eeb825dff3bef9ac8e67d6bf",
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "packages.auth": "c149fe006d1e2c5bd655e9bbea332b0d74fcbdf421d956df93d22abef5b2bd5c",
+                "start": "c2d7c4df7f64d5bf84a85543b4a067627b588c86adf65d9b4042788f12014d73"
+            },
+            "accepted_at": "2026-09-15T21:41:34+00:00",
+            "id": "720c475c915fe473d22a90b2fc22f0e78c78e296940c485b80cbed2533c3ddaa"
+        },
+        {
+            "source": "package.layout",
+            "from_revision": "30c4ab5f452584d7c95d6186ed4d4b9ab999a5f5",
+            "to_revision": "07349d81c3ad224283a303e0b04b3f97b24f9411",
+            "changed_paths": [
+                "README.md",
+                "docs/developer/page-assembly-contract.md",
+                "module.yaml",
+                "src/Contracts/CompiledPageSnapshotStore.php",
+                "src/Contracts/LayoutArtifactCatalog.php",
+                "src/Contracts/LayoutArtifactStore.php"
+            ],
+            "changed_paths_sha256": "55750cbca1b134a08c428e22547dc9e251fbdab43592b339eb67c84629f9566d",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.layout",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Documented recursive artifacts, hybrid storage, publication, snapshots and rollback.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.layout",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "packages.layout": "c49695b1755ea42f4e9043e3892bc2aada04016a16df70ef089fee6a211df36c",
+                "versions": "30075c33094fffff8b1cd56d809b6221793d596807be72273e25535483275bf8"
+            },
+            "accepted_at": "2026-09-15T21:41:35+00:00",
+            "id": "a6b8163bfc7993628469389b9a37da6404e334de774aa50cd286b15bda0b171c"
+        },
+        {
+            "source": "package.ui",
+            "from_revision": "7506dac223bfe981144e2f40d42ef3826b5d58b8",
+            "to_revision": "2ca895ab26f08bdbcf5bd779ac664495740e2c25",
+            "changed_paths": [
+                "src/Contracts/FrontendRenderArtifact.php",
+                "src/Contracts/UiAssetGraph.php"
+            ],
+            "changed_paths_sha256": "b53cc7e5f7349a6a1778c1dcd35141e41d5119be67b025f8c986d56f65dda99e",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.ui"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Documented the component registry, slots, variants and Framework resource boundary.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.ui"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "packages.ui": "5fb83017681e18d6d21992d6a16536fe2fe49f6477b4f29dae3e2c17a4d0ff26"
+            },
+            "accepted_at": "2026-09-15T21:41:35+00:00",
+            "id": "6fbf5bc5e02b3759820acdc1338d6108089d0aa3a20556e817d94179fc31ce98"
+        },
+        {
+            "source": "package.admin",
+            "from_revision": "e9c2969b80f279e38e700ccf2fa013580b2383a0",
+            "to_revision": "b27037691041ddca52d4751aa9e8180a7ae100d1",
+            "changed_paths": [
+                "module.yaml"
+            ],
+            "changed_paths_sha256": "a3df35e7a46ef25ac7378de823bd08ccf98a63951207d8600ae0433cc441c2da",
+            "impacted_pages": [
+                "cms",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Documented the protected shell and the login page as the first accepted vertical slice.",
+            "updated_pages": [
+                "cms",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "03a22b5a632a1c6211651229765ac5e778541271eeb825dff3bef9ac8e67d6bf",
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "operations": "325e85d46117a32221d94673132f8d79f1ad8ec6488de3df6aec25c82c132ac9",
+                "packages.admin": "5e93fbe1ed73fd3b80c0dee39e8038f51195b47228478ff95ef347ca9729786f",
+                "start": "c2d7c4df7f64d5bf84a85543b4a067627b588c86adf65d9b4042788f12014d73",
+                "versions": "30075c33094fffff8b1cd56d809b6221793d596807be72273e25535483275bf8"
+            },
+            "accepted_at": "2026-09-15T21:41:35+00:00",
+            "id": "4725034f95ac668e96e5be0dcd7fb5d75c2af0bffc7f190d1db650ed5fa1803d"
         }
     ]
 }

@@ -67,3 +67,10 @@ fallback или форматирования требуют отдельного
 Основные канонические документы: Larena DNA, package DNA, package repository
 structure, code quality and architecture, implementation quality и developer
 documentation traceability standards в `larena-specs`.
+
+## Декларативная композиция
+
+Единый JSON-путь страницы, секции и блока закреплён в
+[профиле декларативной композиции](/standards/declarative-composition/). Он
+связывает Framework Composition Recipe с владельцами данных, версиями,
+публикацией, кешем и откатом Larena.
