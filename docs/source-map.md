@@ -37,3 +37,7 @@ edition; it does not change ownership of the sources.
 
 When these sources disagree, the page is marked for update instead of choosing
 the most convenient statement.
+
+## Declarative interface planning supplement — 2026-09-16
+
+`/ru/standards/declarative-interface-program/` explains the local Specs planning package in `docs/architecture/frontend-interface-program/` and `specs/interface-program/`. It is target architecture, not an adoption receipt. The planning source is committed in Specs at `d252c9693386c50eb46b76b102fe4ba89cddac9f`. Existing implementation locks are not promoted by this planning addition.

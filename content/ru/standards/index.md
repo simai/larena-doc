@@ -74,3 +74,7 @@ documentation traceability standards в `larena-specs`.
 [профиле декларативной композиции](/standards/declarative-composition/). Он
 связывает Framework Composition Recipe с владельцами данных, версиями,
 публикацией, кешем и откатом Larena.
+
+## План развития интерфейсов
+
+[Единая система интерфейсов](/standards/declarative-interface-program/) объясняет согласованную архитектуру, её текущие ограничения и последовательность внедрения. Это план развития, а не дополнительная отметка готовности CMS.

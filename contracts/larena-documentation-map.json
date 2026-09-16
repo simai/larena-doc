@@ -7,14 +7,17 @@
             "id": "specs",
             "label": "Larena Specs",
             "repository": "../larena-specs",
-            "verified_revision": "5209e5f25158b2127eff3a21f51a716ca68f01f9",
+            "verified_revision": "d252c9693386c50eb46b76b102fe4ba89cddac9f",
             "public_paths": [
                 "README.md",
                 "standards/**",
                 "specs/packages/**",
-                "graph/specs/**"
+                "graph/specs/**",
+                "docs/architecture/frontend-interface-program/**",
+                "specs/interface-program/**",
+                "frontend-program.standards.project.json"
             ],
-            "last_decision": "bce7692bb4ad1aeee199940452b29b44c6da05a5174c11c803cb28aa69b64f4a"
+            "last_decision": "4758b7e952afd43af1ff93354569210b492d7ae3288a3c7224d5dcce71181b31"
         },
         {
             "id": "root",
@@ -1407,6 +1410,25 @@
                 }
             ],
             "docara_entity": "larena.package.admin"
+        },
+        {
+            "id": "standards.declarative-interface-program",
+            "path": "content/ru/standards/declarative-interface-program.md",
+            "route": "/ru/standards/declarative-interface-program/",
+            "title": "План единой системы интерфейсов",
+            "audience": "Архитекторы, разработчики и авторы компонентов",
+            "outcome": "Отличить целевую модель от текущих доказательств и выбрать следующий ограниченный этап.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "docs/architecture/frontend-interface-program/**",
+                        "specs/interface-program/**",
+                        "frontend-program.standards.project.json"
+                    ]
+                }
+            ]
         }
     ]
 }

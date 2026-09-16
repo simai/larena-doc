@@ -243,6 +243,52 @@
             },
             "accepted_at": "2026-09-15T21:41:35+00:00",
             "id": "4725034f95ac668e96e5be0dcd7fb5d75c2af0bffc7f190d1db650ed5fa1803d"
+        },
+        {
+            "source": "specs",
+            "from_revision": "5209e5f25158b2127eff3a21f51a716ca68f01f9",
+            "to_revision": "d252c9693386c50eb46b76b102fe4ba89cddac9f",
+            "changed_paths": [
+                "README.md",
+                "docs/architecture/frontend-interface-program/README.md",
+                "docs/architecture/frontend-interface-program/README.md.standards.json",
+                "docs/architecture/frontend-interface-program/concept.md",
+                "docs/architecture/frontend-interface-program/concept.md.standards.json",
+                "docs/architecture/frontend-interface-program/evidence/b0-live-inventory.json",
+                "docs/architecture/frontend-interface-program/evidence/framework-composition-tests.txt",
+                "docs/architecture/frontend-interface-program/evidence/framework-smart-tests.txt",
+                "docs/architecture/frontend-interface-program/framework-capability-audit.md",
+                "docs/architecture/frontend-interface-program/framework-capability-audit.md.standards.json",
+                "docs/architecture/frontend-interface-program/framework-handoff.md",
+                "docs/architecture/frontend-interface-program/framework-handoff.md.standards.json",
+                "docs/architecture/frontend-interface-program/implementation-tz.md",
+                "docs/architecture/frontend-interface-program/implementation-tz.md.standards.json",
+                "docs/architecture/frontend-interface-program/traceability.md",
+                "docs/architecture/frontend-interface-program/traceability.md.standards.json",
+                "docs/architecture/frontend-interface-program/verification.md",
+                "docs/architecture/frontend-interface-program/verification.md.standards.json",
+                "frontend-program.standards.project.json",
+                "specs/interface-program/decisions.json",
+                "specs/interface-program/delivery.standard.json",
+                "specs/interface-program/plan.json"
+            ],
+            "changed_paths_sha256": "400a638ad4b2216945fb686ec44bf05f5f42fac4bb4c790d23cf8e92137bae4b",
+            "impacted_pages": [
+                "home",
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Added the consolidated target-interface plan and navigation, preserving readiness boundaries; reviewed source changes as planning context.",
+            "updated_pages": [
+                "home",
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "home": "b0c5608fbe1e3ab3e2acd39dfa5a87b0151bb36f7930a0ee52025b5ed3b754a8",
+                "standards.declarative-interface-program": "0f9ef4216c934c00276257d85dc31297000ac7733a00aed60f151b59c70d2ee3"
+            },
+            "accepted_at": "2026-09-16T19:23:22+00:00",
+            "id": "4758b7e952afd43af1ff93354569210b492d7ae3288a3c7224d5dcce71181b31"
         }
     ]
 }
