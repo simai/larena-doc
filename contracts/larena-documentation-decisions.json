@@ -289,6 +289,29 @@
             },
             "accepted_at": "2026-09-16T19:23:22+00:00",
             "id": "4758b7e952afd43af1ff93354569210b492d7ae3288a3c7224d5dcce71181b31"
+        },
+        {
+            "source": "specs",
+            "from_revision": "d252c9693386c50eb46b76b102fe4ba89cddac9f",
+            "to_revision": "c97a2ffeac0dc65196d3a2ae695204af0ab6ba51",
+            "changed_paths": [
+                "docs/architecture/frontend-interface-program/dataview-integration-assignment.md",
+                "docs/architecture/frontend-interface-program/dataview-integration-assignment.md.standards.json"
+            ],
+            "changed_paths_sha256": "9e2f15faa5f3abb9586ef2d32df47d4a1e89f78316f5c1b586ddbc1574b05208",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Reviewed the additional Dataview lifecycle and record identity assignment; it is a bounded future task, not a runtime readiness claim.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "0f9ef4216c934c00276257d85dc31297000ac7733a00aed60f151b59c70d2ee3"
+            },
+            "accepted_at": "2026-09-16T19:24:50+00:00",
+            "id": "766e1be532c3e4197bcc01b8e936d8a5f6228a0ad4b5fe1a5a1d6aa73fdf865a"
         }
     ]
 }
