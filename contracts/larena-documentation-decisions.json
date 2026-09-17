@@ -312,6 +312,56 @@
             },
             "accepted_at": "2026-09-16T19:24:50+00:00",
             "id": "766e1be532c3e4197bcc01b8e936d8a5f6228a0ad4b5fe1a5a1d6aa73fdf865a"
+        },
+        {
+            "source": "specs",
+            "from_revision": "c97a2ffeac0dc65196d3a2ae695204af0ab6ba51",
+            "to_revision": "45ffc362c1e8353327061f8ff62a542649890c8a",
+            "changed_paths": [
+                "docs/architecture/frontend-interface-program/README.md",
+                "docs/architecture/frontend-interface-program/implementation-tz.md",
+                "docs/architecture/frontend-interface-program/traceability.md",
+                "specs/interface-program/current-execution.json",
+                "specs/interface-program/decisions.json",
+                "specs/interface-program/plan.json"
+            ],
+            "changed_paths_sha256": "9b24eef65e04affe9dc197ce9b55420cf460b652350b5a26fbc5c4a0cd2d841f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Reviewed committed partial declarative-interface candidate and portable historical evidence lookup. Updated target-versus-proof guide; no main, live, full editor or production acceptance is claimed.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "3adae0d10732b0d431691f250e1af3d336ad1195aff8565a7562129cd819105e"
+            },
+            "accepted_at": "2026-09-17T18:56:04+00:00",
+            "id": "30dc449fe6ee933e8e81fbc730a6e7396d6d0f983c896fb4ae661e19c4b5a4b2"
+        },
+        {
+            "source": "specs",
+            "from_revision": "45ffc362c1e8353327061f8ff62a542649890c8a",
+            "to_revision": "79daa9d2463ddde092690bf313627fecfba233fc",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json",
+                "specs/interface-program/current-mapping-drift.json"
+            ],
+            "changed_paths_sha256": "9ade498635c6f87f59a6135f616c1301e7d5131cdc11fc36ec5eaa39a6b35ca7",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Updated the public program status for the committed two-page editor, exact clean-install evidence, full Root regression and atomic multi-page Setting application; Chrome, MySQL, main and live remain unaccepted.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "5f0a321486481200416b7c253fcc0e8d69ec17f24e407183fd74df4b67ef2500"
+            },
+            "accepted_at": "2026-09-17T21:49:15+00:00",
+            "id": "dd3eaa2cf55aab5297d941373c86f0715e4ac6a991eb7d0c8b09b4c11b28b687"
         }
     ]
 }

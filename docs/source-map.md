@@ -41,3 +41,14 @@ the most convenient statement.
 ## Declarative interface planning supplement — 2026-09-16
 
 `/ru/standards/declarative-interface-program/` explains the local Specs planning package in `docs/architecture/frontend-interface-program/` and `specs/interface-program/`. It is target architecture, not an adoption receipt. The planning source is committed in Specs at `d252c9693386c50eb46b76b102fe4ba89cddac9f`. Existing implementation locks are not promoted by this planning addition.
+
+## Published interface candidates — 2026-09-17
+
+This supplement describes feature-branch evidence, not accepted main runtime
+bindings. Root candidate `a61db1c29e2fd3dbd25a1e32345e5c3661a6bdbc` and Layout
+`ca0ac8a3a025b1423067599194b65a2eb5891102` prove the two-page editor,
+snapshot history and atomic multi-page Setting stage.
+The exact pair is `ui-ddb249279ff4-smart-dd973536c66f`. Current program coverage
+and remaining requirements are projected from Specs
+`specs/interface-program/current-execution.json`. Stable package source entries
+above are not silently promoted to these candidates.
