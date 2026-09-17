@@ -406,6 +406,29 @@
             },
             "accepted_at": "2026-09-17T22:18:53+00:00",
             "id": "552b3c7b54355cb8b567c805bf67da0405993d8d25a66222e73d1e9b3df28e0e"
+        },
+        {
+            "source": "specs",
+            "from_revision": "04f47d8ddf3df9e62152ddd839c08c00cce6cc85",
+            "to_revision": "07cb5016b54325ff6b510157b0034f0b59566acb",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json",
+                "specs/interface-program/decisions.json"
+            ],
+            "changed_paths_sha256": "df612a1ebeb2e050f0af4a1f6ddeb2bfbc1f2ec3731280c9745d72600d1b268e",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Updated interface program status for registered region inheritance, exact tests and remaining clean-install and Chrome gates.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "6f2b6037d0f5cc584b7ce1108ce7f24288b69287ce6ca56d55b11dab083b9484"
+            },
+            "accepted_at": "2026-09-17T23:03:01+00:00",
+            "id": "edd13309da3c0f3be39e6fb39d637bca45130fbaf57210c5f1cc063704b31fa1"
         }
     ]
 }

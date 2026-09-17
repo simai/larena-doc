@@ -90,7 +90,7 @@
             "key": "larena.package.layout",
             "kind": "package",
             "page_path": "content/ru/packages/layout.md",
-            "page_sha256": "27195bf7c221e4ef35dcae84fbf3f0ed2e4349491b22b7d182ec5f694ba60db6",
+            "page_sha256": "b078b1e2fbaeac25ef343fd2dd72f9a461c237d2ff11f040d7f9f9b8755e9302",
             "review": "ai_verified",
             "route": "/ru/packages/layout/",
             "source": "larena",

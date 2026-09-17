@@ -45,10 +45,18 @@ the most convenient statement.
 ## Published interface candidates — 2026-09-17
 
 This supplement describes feature-branch evidence, not accepted main runtime
-bindings. Root candidate `a61db1c29e2fd3dbd25a1e32345e5c3661a6bdbc` and Layout
-`ca0ac8a3a025b1423067599194b65a2eb5891102` prove the two-page editor,
-snapshot history and atomic multi-page Setting stage.
+bindings. Root candidate `0e0340139566dff7d07f56bdd207e194e69e20a0` and Layout
+`157f60b9be1bc350f91998fddd643288f0089936` prove the two-page editor,
+snapshot history, atomic multi-page Setting stage and registered `main` region
+inheritance with replace, empty and reset modes.
 The exact pair is `ui-ddb249279ff4-smart-dd973536c66f`. Current program coverage
 and remaining requirements are projected from Specs
 `specs/interface-program/current-execution.json`. Stable package source entries
 above are not silently promoted to these candidates.
+
+The exact 25-package artifact catalog for the region candidate has SHA-256
+`99eebded463a932827b6986fd5dae2993540ee2c69d80345287d5c73e3080a09`.
+SQLite focused acceptance passed 25 tests and 398 assertions; sequential Root
+regression passed 1228 tests with 4 skipped and 26,597 assertions; isolated
+MySQL 8.2 acceptance passed 21 tests and 385 assertions. Fresh application
+installation and protected Chrome review remain release gates.
