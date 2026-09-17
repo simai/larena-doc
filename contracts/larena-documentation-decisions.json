@@ -473,6 +473,24 @@
             },
             "accepted_at": "2026-09-17T23:49:34+00:00",
             "id": "2a5a738357a4bea8cdac39c75e8da7db579588ca93e745452352e084c973602b"
+        },
+        {
+            "source": "specs",
+            "from_revision": "e2acb2c687456bf624c5986b8480017b67f00e7a",
+            "to_revision": "d1def357b457d4ce8746e7e547ded2fa7004be31",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "5f146b4add0e271e04876f9fbc0865f4a4f3b245e92dcf2c1b4396558f4d851f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "The Specs change only binds the already accepted Larena Doc revision; documented behavior is unchanged.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-09-17T23:51:34+00:00",
+            "id": "cabafa4937b69cb43368fcf9295a8b1ca04a719eee618d69a06149c3b40b1d08"
         }
     ]
 }

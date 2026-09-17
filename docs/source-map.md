@@ -64,4 +64,4 @@ all 25 packages from exact artifacts with no path repositories or vendor
 symlinks. Chrome 153 accepted both protected targets, region inherit/reset,
 atomic required-empty refusal, light/dark and 1440×1000 / 390×844 layouts.
 RU/EN and RTL localization, main/GitHub publication and live adoption remain
-open. Current execution is bound to Specs `e2acb2c6`.
+open. Current execution is bound to Specs `d1def357`.
