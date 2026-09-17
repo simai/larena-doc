@@ -45,7 +45,8 @@ the most convenient statement.
 ## Published interface candidates — 2026-09-17
 
 This supplement describes feature-branch evidence, not accepted main runtime
-bindings. Root candidate `0e0340139566dff7d07f56bdd207e194e69e20a0` and Layout
+bindings. Root evidence carrier `98d3dea22f2c593dae2c49228d7980d83d978148`,
+implementation `3c0e0946cf0a467e34f6e54ad34e4721d325d6c3` and Layout
 `157f60b9be1bc350f91998fddd643288f0089936` prove the two-page editor,
 snapshot history, atomic multi-page Setting stage and registered `main` region
 inheritance with replace, empty and reset modes.
@@ -56,7 +57,11 @@ above are not silently promoted to these candidates.
 
 The exact 25-package artifact catalog for the region candidate has SHA-256
 `99eebded463a932827b6986fd5dae2993540ee2c69d80345287d5c73e3080a09`.
-SQLite focused acceptance passed 25 tests and 398 assertions; sequential Root
-regression passed 1228 tests with 4 skipped and 26,597 assertions; isolated
-MySQL 8.2 acceptance passed 21 tests and 385 assertions. Fresh application
-installation and protected Chrome review remain release gates.
+SQLite focused acceptance passed 21 tests and 383 assertions; Root regression
+passed 1228 tests with 4 skipped and 26,595 assertions; isolated MySQL 8.2
+acceptance passed 21 tests and 383 assertions. A committed Git archive installed
+all 25 packages from exact artifacts with no path repositories or vendor
+symlinks. Chrome 153 accepted both protected targets, region inherit/reset,
+atomic required-empty refusal, light/dark and 1440×1000 / 390×844 layouts.
+RU/EN and RTL localization, main/GitHub publication and live adoption remain
+open. Current execution is bound to Specs `e2acb2c6`.

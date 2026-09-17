@@ -114,7 +114,7 @@
             "key": "larena.package.setting",
             "kind": "package",
             "page_path": "content/ru/packages/setting.md",
-            "page_sha256": "352e222f3ebcfd1dcaa6f4aa566d32f64b50c4e96134bd12aaff8482fd59c766",
+            "page_sha256": "35f8cbd86258d9513752a3c222229ba9fdad20bfe595d5598b03e14e6d153e82",
             "review": "ai_verified",
             "route": "/ru/packages/setting/",
             "source": "larena",

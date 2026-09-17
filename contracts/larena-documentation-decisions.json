@@ -451,6 +451,28 @@
             },
             "accepted_at": "2026-09-17T23:04:53+00:00",
             "id": "4f604185dbae282b885437ab095d2ff91082a496be291004dc9a0b9cd7db5d11"
+        },
+        {
+            "source": "specs",
+            "from_revision": "ddf2b304c713ff2f638b2bb82dabee81745c879b",
+            "to_revision": "e2acb2c687456bf624c5986b8480017b67f00e7a",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "5f146b4add0e271e04876f9fbc0865f4a4f3b245e92dcf2c1b4396558f4d851f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Updated composition program with accepted isolated clean-install and Chrome evidence.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "a160bed70ef695ce974e8662a9291da2fb569aef0592136cce0c72c1c0f5850c"
+            },
+            "accepted_at": "2026-09-17T23:49:34+00:00",
+            "id": "2a5a738357a4bea8cdac39c75e8da7db579588ca93e745452352e084c973602b"
         }
     ]
 }
