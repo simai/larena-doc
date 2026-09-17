@@ -362,6 +362,28 @@
             },
             "accepted_at": "2026-09-17T21:49:15+00:00",
             "id": "dd3eaa2cf55aab5297d941373c86f0715e4ac6a991eb7d0c8b09b4c11b28b687"
+        },
+        {
+            "source": "specs",
+            "from_revision": "79daa9d2463ddde092690bf313627fecfba233fc",
+            "to_revision": "835243156bc31682cb73dded55e811bbeee5230b",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "5f146b4add0e271e04876f9fbc0865f4a4f3b245e92dcf2c1b4396558f4d851f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Updated composition status after isolated MySQL parity, zero-residue cleanup and sequential full Root regression.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "fc52b4aa26fa4e28b5967718c9e6c8803dc6c8b00001819a8b840d7fcac67eb7"
+            },
+            "accepted_at": "2026-09-17T22:15:59+00:00",
+            "id": "ca5af3323dfa433d2f4c770d5dc87d65fcd0188ff7f9af883b39026958198305"
         }
     ]
 }
