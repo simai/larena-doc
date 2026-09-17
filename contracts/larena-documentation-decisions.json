@@ -384,6 +384,28 @@
             },
             "accepted_at": "2026-09-17T22:15:59+00:00",
             "id": "ca5af3323dfa433d2f4c770d5dc87d65fcd0188ff7f9af883b39026958198305"
+        },
+        {
+            "source": "specs",
+            "from_revision": "835243156bc31682cb73dded55e811bbeee5230b",
+            "to_revision": "04f47d8ddf3df9e62152ddd839c08c00cce6cc85",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "5f146b4add0e271e04876f9fbc0865f4a4f3b245e92dcf2c1b4396558f4d851f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Accepted the Specs binding to the already published MySQL composition documentation revision; no prose change was required.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "fc52b4aa26fa4e28b5967718c9e6c8803dc6c8b00001819a8b840d7fcac67eb7"
+            },
+            "accepted_at": "2026-09-17T22:18:53+00:00",
+            "id": "552b3c7b54355cb8b567c805bf67da0405993d8d25a66222e73d1e9b3df28e0e"
         }
     ]
 }
