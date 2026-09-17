@@ -429,6 +429,28 @@
             },
             "accepted_at": "2026-09-17T23:03:01+00:00",
             "id": "edd13309da3c0f3be39e6fb39d637bca45130fbaf57210c5f1cc063704b31fa1"
+        },
+        {
+            "source": "specs",
+            "from_revision": "07cb5016b54325ff6b510157b0034f0b59566acb",
+            "to_revision": "ddf2b304c713ff2f638b2bb82dabee81745c879b",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "5f146b4add0e271e04876f9fbc0865f4a4f3b245e92dcf2c1b4396558f4d851f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Accepted the final Specs binding to the published region-inheritance documentation; the prose already describes the same evidence and limitations.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "6f2b6037d0f5cc584b7ce1108ce7f24288b69287ce6ca56d55b11dab083b9484"
+            },
+            "accepted_at": "2026-09-17T23:04:53+00:00",
+            "id": "4f604185dbae282b885437ab095d2ff91082a496be291004dc9a0b9cd7db5d11"
         }
     ]
 }
