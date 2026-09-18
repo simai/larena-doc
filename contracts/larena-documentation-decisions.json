@@ -554,6 +554,24 @@
             "page_sha256": [],
             "accepted_at": "2026-09-18T02:48:06+00:00",
             "id": "8c65fbea236a09bd855be2b1c5a674d977b41fae7ef32d310ac8a19aee57d9e8"
+        },
+        {
+            "source": "specs",
+            "from_revision": "95037012fdb0e7b0bcf108517028981ae5ef22ec",
+            "to_revision": "8d3bc3b1dfd05d5ae0e09c30b066999be7751643",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "5f146b4add0e271e04876f9fbc0865f4a4f3b245e92dcf2c1b4396558f4d851f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "Изменение фиксирует точную ревизию документации и не меняет опубликованное объяснение.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-09-18T02:48:45+00:00",
+            "id": "330160a105c32e7565a5f7352addc2e05613b8b280ceedbd8f96bd11f613d54e"
         }
     ]
 }
