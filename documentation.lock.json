@@ -18,7 +18,7 @@
             "key": "larena.package.admin",
             "kind": "package",
             "page_path": "content/ru/packages/admin.md",
-            "page_sha256": "5e93fbe1ed73fd3b80c0dee39e8038f51195b47228478ff95ef347ca9729786f",
+            "page_sha256": "cb9cbf90b110b02b266eab89b4017644819bbd51020ce07deafd29a0a91a96ed",
             "review": "ai_verified",
             "route": "/ru/packages/admin/",
             "source": "larena",

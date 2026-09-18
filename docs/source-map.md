@@ -65,3 +65,19 @@ symlinks. Chrome 153 accepted both protected targets, region inherit/reset,
 atomic required-empty refusal, light/dark and 1440×1000 / 390×844 layouts.
 RU/EN and RTL localization, main/GitHub publication and live adoption remain
 open. Current execution is bound to Specs `d1def357`.
+
+## Localized instance editor acceptance — 2026-09-18
+
+Root evidence `d7c6785ddfce168003bc3c0753a9c466cdf7a0d0`, implementation
+`4391890e8ed479de0695df4159d3e25a63eb68b4`, Admin
+`a7a38415dc54de72e467a5502293665a4ba4e1c3` and unchanged Layout
+`157f60b9be1bc350f91998fddd643288f0089936` supersede the earlier localization
+limitation for English and Russian. Chrome accepted matching language metadata,
+wide and narrow layouts, light and dark themes, nested instance field isolation,
+two publications, rollback and post-restart readback. The focused suite passed
+22 tests and 400 assertions; the exact full Root suite passed 1233 tests with
+1229 passed, 4 skipped and 26,612 assertions. RTL is structurally supported by
+Admin tests, but no translated RTL locale is published or visually claimed.
+The sanitized artifact catalog SHA-256 is
+`f60ef9a3618a91aa43d343a08e2b30544557bf16fbfbcf029248e4cad0a79aca`.
+Current execution is bound to Specs `b15e507b9f2b71f26db30408b2a33de5591027e8`.

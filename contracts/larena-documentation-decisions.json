@@ -491,6 +491,28 @@
             "page_sha256": [],
             "accepted_at": "2026-09-17T23:51:34+00:00",
             "id": "cabafa4937b69cb43368fcf9295a8b1ca04a719eee618d69a06149c3b40b1d08"
+        },
+        {
+            "source": "specs",
+            "from_revision": "d1def357b457d4ce8746e7e547ded2fa7004be31",
+            "to_revision": "b15e507b9f2b71f26db30408b2a33de5591027e8",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "5f146b4add0e271e04876f9fbc0865f4a4f3b245e92dcf2c1b4396558f4d851f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Updated the interface program with accepted EN/RU localization, nested instance fields, publication rollback and restart evidence.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "c8cf993e013d2bd95e33f1726bd441125673f306d882d9d8c68edd4007dac939"
+            },
+            "accepted_at": "2026-09-18T01:38:38+00:00",
+            "id": "60ad98413a8aa032c22ffbc55b975df125716fad8f0740751b96636840a95f81"
         }
     ]
 }
