@@ -657,6 +657,24 @@
             },
             "accepted_at": "2026-09-18T02:51:35+00:00",
             "id": "921cc9035b15ea7bd4842fa8f922d18bb5fe829f4172bbfe759ce39ac7657a76"
+        },
+        {
+            "source": "specs",
+            "from_revision": "8d3bc3b1dfd05d5ae0e09c30b066999be7751643",
+            "to_revision": "ce287b20552e94ba395fa2ecf910b38579032fa7",
+            "changed_paths": [
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "5f146b4add0e271e04876f9fbc0865f4a4f3b245e92dcf2c1b4396558f4d851f",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "Execution receipt only records the already published documentation revision and does not change user guidance.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-09-18T03:02:22+00:00",
+            "id": "390a9ede59d9f614f8e7415a34a9431178a389cfd2bbf50a94129025c704fc34"
         }
     ]
 }
