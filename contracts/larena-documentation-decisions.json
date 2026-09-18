@@ -513,6 +513,47 @@
             },
             "accepted_at": "2026-09-18T01:38:38+00:00",
             "id": "60ad98413a8aa032c22ffbc55b975df125716fad8f0740751b96636840a95f81"
+        },
+        {
+            "source": "specs",
+            "from_revision": "b15e507b9f2b71f26db30408b2a33de5591027e8",
+            "to_revision": "95037012fdb0e7b0bcf108517028981ae5ef22ec",
+            "changed_paths": [
+                "docs/architecture/frontend-interface-program/traceability.md",
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "f799e4a2d20a12e2b90bdb39e41cc893aabb6607a6a662a16f56ff23e91a3029",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Обновлена страница программы интерфейсов по принятому source-mapping срезу.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "97b3512e9df2562d09ee68fae4c476825a54fc8a2525ed933179d930c456fb18"
+            },
+            "accepted_at": "2026-09-18T02:48:06+00:00",
+            "id": "5d5774680a95ec437cfdafee28446e44dde6373f9c196d4350fd8c225bf6420b"
+        },
+        {
+            "source": "root",
+            "from_revision": "9292877b7d81113ae01bcaea74be76bab23abf64",
+            "to_revision": "fe8fa089b4a9ea2150c2848cf74ad0f1d301f4d9",
+            "changed_paths": [
+                "routes/storage-page.php"
+            ],
+            "changed_paths_sha256": "fc7dfc915345a917473dfad221cdf44f4beca943d6d981d965c80c6e94adc5a2",
+            "impacted_pages": [
+                "start"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "Новый source-mapping срез не меняет команды установки и первого запуска.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-09-18T02:48:06+00:00",
+            "id": "8c65fbea236a09bd855be2b1c5a674d977b41fae7ef32d310ac8a19aee57d9e8"
         }
     ]
 }

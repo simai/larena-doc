@@ -7,7 +7,7 @@
             "id": "specs",
             "label": "Larena Specs",
             "repository": "../larena-specs",
-            "verified_revision": "b15e507b9f2b71f26db30408b2a33de5591027e8",
+            "verified_revision": "95037012fdb0e7b0bcf108517028981ae5ef22ec",
             "public_paths": [
                 "README.md",
                 "standards/**",
@@ -17,13 +17,13 @@
                 "specs/interface-program/**",
                 "frontend-program.standards.project.json"
             ],
-            "last_decision": "60ad98413a8aa032c22ffbc55b975df125716fad8f0740751b96636840a95f81"
+            "last_decision": "5d5774680a95ec437cfdafee28446e44dde6373f9c196d4350fd8c225bf6420b"
         },
         {
             "id": "root",
             "label": "Larena Root",
             "repository": "../larena",
-            "verified_revision": "9292877b7d81113ae01bcaea74be76bab23abf64",
+            "verified_revision": "fe8fa089b4a9ea2150c2848cf74ad0f1d301f4d9",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -32,7 +32,7 @@
                 "docs/developer/**",
                 "scripts/larena-runtime.php"
             ],
-            "last_decision": "590fd3dc032a5085586fbf219cce562386979cf4ddd0b26041a028279542ab98"
+            "last_decision": "8c65fbea236a09bd855be2b1c5a674d977b41fae7ef32d310ac8a19aee57d9e8"
         },
         {
             "id": "workspace",
