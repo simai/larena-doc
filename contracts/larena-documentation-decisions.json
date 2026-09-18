@@ -716,6 +716,25 @@
             "page_sha256": [],
             "accepted_at": "2026-09-18T13:05:44+00:00",
             "id": "1e67174999da0119bc531114f72f02e732cbdfb60e1b1d70d59344d35531fc41"
+        },
+        {
+            "source": "specs",
+            "from_revision": "2b2cc6afcf0b01ecbee55e9568a0f5863f47d81f",
+            "to_revision": "d099f818621009f63073515daad90cc05b03d685",
+            "changed_paths": [
+                "docs/architecture/frontend-interface-program/README.md",
+                "docs/architecture/frontend-interface-program/traceability.md"
+            ],
+            "changed_paths_sha256": "cf4d7f5611458653c000cd2800936cbaa2fad12dc830384a29b1c3710a07d9e5",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "Specs wording now matches the already published advanced-composition guide; no reader-facing behavior changed.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-09-18T13:07:10+00:00",
+            "id": "b0fc0038a47bf950e7c9932f16fd9c1a799257257dcb2b1dc5b2ba1718464639"
         }
     ]
 }
