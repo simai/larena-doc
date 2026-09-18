@@ -9,16 +9,17 @@ translation_key: larena.versions
 
 > **Для кого:** любой читатель. **Результат:** понять, к какой сборке относятся
 > инструкции. **Источник:** Git, Composer lock и core-12 traceability.
-> **Статус:** проверено 14 сентября 2026 года.
+> **Статус:** проверено 18 сентября 2026 года.
 
-Сайт собран Docara `2.9.0` на engine revision
-`6eaccb10c8550e877e391f8d441e811bfcb693ac`.
+Сайт использует установленную Docara `2.9.1` на revision
+`72b475b06ad3acf5c07f9a9f85d123c5620021fd`. Более новая версия движка
+проверяется отдельно и не подменяет эту зафиксированную сборку.
 
 Документируемые проектные источники:
 
-- Larena Specs: `044124944750fa2cefef1b2db659975e94ad6f9f`;
+- Larena Specs: `8d3bc3b1dfd05d5ae0e09c30b066999be7751643`;
 - Larena Workspace: `749cd11e1844cff40a7c768002737cb8c85aaaf7`;
-- Larena entry app: `98dd55f2ea4bc8428907d386d7949633d6b8115e`.
+- Larena entry app: `fe8fa089b4a9ea2150c2848cf74ad0f1d301f4d9`.
 
 Точные ревизии двенадцати пакетов записаны в repository source map. Текущий
 Root — локальный release-candidate contour. Он не заявляет production readiness,

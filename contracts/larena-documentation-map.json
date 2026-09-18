@@ -186,7 +186,7 @@
             "id": "package.layout",
             "label": "larena/layout",
             "repository": "../larena-workspace/packages/layout",
-            "verified_revision": "07349d81c3ad224283a303e0b04b3f97b24f9411",
+            "verified_revision": "157f60b9be1bc350f91998fddd643288f0089936",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -196,7 +196,7 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "a6b8163bfc7993628469389b9a37da6404e334de774aa50cd286b15bda0b171c"
+            "last_decision": "eaf68846a6ea74f8791066f7db4dad9dcf58888432f98f17d342150c0b40a579"
         },
         {
             "id": "package.ui",
@@ -218,7 +218,7 @@
             "id": "package.admin",
             "label": "larena/admin",
             "repository": "../larena-workspace/packages/admin",
-            "verified_revision": "b27037691041ddca52d4751aa9e8180a7ae100d1",
+            "verified_revision": "a7a38415dc54de72e467a5502293665a4ba4e1c3",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -228,7 +228,7 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "4725034f95ac668e96e5be0dcd7fb5d75c2af0bffc7f190d1db650ed5fa1803d"
+            "last_decision": "921cc9035b15ea7bd4842fa8f922d18bb5fe829f4172bbfe759ce39ac7657a76"
         }
     ],
     "pages": [

@@ -572,6 +572,91 @@
             "page_sha256": [],
             "accepted_at": "2026-09-18T02:48:45+00:00",
             "id": "330160a105c32e7565a5f7352addc2e05613b8b280ceedbd8f96bd11f613d54e"
+        },
+        {
+            "source": "package.layout",
+            "from_revision": "07349d81c3ad224283a303e0b04b3f97b24f9411",
+            "to_revision": "157f60b9be1bc350f91998fddd643288f0089936",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/database-compiled-snapshots.md",
+                "docs/developer/page-assembly-contract.md",
+                "docs/developer/region-inheritance.md",
+                "module.yaml",
+                "src/Contracts/CompiledPageSnapshotCatalog.php"
+            ],
+            "changed_paths_sha256": "0e16367d5cfc8046d720df0db00a8920c95f49ad3ac6ea9e3d5d947241e5ff1e",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.layout",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Проверены текущие контракты Layout, main-ревизия и ограничения рабочего сайта.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.layout",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "packages.layout": "e0bb8b812fd1c38f5764210728dcbbdd79706ec0e72f8f64513683d1f2576a34",
+                "versions": "909acd755361089a45ba14f61bddd78706e2b3ecd139a7512affc01ca180b049"
+            },
+            "accepted_at": "2026-09-18T02:51:35+00:00",
+            "id": "eaf68846a6ea74f8791066f7db4dad9dcf58888432f98f17d342150c0b40a579"
+        },
+        {
+            "source": "package.admin",
+            "from_revision": "b27037691041ddca52d4751aa9e8180a7ae100d1",
+            "to_revision": "a7a38415dc54de72e467a5502293665a4ba4e1c3",
+            "changed_paths": [
+                "composer.json",
+                "config/larena-admin.php",
+                "docs/developer/declarative-collection-pages.md",
+                "module.yaml"
+            ],
+            "changed_paths_sha256": "9ecfe33b9f86f1c260c419a925795f3ec974f6639324f2d2d846662c1cf5f0db",
+            "impacted_pages": [
+                "cms",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Проверены текущие Admin-контракты; страница пакета и программа редактора обновлены.",
+            "updated_pages": [
+                "cms",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "03a22b5a632a1c6211651229765ac5e778541271eeb825dff3bef9ac8e67d6bf",
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "operations": "325e85d46117a32221d94673132f8d79f1ad8ec6488de3df6aec25c82c132ac9",
+                "packages.admin": "9f3dddccfb3588458107def796aa65c3857fbb646841d5facab7ea79cde0430e",
+                "start": "c2d7c4df7f64d5bf84a85543b4a067627b588c86adf65d9b4042788f12014d73",
+                "versions": "909acd755361089a45ba14f61bddd78706e2b3ecd139a7512affc01ca180b049"
+            },
+            "accepted_at": "2026-09-18T02:51:35+00:00",
+            "id": "921cc9035b15ea7bd4842fa8f922d18bb5fe829f4172bbfe759ce39ac7657a76"
         }
     ]
 }
