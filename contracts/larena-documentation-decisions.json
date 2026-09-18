@@ -675,6 +675,29 @@
             "page_sha256": [],
             "accepted_at": "2026-09-18T03:02:22+00:00",
             "id": "390a9ede59d9f614f8e7415a34a9431178a389cfd2bbf50a94129025c704fc34"
+        },
+        {
+            "source": "specs",
+            "from_revision": "ce287b20552e94ba395fa2ecf910b38579032fa7",
+            "to_revision": "a4fc374e44c7ec3cea0db2d07a4631c066392572",
+            "changed_paths": [
+                "docs/architecture/frontend-interface-program/traceability.md",
+                "specs/interface-program/current-execution.json"
+            ],
+            "changed_paths_sha256": "f799e4a2d20a12e2b90bdb39e41cc893aabb6607a6a662a16f56ff23e91a3029",
+            "impacted_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Обновлена программа интерфейсов: зафиксированы точные main-ревизии, Advanced-поле Framework, браузерные доказательства и ограничения.",
+            "updated_pages": [
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "standards.declarative-interface-program": "0ef930a98b606f4b240a56b4ff5de72955dd31ff2343db7561126bf11df471fb"
+            },
+            "accepted_at": "2026-09-18T13:03:44+00:00",
+            "id": "682da5cee45834132d1f7616b244572658d01040c3c5f1d79b43b66e9794d156"
         }
     ]
 }
