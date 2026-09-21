@@ -7,7 +7,7 @@
             "id": "specs",
             "label": "Larena Specs",
             "repository": "../larena-specs",
-            "verified_revision": "d099f818621009f63073515daad90cc05b03d685",
+            "verified_revision": "84c0e43750ddd84f183a25642edb6f6e23c71833",
             "public_paths": [
                 "README.md",
                 "standards/**",
@@ -17,13 +17,13 @@
                 "specs/interface-program/**",
                 "frontend-program.standards.project.json"
             ],
-            "last_decision": "b0fc0038a47bf950e7c9932f16fd9c1a799257257dcb2b1dc5b2ba1718464639"
+            "last_decision": "d0583ba9639614b8da7407850755a4f893e32178f3b7fce5434f61f06cbfeecf"
         },
         {
             "id": "root",
             "label": "Larena Root",
             "repository": "../larena",
-            "verified_revision": "fe8fa089b4a9ea2150c2848cf74ad0f1d301f4d9",
+            "verified_revision": "0bf202c1d2f1161f99734dccd055497c901ab080",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -32,7 +32,7 @@
                 "docs/developer/**",
                 "scripts/larena-runtime.php"
             ],
-            "last_decision": "8c65fbea236a09bd855be2b1c5a674d977b41fae7ef32d310ac8a19aee57d9e8"
+            "last_decision": "a70a2d77e4faf587d56003fc06a3e52f94dc4ecee56f7d08b60494be8bf41add"
         },
         {
             "id": "workspace",
@@ -65,7 +65,7 @@
             "id": "package.setting",
             "label": "larena/setting",
             "repository": "../larena-workspace/packages/setting",
-            "verified_revision": "5cf41d20252be9cefa72f1730a505b25e45b481b",
+            "verified_revision": "e0b8c3c44f2bbe8e5dfb201e876b41b06a810d22",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -74,7 +74,8 @@
                 "routes/**",
                 "docs/developer/**",
                 "src/Contracts/**"
-            ]
+            ],
+            "last_decision": "dd7dd57ca5c22a878dee47a1475b2d11150735f77e1a5db0cbcce4d111bcf180"
         },
         {
             "id": "package.lang",
@@ -95,7 +96,7 @@
             "id": "package.auth",
             "label": "larena/auth",
             "repository": "../larena-workspace/packages/auth",
-            "verified_revision": "117d036937378c90e4e44fc7f9a01e899f1faeeb",
+            "verified_revision": "5da84d6d7f9ade3f26b37e9f4dea659737507391",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -105,7 +106,7 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "720c475c915fe473d22a90b2fc22f0e78c78e296940c485b80cbed2533c3ddaa"
+            "last_decision": "a257a4ce352a6517e3b7f419a29d3062398d056178c080d6807b1d1001b11d8e"
         },
         {
             "id": "package.access",
@@ -171,7 +172,7 @@
             "id": "package.dataview",
             "label": "larena/dataview",
             "repository": "../larena-workspace/packages/dataview",
-            "verified_revision": "685919570a7a57654528c4577bd119e436189e23",
+            "verified_revision": "8a18277d455bb9e3df54fdc45660f0cb55802cb8",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -180,13 +181,14 @@
                 "routes/**",
                 "docs/developer/**",
                 "src/Contracts/**"
-            ]
+            ],
+            "last_decision": "6b8bbcfe985d82543cb593368c6a78b486d71bcc22aa53fe11371671b2086f8b"
         },
         {
             "id": "package.layout",
             "label": "larena/layout",
             "repository": "../larena-workspace/packages/layout",
-            "verified_revision": "157f60b9be1bc350f91998fddd643288f0089936",
+            "verified_revision": "5c098f51e497944f50ee8ae719d91077b949e0ed",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -196,13 +198,13 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "eaf68846a6ea74f8791066f7db4dad9dcf58888432f98f17d342150c0b40a579"
+            "last_decision": "6c422ce3ff2882d99abc2e85f50c6998cc713266e1109b69d776d749df062997"
         },
         {
             "id": "package.ui",
             "label": "larena/ui",
             "repository": "../larena-workspace/packages/ui",
-            "verified_revision": "2ca895ab26f08bdbcf5bd779ac664495740e2c25",
+            "verified_revision": "cb0aff0c60d468403064c81fe6ca79c86e025145",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -212,7 +214,7 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "6fbf5bc5e02b3759820acdc1338d6108089d0aa3a20556e817d94179fc31ce98"
+            "last_decision": "7add7ef63a6271245c0f69af79f9ee82b75981c0f525a522e23097e2eab5468d"
         },
         {
             "id": "package.admin",

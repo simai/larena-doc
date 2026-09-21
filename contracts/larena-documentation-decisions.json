@@ -735,6 +735,249 @@
             "page_sha256": [],
             "accepted_at": "2026-09-18T13:07:10+00:00",
             "id": "b0fc0038a47bf950e7c9932f16fd9c1a799257257dcb2b1dc5b2ba1718464639"
+        },
+        {
+            "source": "specs",
+            "from_revision": "d099f818621009f63073515daad90cc05b03d685",
+            "to_revision": "84c0e43750ddd84f183a25642edb6f6e23c71833",
+            "changed_paths": [
+                "docs/architecture/frontend-interface-program/README.md",
+                "docs/architecture/frontend-interface-program/b5-external-adapter-owner-decision.md",
+                "docs/architecture/frontend-interface-program/composition-capabilities-acceptance-2026-09-21.md",
+                "docs/architecture/frontend-interface-program/framework-capability-audit.md",
+                "docs/architecture/frontend-interface-program/framework-ui-control-handoff-2026-09-21.md",
+                "docs/architecture/frontend-interface-program/publication-plan.md",
+                "docs/architecture/frontend-interface-program/traceability.md",
+                "docs/architecture/frontend-interface-program/validation-status-2026-09-21.md",
+                "docs/architecture/frontend-interface-program/visual-editor-status.md",
+                "graph/specs/evolution-tracks/dataview-source-provider-contract.json",
+                "specs/interface-program/capability-matrix.json",
+                "specs/interface-program/contract-fixtures/invalid-duplicate-requirement-id.json",
+                "specs/interface-program/contract-fixtures/invalid-evidence-without-repository.json",
+                "specs/interface-program/contract-fixtures/invalid-mapped-with-unpublished-revision.json",
+                "specs/interface-program/contract-fixtures/invalid-missing-nonclaims.json",
+                "specs/interface-program/contract-fixtures/invalid-must-without-evidence.json",
+                "specs/interface-program/contract-fixtures/invalid-short-revision.json",
+                "specs/interface-program/contract-fixtures/valid-minimal-accepted-surface.json",
+                "specs/interface-program/contracts/composition-inheritance-editor.contract.v1.json",
+                "specs/interface-program/contracts/registered-source-lifecycle.contract.v1.json",
+                "specs/interface-program/current-execution.json",
+                "specs/interface-program/decisions.json",
+                "specs/packages/dataview/features/source-provider-contract/feature.json"
+            ],
+            "changed_paths_sha256": "301422ca4c5db7257658965e846e4d60a0ee6ff0600aff0d7ca131ccfa8976e0",
+            "impacted_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.dataview",
+                "standards",
+                "standards.declarative-interface-program"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The program page records the accepted composite workspace; Dataview explains registered sources and explicit record selection; other impacted pages were reviewed and stay accurate.",
+            "updated_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.dataview",
+                "standards",
+                "standards.declarative-interface-program"
+            ],
+            "page_sha256": {
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "packages.dataview": "916c9fd01778c7c11af7d8ee06548e6c66b2c9fc233c69ea80a19ca9191bba12",
+                "standards": "6b6750264b5fb6ec99781299252517d42e1676fc14ba3870078dcb5a4c159163",
+                "standards.declarative-interface-program": "49013e099588a54688880f241f5df9faf7557f69b21fc42735e7ba1b0d78d664"
+            },
+            "accepted_at": "2026-09-21T11:46:50+00:00",
+            "id": "d0583ba9639614b8da7407850755a4f893e32178f3b7fce5434f61f06cbfeecf"
+        },
+        {
+            "source": "root",
+            "from_revision": "fe8fa089b4a9ea2150c2848cf74ad0f1d301f4d9",
+            "to_revision": "0bf202c1d2f1161f99734dccd055497c901ab080",
+            "changed_paths": [
+                "routes/storage-page.php"
+            ],
+            "changed_paths_sha256": "fc7dfc915345a917473dfad221cdf44f4beca943d6d981d965c80c6e94adc5a2",
+            "impacted_pages": [
+                "start"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "The only public change adds local and testing admin routes for the composite workspace; the start guide does not change.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-09-21T11:46:51+00:00",
+            "id": "a70a2d77e4faf587d56003fc06a3e52f94dc4ecee56f7d08b60494be8bf41add"
+        },
+        {
+            "source": "package.auth",
+            "from_revision": "117d036937378c90e4e44fc7f9a01e899f1faeeb",
+            "to_revision": "5da84d6d7f9ade3f26b37e9f4dea659737507391",
+            "changed_paths": [
+                "docs/developer/users-query-source.md"
+            ],
+            "changed_paths_sha256": "f27dfa994848ad7b67965bc29b586f2861c7febeea29275e2a44e1697ad0b6aa",
+            "impacted_pages": [
+                "cms",
+                "concepts",
+                "packages.auth",
+                "start"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "A developer-only scalar user query provider was added; reader-facing Auth behaviour and routes are unchanged.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-09-21T11:46:52+00:00",
+            "id": "a257a4ce352a6517e3b7f419a29d3062398d056178c080d6807b1d1001b11d8e"
+        },
+        {
+            "source": "package.setting",
+            "from_revision": "5cf41d20252be9cefa72f1730a505b25e45b481b",
+            "to_revision": "e0b8c3c44f2bbe8e5dfb201e876b41b06a810d22",
+            "changed_paths": [
+                "README.md",
+                "composer.json",
+                "docs/developer/composition-setting-drafts.md",
+                "module.yaml",
+                "src/Contracts/PreparedSettingDraftApply.php",
+                "src/Contracts/SettingDraft.php",
+                "src/Contracts/SettingDraftApplyGuard.php",
+                "src/Contracts/SettingDraftApplyReceipt.php",
+                "src/Contracts/SettingDraftEntry.php",
+                "src/Contracts/SettingDraftStore.php"
+            ],
+            "changed_paths_sha256": "e1e195691f144ecdda1b419c88f54ac2046392f085d92292ef05d1df48a45904",
+            "impacted_pages": [
+                "cms",
+                "concepts",
+                "packages.setting",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Setting page now states that revisioned appearance drafts are published in main; the other impacted pages were reviewed and stay accurate.",
+            "updated_pages": [
+                "cms",
+                "concepts",
+                "packages.setting",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "03a22b5a632a1c6211651229765ac5e778541271eeb825dff3bef9ac8e67d6bf",
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "packages.setting": "ea647075d64efef7e724bc2953adb061d6aad837508ebc87ad50f2de4f0dee57",
+                "versions": "909acd755361089a45ba14f61bddd78706e2b3ecd139a7512affc01ca180b049"
+            },
+            "accepted_at": "2026-09-21T11:46:59+00:00",
+            "id": "dd7dd57ca5c22a878dee47a1475b2d11150735f77e1a5db0cbcce4d111bcf180"
+        },
+        {
+            "source": "package.dataview",
+            "from_revision": "685919570a7a57654528c4577bd119e436189e23",
+            "to_revision": "8a18277d455bb9e3df54fdc45660f0cb55802cb8",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/registered-query-boundary.md",
+                "docs/developer/registered-source-adapters.md",
+                "src/Contracts/DataviewPagedSourceProvider.php",
+                "src/Contracts/DataviewQuery.php",
+                "src/Contracts/DataviewSourceDescriptor.php",
+                "src/Contracts/RegisteredDataviewSourceAdapter.php"
+            ],
+            "changed_paths_sha256": "61048819f7d3f8d9346ec1f827a7525f2cd4b6e7e06401d6517749e28182aeb7",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.dataview",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Dataview page explains registered sources, declared external owners and explicit record selection; the other impacted pages were reviewed.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.dataview",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "packages.dataview": "916c9fd01778c7c11af7d8ee06548e6c66b2c9fc233c69ea80a19ca9191bba12",
+                "versions": "909acd755361089a45ba14f61bddd78706e2b3ecd139a7512affc01ca180b049"
+            },
+            "accepted_at": "2026-09-21T11:47:00+00:00",
+            "id": "6b8bbcfe985d82543cb593368c6a78b486d71bcc22aa53fe11371671b2086f8b"
+        },
+        {
+            "source": "package.layout",
+            "from_revision": "157f60b9be1bc350f91998fddd643288f0089936",
+            "to_revision": "5c098f51e497944f50ee8ae719d91077b949e0ed",
+            "changed_paths": [
+                "docs/developer/composition-regions-scope.md"
+            ],
+            "changed_paths_sha256": "aba684016b3c33108a4d83c03852c97ed13c30002974a1b074c74ae91bb51051",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.layout"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Layout page explains named regions and scope endpoints; the other impacted pages were reviewed and stay accurate.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.layout"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "packages.layout": "e19a963d987db601d371788d3ecf3787fec272ca1be283127b107075c2fc2157"
+            },
+            "accepted_at": "2026-09-21T11:47:01+00:00",
+            "id": "6c422ce3ff2882d99abc2e85f50c6998cc713266e1109b69d776d749df062997"
+        },
+        {
+            "source": "package.ui",
+            "from_revision": "2ca895ab26f08bdbcf5bd779ac664495740e2c25",
+            "to_revision": "cb0aff0c60d468403064c81fe6ca79c86e025145",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/composition-regions-routing.md",
+                "docs/developer/dataview-host-lifecycle.md",
+                "docs/developer/registered-table-action-bridge.md"
+            ],
+            "changed_paths_sha256": "bc5ea3bd8eedce9effc259e99e9cb1d4f1ce1198d5fd887e9fe9aae5b99b9e6a",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.ui",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The UI page explains list ports and the host side of composition routes on the accepted Framework pair; the other impacted pages were reviewed.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.ui",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "b672699b2c66bc10946ef36cd11d487bd2821055e315b3a0653bf3fb3fac2938",
+                "packages.ui": "bb9b9bfab81e8be31bae4c794a8693f1b29f92575e5775cb3e5980ce693e47ec",
+                "versions": "909acd755361089a45ba14f61bddd78706e2b3ecd139a7512affc01ca180b049"
+            },
+            "accepted_at": "2026-09-21T11:47:01+00:00",
+            "id": "7add7ef63a6271245c0f69af79f9ee82b75981c0f525a522e23097e2eab5468d"
         }
     ]
 }

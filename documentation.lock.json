@@ -34,7 +34,7 @@
             "review": "ai_verified",
             "route": "/ru/packages/auth/",
             "source": "larena",
-            "source_sha256": "2ea29a8b3aa7c3553ef3ef02734dc628faf621d2891b532a30660ea2527f79f7"
+            "source_sha256": "1063aac501a4926374d2cf8e197ff11a81eac70b1cbf08a14e3b3e68a0499949"
         },
         {
             "examples": [],
@@ -54,11 +54,11 @@
             "key": "larena.package.dataview",
             "kind": "package",
             "page_path": "content/ru/packages/dataview.md",
-            "page_sha256": "d9c4b557d49d764ad8acce911f6a14d0a59d81f3037051bf9aab958bf5741fa3",
+            "page_sha256": "916c9fd01778c7c11af7d8ee06548e6c66b2c9fc233c69ea80a19ca9191bba12",
             "review": "ai_verified",
             "route": "/ru/packages/dataview/",
             "source": "larena",
-            "source_sha256": "351be92d5bc47261ef93bd3fc28a5f17c0512c823df1aad35df81e2ebe7f4bec"
+            "source_sha256": "722c07c5dd8a8882a6da809e237fe9b23b9264e28c103b74d4487d51d731b275"
         },
         {
             "examples": [],
@@ -90,11 +90,11 @@
             "key": "larena.package.layout",
             "kind": "package",
             "page_path": "content/ru/packages/layout.md",
-            "page_sha256": "e0bb8b812fd1c38f5764210728dcbbdd79706ec0e72f8f64513683d1f2576a34",
+            "page_sha256": "e19a963d987db601d371788d3ecf3787fec272ca1be283127b107075c2fc2157",
             "review": "ai_verified",
             "route": "/ru/packages/layout/",
             "source": "larena",
-            "source_sha256": "0ad186da814b84054426b5f8a9a9732d75d5da55ebb6a3235eafb76547dd6122"
+            "source_sha256": "bb9ce7a81f8d8f8222b6cb1a2320bcdcf89844919f06cb1e62f318b5db263b9a"
         },
         {
             "examples": [],
@@ -114,11 +114,11 @@
             "key": "larena.package.setting",
             "kind": "package",
             "page_path": "content/ru/packages/setting.md",
-            "page_sha256": "35f8cbd86258d9513752a3c222229ba9fdad20bfe595d5598b03e14e6d153e82",
+            "page_sha256": "ea647075d64efef7e724bc2953adb061d6aad837508ebc87ad50f2de4f0dee57",
             "review": "ai_verified",
             "route": "/ru/packages/setting/",
             "source": "larena",
-            "source_sha256": "8c0e1d2f1cfa60fd40e7b28ee12d50ae0af9e410cb2603d621880f1c4a7ed03e"
+            "source_sha256": "be25dea6dacb0aeaa320b9146e5b4b7963f703c2ac2e199c2d6fae4fa27fb0e2"
         },
         {
             "examples": [],
@@ -138,11 +138,11 @@
             "key": "larena.package.ui",
             "kind": "package",
             "page_path": "content/ru/packages/ui.md",
-            "page_sha256": "5fb83017681e18d6d21992d6a16536fe2fe49f6477b4f29dae3e2c17a4d0ff26",
+            "page_sha256": "bb9b9bfab81e8be31bae4c794a8693f1b29f92575e5775cb3e5980ce693e47ec",
             "review": "ai_verified",
             "route": "/ru/packages/ui/",
             "source": "larena",
-            "source_sha256": "b6ed2c4e015c6f0fbfa58c531335dfd9e3e73833cfab03201d51c678644941cd"
+            "source_sha256": "514a1ef150b1113cef18f10f1ed6bf2d8681f7a1a467ecf9b45b4179095833c7"
         }
     ],
     "exclusions": [],
