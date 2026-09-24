@@ -45,7 +45,7 @@ translation_key: larena.standards.map
 | 3 | Композитный компонент (`simai.composite-component`) | 1.0.0 | Framework | действует |
 | 4 | Динамический композитный компонент (`simai.dynamic-composite-component`) | 1.0.0 | Framework | действует |
 | 5 | [Декларативная композиция Larena](/standards/declarative-composition/) (`larena.frontend.composition`) | 1.0.0 | Larena | действует |
-| 5 | [Представление данных](/standards/dataview-view/) (`larena.dataview-view`) | 1.0.0 | Larena | черновик |
+| 5 | [Представление данных](/standards/dataview-view/) (`larena.dataview-view`) | 1.0.0 | Larena | действует |
 
 Стандарты уровней 3 и 4 опубликованы в документации Framework, раздел
 «Справочник → Стандарты композитных компонентов».
