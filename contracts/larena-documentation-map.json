@@ -1431,6 +1431,44 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "standards.map",
+            "path": "content/ru/standards/standards-map.md",
+            "route": "/ru/standards/standards-map/",
+            "title": "Карта стандартов",
+            "audience": "Архитекторы, авторы пакетов и компонентов, ревьюеры, агенты",
+            "outcome": "Найти действующий стандарт, его владельца, версию и основание.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/standards/map.json",
+                        "specs/standards/index.json",
+                        "docs/standards/adr/0004-standards-registry-and-binding-to-work.md"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "standards.dataview-view",
+            "path": "content/ru/standards/dataview-view.md",
+            "route": "/ru/standards/dataview-view/",
+            "title": "Стандарт представления данных",
+            "audience": "Авторы представлений, разработчики пакетов, ревьюеры",
+            "outcome": "Сделать новое представление совместимым с запросами, правами и сохранёнными видами остальных.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/standards/larena-dataview-view-v1.json",
+                        "specs/standards/conformance/**",
+                        "docs/standards/adr/0003-standards-chain-and-dataview-profile.md"
+                    ]
+                }
+            ]
         }
     ]
 }
