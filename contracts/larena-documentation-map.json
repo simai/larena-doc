@@ -1469,6 +1469,27 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "standards.admin-dataview-page",
+            "path": "content/ru/standards/admin-dataview-page.md",
+            "route": "/ru/standards/admin-dataview-page/",
+            "title": "Стандарт страницы с представлением данных",
+            "audience": "Авторы страниц админки, разработчики пакетов, ревьюеры",
+            "outcome": "Показать список и открывать, менять и создавать его элементы так же, как на остальных страницах админки.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/standards/larena-admin-dataview-page-v1.json",
+                        "specs/standards/larena-admin-dataview-page-v1-1.json",
+                        "specs/standards/conformance/**",
+                        "docs/standards/adr/0006-admin-dataview-page-standard.md",
+                        "docs/standards/adr/0007-record-panel-on-data-view-pages.md"
+                    ]
+                }
+            ]
         }
     ]
 }
