@@ -47,7 +47,7 @@ translation_key: larena.standards.map
 | 4 | Порт хоста динамического композита (`simai.composite-host-port`): объявленный стык между композитом и любым сервером, версии, совместимость, набор проверок | 1.0.0 | Framework | действует |
 | 5 | [Декларативная композиция Larena](/standards/declarative-composition/) (`larena.frontend.composition`) | 1.0.0 | Larena | действует |
 | 5 | [Представление данных](/standards/dataview-view/) (`larena.dataview-view`) | 1.0.0 | Larena | действует |
-| 5 | [Страница с представлением данных](/standards/admin-dataview-page/) (`larena.admin-dataview-page`): как админка показывает список и открывает его элементы в общей панели | 1.0.0 / 1.1.0 | Larena | 1.0.0 действует, 1.1.0 черновик |
+| 5 | [Страница с представлением данных](/standards/admin-dataview-page/) (`larena.admin-dataview-page`): как админка показывает список и открывает его элементы в общей панели | 1.1.0 | Larena | действует |
 
 Стандарты уровней 1–4 изданы в документации Framework, в разделе
 «Стандарты» (`https://ui-doc.test/ru/standards/`): у каждого есть страница для
