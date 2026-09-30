@@ -9,17 +9,23 @@ translation_key: larena.versions
 
 > **Для кого:** любой читатель. **Результат:** понять, к какой сборке относятся
 > инструкции. **Источник:** Git, Composer lock и core-12 traceability.
-> **Статус:** проверено 18 сентября 2026 года.
+> **Статус:** проверено 30 сентября 2026 года.
 
-Сайт использует установленную Docara `2.9.1` на revision
-`72b475b06ad3acf5c07f9a9f85d123c5620021fd`. Более новая версия движка
+Сайт использует установленную Docara `2.11.0` на revision
+`907f361af33425b935cf379fdc65596e8d7ac9f0`. Более новая версия движка
 проверяется отдельно и не подменяет эту зафиксированную сборку.
 
 Документируемые проектные источники:
 
-- Larena Specs: `8d3bc3b1dfd05d5ae0e09c30b066999be7751643`;
-- Larena Workspace: `749cd11e1844cff40a7c768002737cb8c85aaaf7`;
-- Larena entry app: `fe8fa089b4a9ea2150c2848cf74ad0f1d301f4d9`.
+- Larena Specs: `30c908f24d72aa437f8354b8de772f629aad89d9`;
+- Larena Workspace: `614c823837d27664ddb6e8c52b5277239ee8d6fa`;
+- Larena entry app: `f0d5821fad633c28228f2b9110bd30d1cb5323c9`.
+
+Entry app собирает 23 пакета Larena. С Minimal CMS v1.1 пакеты
+`larena/content` и `larena/docara` в эту сборку не входят: страницы сайта
+отдаются из Storage. Точные ревизии пакетов записаны в
+`release/developer-alpha-manifest.json` entry app. Интерфейс собран на паре
+Framework `ui-e5a1228a9d8a-smart-c184f5944ae6`.
 
 Точные ревизии двенадцати пакетов записаны в repository source map. Текущий
 Root — локальный release-candidate contour. Он не заявляет production readiness,

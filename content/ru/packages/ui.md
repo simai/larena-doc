@@ -48,3 +48,5 @@ UI связывает тип `larena.registered-list` с опубликован�
 её номер последовательности, поэтому устаревший ответ не заменяет новые строки.
 Принято в UI `main` на ревизии `cb0aff0c60d468403064c81fe6ca79c86e025145` с
 парой Framework `ui-2b9aa9635ad0-smart-db547bb87b6b`.
+Текущий frontend lock UI использует пару `ui-e5a1228a9d8a-smart-c184f5944ae6`;
+она регистрирует `sf-data-view` и атрибут `row-actions` таблицы `sf-table`.

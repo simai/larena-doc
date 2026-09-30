@@ -2,7 +2,7 @@
     "schema": "docara.documentation_source.v1",
     "id": "larena",
     "provider": "contract_json",
-    "revision": "399cd45a0f8ad21b6f7787c8d0ed68a280ff93d70cb090e44cc9e3192cccd05a",
+    "revision": "bb38eb633bf1dd0afc9fde55440436819c8ea67947c627281d50047e02ab9370",
     "entities": [
         {
             "key": "larena.package.access",
@@ -32,6 +32,11 @@
                         "path": "features/operation-policy-registry/feature.json"
                     },
                     {
+                        "id": "access.plane_node_grants",
+                        "status": "described",
+                        "path": "features/plane-node-grants/feature.json"
+                    },
+                    {
                         "id": "access.query_scope",
                         "status": "pilot",
                         "path": "features/query-scope/feature.json"
@@ -43,20 +48,20 @@
                     }
                 ],
                 "contract_parts": {
-                    "package.access": "fd88dc709dcff4a6d16bd4f65fd1cd2a989c607c57060c51433814e4bd27271b",
-                    "specs": "32e6b6ecd70e4f2458f13c7364388c5841db52a1bb8d3f966b00e1fa3b46825d"
+                    "package.access": "5a2e8e1dfe91159abc18c3a9f785e93d24f26452d3c0d1d2ac919d93071c19b0",
+                    "specs": "5a6d1cf544981d2bcb90d473fbfae64281b3390ac988e6f67f7afe622080f421"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.access@0c504fc86a02cd499664a8233d24c54a6854b788:README.md",
-                "package.access@0c504fc86a02cd499664a8233d24c54a6854b788:composer.json",
-                "package.access@0c504fc86a02cd499664a8233d24c54a6854b788:config/**",
-                "package.access@0c504fc86a02cd499664a8233d24c54a6854b788:docs/developer/**",
-                "package.access@0c504fc86a02cd499664a8233d24c54a6854b788:module.yaml",
-                "package.access@0c504fc86a02cd499664a8233d24c54a6854b788:routes/**",
-                "package.access@0c504fc86a02cd499664a8233d24c54a6854b788:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/access/**"
+                "package.access@d8fcd4ceae598991f93f05d5b439e76b3c9f9f4a:README.md",
+                "package.access@d8fcd4ceae598991f93f05d5b439e76b3c9f9f4a:composer.json",
+                "package.access@d8fcd4ceae598991f93f05d5b439e76b3c9f9f4a:config/**",
+                "package.access@d8fcd4ceae598991f93f05d5b439e76b3c9f9f4a:docs/developer/**",
+                "package.access@d8fcd4ceae598991f93f05d5b439e76b3c9f9f4a:module.yaml",
+                "package.access@d8fcd4ceae598991f93f05d5b439e76b3c9f9f4a:routes/**",
+                "package.access@d8fcd4ceae598991f93f05d5b439e76b3c9f9f4a:src/Contracts/**",
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/access/**"
             ]
         },
         {
@@ -102,20 +107,20 @@
                     }
                 ],
                 "contract_parts": {
-                    "package.admin": "eccd77ade01b7d5474f20a454ba74937b669d82964a44d2ee0c026527a258386",
-                    "specs": "d0bfbd80ebd56849d964ddd5f5585043e36612c6721480bf5ec1c1803721b922"
+                    "package.admin": "e6d0a0326f01df9d1bda19359ffe173101c960af7b7d35423565c1b941e39c7d",
+                    "specs": "b0bcf9d0e5fc47f901d0b20c8f398bcf0783a193aa5b2da81bbe2da11a9b77ec"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.admin@a7a38415dc54de72e467a5502293665a4ba4e1c3:README.md",
-                "package.admin@a7a38415dc54de72e467a5502293665a4ba4e1c3:composer.json",
-                "package.admin@a7a38415dc54de72e467a5502293665a4ba4e1c3:config/**",
-                "package.admin@a7a38415dc54de72e467a5502293665a4ba4e1c3:docs/developer/**",
-                "package.admin@a7a38415dc54de72e467a5502293665a4ba4e1c3:module.yaml",
-                "package.admin@a7a38415dc54de72e467a5502293665a4ba4e1c3:routes/**",
-                "package.admin@a7a38415dc54de72e467a5502293665a4ba4e1c3:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/admin/**"
+                "package.admin@3f6fcd87f0c148c487cf4d7792acb50399cb20a7:README.md",
+                "package.admin@3f6fcd87f0c148c487cf4d7792acb50399cb20a7:composer.json",
+                "package.admin@3f6fcd87f0c148c487cf4d7792acb50399cb20a7:config/**",
+                "package.admin@3f6fcd87f0c148c487cf4d7792acb50399cb20a7:docs/developer/**",
+                "package.admin@3f6fcd87f0c148c487cf4d7792acb50399cb20a7:module.yaml",
+                "package.admin@3f6fcd87f0c148c487cf4d7792acb50399cb20a7:routes/**",
+                "package.admin@3f6fcd87f0c148c487cf4d7792acb50399cb20a7:src/Contracts/**",
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/admin/**"
             ]
         },
         {
@@ -125,6 +130,7 @@
             "public_contract": {
                 "package": "larena/auth",
                 "dependencies": {
+                    "illuminate/cache": "^13.0",
                     "illuminate/console": "^13.0",
                     "illuminate/contracts": "^13.0",
                     "illuminate/database": "^13.0",
@@ -132,7 +138,8 @@
                     "illuminate/routing": "^13.0",
                     "illuminate/support": "^13.0",
                     "larena/core": "dev-main",
-                    "php": "^8.3"
+                    "php": "^8.3",
+                    "symfony/yaml": "^7.4|^8.0"
                 },
                 "spec_requirements": [
                     {
@@ -167,20 +174,20 @@
                     }
                 ],
                 "contract_parts": {
-                    "package.auth": "0088cad4be77432c8e2853dafb4f51930ef9eef4a7bb7904b4fca85f17ebeb05",
+                    "package.auth": "68d16624c648870e6b037dd0b65b57dac74f4b4f78ce408a8af7b79b8edcd577",
                     "specs": "7be0c3fea36de57b07247f9cade57dcf0af5599089a7dc41b8b57aa2ad99497e"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.auth@5da84d6d7f9ade3f26b37e9f4dea659737507391:README.md",
-                "package.auth@5da84d6d7f9ade3f26b37e9f4dea659737507391:composer.json",
-                "package.auth@5da84d6d7f9ade3f26b37e9f4dea659737507391:config/**",
-                "package.auth@5da84d6d7f9ade3f26b37e9f4dea659737507391:docs/developer/**",
-                "package.auth@5da84d6d7f9ade3f26b37e9f4dea659737507391:module.yaml",
-                "package.auth@5da84d6d7f9ade3f26b37e9f4dea659737507391:routes/**",
-                "package.auth@5da84d6d7f9ade3f26b37e9f4dea659737507391:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/auth/**"
+                "package.auth@640c6c2f6c791fed1590b39f3920e65b511c7ccb:README.md",
+                "package.auth@640c6c2f6c791fed1590b39f3920e65b511c7ccb:composer.json",
+                "package.auth@640c6c2f6c791fed1590b39f3920e65b511c7ccb:config/**",
+                "package.auth@640c6c2f6c791fed1590b39f3920e65b511c7ccb:docs/developer/**",
+                "package.auth@640c6c2f6c791fed1590b39f3920e65b511c7ccb:module.yaml",
+                "package.auth@640c6c2f6c791fed1590b39f3920e65b511c7ccb:routes/**",
+                "package.auth@640c6c2f6c791fed1590b39f3920e65b511c7ccb:src/Contracts/**",
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/auth/**"
             ]
         },
         {
@@ -193,7 +200,8 @@
                     "illuminate/console": "^13.0",
                     "illuminate/database": "^13.0",
                     "illuminate/support": "^13.0",
-                    "php": "^8.3"
+                    "php": "^8.3",
+                    "symfony/yaml": "^7.4|^8.0"
                 },
                 "spec_requirements": [
                     {
@@ -207,31 +215,56 @@
                         "path": "features/cache/feature.json"
                     },
                     {
+                        "id": "core.environment_profile",
+                        "status": "described",
+                        "path": "features/environment-profile/feature.json"
+                    },
+                    {
                         "id": "core.operation_runtime",
                         "status": "described",
                         "path": "../../features/core.operation_runtime.json"
                     },
                     {
+                        "id": "core.operation_transport",
+                        "status": "described",
+                        "path": "features/operation-transport/feature.json"
+                    },
+                    {
+                        "id": "core.plane_membership",
+                        "status": "described",
+                        "path": "features/plane-membership/feature.json"
+                    },
+                    {
+                        "id": "core.scope_model",
+                        "status": "described",
+                        "path": "features/scope-model/feature.json"
+                    },
+                    {
                         "id": "core.sitepack_standard",
                         "status": "described",
                         "path": "features/sitepack-standard/feature.json"
+                    },
+                    {
+                        "id": "core.solution_descriptor",
+                        "status": "described",
+                        "path": "features/solution-descriptor/feature.json"
                     }
                 ],
                 "contract_parts": {
-                    "package.core": "c42c6af7599fe40d740afe64352b1da1f4d287070b70c13412dd4e1023304985",
-                    "specs": "1c560828ab2a38c4e728892d9f1917910097459d83c1001e615edc648cbde31f"
+                    "package.core": "36ef2069435b31673f06f907bf93f31d08d4d95f704919001a68005cc6e69975",
+                    "specs": "0985c67e653ca0ac02b60b468a51c7918a2b3bc37e33e16e864d8f854e0ab870"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.core@47123f2e79fd8852c91af7eafb4b03754425ac4a:README.md",
-                "package.core@47123f2e79fd8852c91af7eafb4b03754425ac4a:composer.json",
-                "package.core@47123f2e79fd8852c91af7eafb4b03754425ac4a:config/**",
-                "package.core@47123f2e79fd8852c91af7eafb4b03754425ac4a:docs/developer/**",
-                "package.core@47123f2e79fd8852c91af7eafb4b03754425ac4a:module.yaml",
-                "package.core@47123f2e79fd8852c91af7eafb4b03754425ac4a:routes/**",
-                "package.core@47123f2e79fd8852c91af7eafb4b03754425ac4a:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/core/**"
+                "package.core@707790e8a5817182bc07618353d2ab7fa09ff069:README.md",
+                "package.core@707790e8a5817182bc07618353d2ab7fa09ff069:composer.json",
+                "package.core@707790e8a5817182bc07618353d2ab7fa09ff069:config/**",
+                "package.core@707790e8a5817182bc07618353d2ab7fa09ff069:docs/developer/**",
+                "package.core@707790e8a5817182bc07618353d2ab7fa09ff069:module.yaml",
+                "package.core@707790e8a5817182bc07618353d2ab7fa09ff069:routes/**",
+                "package.core@707790e8a5817182bc07618353d2ab7fa09ff069:src/Contracts/**",
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/core/**"
             ]
         },
         {
@@ -288,20 +321,20 @@
                     }
                 ],
                 "contract_parts": {
-                    "package.dataview": "87e400418a872c85be858ea0fc03191c15b93020fb32230087a591c7e5e25203",
+                    "package.dataview": "42fd8d2d38eb1e394a349c84f0763e2c85fa3182d350cb1176f650a872867da7",
                     "specs": "568255f7fb6b220d273b9cd1c3cf5e07004aec8552854139f456e8b77ce33a6d"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.dataview@8a18277d455bb9e3df54fdc45660f0cb55802cb8:README.md",
-                "package.dataview@8a18277d455bb9e3df54fdc45660f0cb55802cb8:composer.json",
-                "package.dataview@8a18277d455bb9e3df54fdc45660f0cb55802cb8:config/**",
-                "package.dataview@8a18277d455bb9e3df54fdc45660f0cb55802cb8:docs/developer/**",
-                "package.dataview@8a18277d455bb9e3df54fdc45660f0cb55802cb8:module.yaml",
-                "package.dataview@8a18277d455bb9e3df54fdc45660f0cb55802cb8:routes/**",
-                "package.dataview@8a18277d455bb9e3df54fdc45660f0cb55802cb8:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/dataview/**"
+                "package.dataview@a838384e9dc3b143116a9c60dff3eb952feaac9b:README.md",
+                "package.dataview@a838384e9dc3b143116a9c60dff3eb952feaac9b:composer.json",
+                "package.dataview@a838384e9dc3b143116a9c60dff3eb952feaac9b:config/**",
+                "package.dataview@a838384e9dc3b143116a9c60dff3eb952feaac9b:docs/developer/**",
+                "package.dataview@a838384e9dc3b143116a9c60dff3eb952feaac9b:module.yaml",
+                "package.dataview@a838384e9dc3b143116a9c60dff3eb952feaac9b:routes/**",
+                "package.dataview@a838384e9dc3b143116a9c60dff3eb952feaac9b:src/Contracts/**",
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/dataview/**"
             ]
         },
         {
@@ -344,7 +377,7 @@
                 ],
                 "contract_parts": {
                     "package.filesystem": "b288c74c66327f66dadfa743049c776b6f70150ad7f7292a4236656a38c16ac1",
-                    "specs": "d5286f9e10d2c64905dd458ad9bf21c03adc5d31321483cc285a8fac287b758d"
+                    "specs": "d87c767baff6695743606360a29f1574e19004512421084faa7cadee6158453b"
                 }
             },
             "example_cases": [],
@@ -356,7 +389,7 @@
                 "package.filesystem@996093e547237f740af8c2cb2a0fca96cabd4c96:module.yaml",
                 "package.filesystem@996093e547237f740af8c2cb2a0fca96cabd4c96:routes/**",
                 "package.filesystem@996093e547237f740af8c2cb2a0fca96cabd4c96:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/filesystem/**"
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/filesystem/**"
             ]
         },
         {
@@ -416,7 +449,7 @@
                 "package.lang@b668a2ff3d4d39958938a40ce7a57771d554f101:module.yaml",
                 "package.lang@b668a2ff3d4d39958938a40ce7a57771d554f101:routes/**",
                 "package.lang@b668a2ff3d4d39958938a40ce7a57771d554f101:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/lang/**"
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/lang/**"
             ]
         },
         {
@@ -502,7 +535,7 @@
                 "package.layout@5c098f51e497944f50ee8ae719d91077b949e0ed:module.yaml",
                 "package.layout@5c098f51e497944f50ee8ae719d91077b949e0ed:routes/**",
                 "package.layout@5c098f51e497944f50ee8ae719d91077b949e0ed:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/layout/**"
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/layout/**"
             ]
         },
         {
@@ -547,20 +580,20 @@
                     }
                 ],
                 "contract_parts": {
-                    "package.property": "87661e3c07af0adede150f6a29fc7d1bbd198e2fa343550428d533e9a1c06f75",
+                    "package.property": "be8239e321a7af055796d4af58a886ece0f10c60e945a1f3ad26ea95a1461f24",
                     "specs": "19cb02fd905e0571fd3bf08d12b4e8ea6cf2ad4cd6145b850179bc209e68e4c7"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.property@b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7:README.md",
-                "package.property@b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7:composer.json",
-                "package.property@b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7:config/**",
-                "package.property@b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7:docs/developer/**",
-                "package.property@b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7:module.yaml",
-                "package.property@b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7:routes/**",
-                "package.property@b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/property/**"
+                "package.property@d0053051ad9616cc24c460ffea249028c881649d:README.md",
+                "package.property@d0053051ad9616cc24c460ffea249028c881649d:composer.json",
+                "package.property@d0053051ad9616cc24c460ffea249028c881649d:config/**",
+                "package.property@d0053051ad9616cc24c460ffea249028c881649d:docs/developer/**",
+                "package.property@d0053051ad9616cc24c460ffea249028c881649d:module.yaml",
+                "package.property@d0053051ad9616cc24c460ffea249028c881649d:routes/**",
+                "package.property@d0053051ad9616cc24c460ffea249028c881649d:src/Contracts/**",
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/property/**"
             ]
         },
         {
@@ -615,7 +648,7 @@
                 "package.setting@e0b8c3c44f2bbe8e5dfb201e876b41b06a810d22:module.yaml",
                 "package.setting@e0b8c3c44f2bbe8e5dfb201e876b41b06a810d22:routes/**",
                 "package.setting@e0b8c3c44f2bbe8e5dfb201e876b41b06a810d22:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/setting/**"
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/setting/**"
             ]
         },
         {
@@ -630,7 +663,8 @@
                     "larena/access": "dev-main",
                     "larena/core": "dev-main",
                     "larena/property": "dev-main",
-                    "php": "^8.3"
+                    "php": "^8.3",
+                    "symfony/yaml": "^7.4|^8.0"
                 },
                 "spec_requirements": [
                     {
@@ -639,9 +673,24 @@
                         "path": "features/encryption-key-policy/feature.json"
                     },
                     {
+                        "id": "storage.localized_values",
+                        "status": "described",
+                        "path": "features/localized-values/feature.json"
+                    },
+                    {
                         "id": "storage.persistence_profiles",
                         "status": null,
                         "path": "features/persistence-profiles/feature.json"
+                    },
+                    {
+                        "id": "storage.publication_lifecycle",
+                        "status": "described",
+                        "path": "features/publication-lifecycle/feature.json"
+                    },
+                    {
+                        "id": "storage.read_contracts",
+                        "status": "described",
+                        "path": "features/read-contracts/feature.json"
                     },
                     {
                         "id": "storage.record_list",
@@ -652,6 +701,11 @@
                         "id": "storage.record_mutation",
                         "status": null,
                         "path": "features/record-mutation/feature.json"
+                    },
+                    {
+                        "id": "storage.record_relations",
+                        "status": "described",
+                        "path": "features/record-relations/feature.json"
                     },
                     {
                         "id": "storage.schema_migration_policy",
@@ -669,26 +723,31 @@
                         "path": "features/sitepack-portability/feature.json"
                     },
                     {
+                        "id": "storage.structure_roles",
+                        "status": "described",
+                        "path": "features/structure-roles/feature.json"
+                    },
+                    {
                         "id": "storage.validation_pipeline",
                         "status": null,
                         "path": "features/validation-pipeline/feature.json"
                     }
                 ],
                 "contract_parts": {
-                    "package.storage": "0141e475cf97ef1ddcd65d9f66b7f21ccdf362b1e3b2bd3f611968e2ee521e65",
-                    "specs": "8bfe51a11a27a63859df851c5c25bce5f167d856f1e4ce318395d4482481bdef"
+                    "package.storage": "a864dc7261489888806567dec00dac858fdb91f00bea0e41dcc3459fc409d9a9",
+                    "specs": "be4405017c1363dc2b9214825eef18c2637f694a09fcb4c1f4ca58b98de1d09f"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.storage@b361f6e16ed8b5e18d78b47b9d9fa6620b588a16:README.md",
-                "package.storage@b361f6e16ed8b5e18d78b47b9d9fa6620b588a16:composer.json",
-                "package.storage@b361f6e16ed8b5e18d78b47b9d9fa6620b588a16:config/**",
-                "package.storage@b361f6e16ed8b5e18d78b47b9d9fa6620b588a16:docs/developer/**",
-                "package.storage@b361f6e16ed8b5e18d78b47b9d9fa6620b588a16:module.yaml",
-                "package.storage@b361f6e16ed8b5e18d78b47b9d9fa6620b588a16:routes/**",
-                "package.storage@b361f6e16ed8b5e18d78b47b9d9fa6620b588a16:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/storage/**"
+                "package.storage@17e9df2274bb027b08308c0522ff6c42bd4e47ee:README.md",
+                "package.storage@17e9df2274bb027b08308c0522ff6c42bd4e47ee:composer.json",
+                "package.storage@17e9df2274bb027b08308c0522ff6c42bd4e47ee:config/**",
+                "package.storage@17e9df2274bb027b08308c0522ff6c42bd4e47ee:docs/developer/**",
+                "package.storage@17e9df2274bb027b08308c0522ff6c42bd4e47ee:module.yaml",
+                "package.storage@17e9df2274bb027b08308c0522ff6c42bd4e47ee:routes/**",
+                "package.storage@17e9df2274bb027b08308c0522ff6c42bd4e47ee:src/Contracts/**",
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/storage/**"
             ]
         },
         {
@@ -746,20 +805,20 @@
                     }
                 ],
                 "contract_parts": {
-                    "package.ui": "f3af84fc806a8961fdf10d61aec637efd4d6290cd1c85fdf08c4590f3cc576a9",
+                    "package.ui": "69d0f3f44447cbc37288dc1923b719363fb54a14b1fce8b32fbd16d14e4ab56e",
                     "specs": "5c4062e6b69337e2a1317f592a3928baa2e8ae694ed5143805c1b23a447b84fe"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.ui@cb0aff0c60d468403064c81fe6ca79c86e025145:README.md",
-                "package.ui@cb0aff0c60d468403064c81fe6ca79c86e025145:composer.json",
-                "package.ui@cb0aff0c60d468403064c81fe6ca79c86e025145:config/**",
-                "package.ui@cb0aff0c60d468403064c81fe6ca79c86e025145:docs/developer/**",
-                "package.ui@cb0aff0c60d468403064c81fe6ca79c86e025145:module.yaml",
-                "package.ui@cb0aff0c60d468403064c81fe6ca79c86e025145:routes/**",
-                "package.ui@cb0aff0c60d468403064c81fe6ca79c86e025145:src/Contracts/**",
-                "specs@84c0e43750ddd84f183a25642edb6f6e23c71833:specs/packages/ui/**"
+                "package.ui@2b45c2ac1eb99ac962a60e13fdf6b4bd978982f0:README.md",
+                "package.ui@2b45c2ac1eb99ac962a60e13fdf6b4bd978982f0:composer.json",
+                "package.ui@2b45c2ac1eb99ac962a60e13fdf6b4bd978982f0:config/**",
+                "package.ui@2b45c2ac1eb99ac962a60e13fdf6b4bd978982f0:docs/developer/**",
+                "package.ui@2b45c2ac1eb99ac962a60e13fdf6b4bd978982f0:module.yaml",
+                "package.ui@2b45c2ac1eb99ac962a60e13fdf6b4bd978982f0:routes/**",
+                "package.ui@2b45c2ac1eb99ac962a60e13fdf6b4bd978982f0:src/Contracts/**",
+                "specs@30c908f24d72aa437f8354b8de772f629aad89d9:specs/packages/ui/**"
             ]
         }
     ]

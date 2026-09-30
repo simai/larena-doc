@@ -1,31 +1,31 @@
 # Larena documentation source map
 
-Observed on 2026-09-14. This file records the factual basis of the first Russian
+Observed on 2026-09-30. This file records the factual basis of the first Russian
 edition; it does not change ownership of the sources.
 
 | Source | Revision | Use |
 | --- | --- | --- |
 | `simai/docara` | tag `v2.11.0`, commit `907f361af33425b935cf379fdc65596e8d7ac9f0` | Site compiler and schemas |
-| `simai/larena-specs` | `5209e5f25158b2127eff3a21f51a716ca68f01f9` | Canonical package identities, requirements and standards; later backup-only changes were reviewed as outside the 12-package first edition |
-| `simai/larena-workspace` | `749cd11e1844cff40a7c768002737cb8c85aaaf7` | Development assembly and package locations |
-| `simai/larena` | `98dd55f2ea4bc8428907d386d7949633d6b8115e` | Executable entry app, installation and integrated checks |
+| `simai/larena-specs` | `30c908f24d72aa437f8354b8de772f629aad89d9` | Canonical package identities, requirements and standards; later backup-only changes were reviewed as outside the 12-package first edition |
+| `simai/larena-workspace` | `614c823837d27664ddb6e8c52b5277239ee8d6fa` | Development assembly and package locations |
+| `simai/larena` | `f0d5821fad633c28228f2b9110bd30d1cb5323c9` | Executable entry app, installation and integrated checks |
 
 ## Package revisions
 
 | Package | Revision | Primary human source |
 | --- | --- | --- |
-| `larena/core` | `47123f2e79fd8852c91af7eafb4b03754425ac4a` | package README, module manifest and Specs |
-| `larena/setting` | `5cf41d20252be9cefa72f1730a505b25e45b481b` | package README, module manifest and Specs |
+| `larena/core` | `707790e8a5817182bc07618353d2ab7fa09ff069` | package README, module manifest and Specs |
+| `larena/setting` | `e0b8c3c44f2bbe8e5dfb201e876b41b06a810d22` | package README, module manifest and Specs |
 | `larena/lang` | `b668a2ff3d4d39958938a40ce7a57771d554f101` | package README, module manifest and Specs |
-| `larena/auth` | `9a2c93842e1a9e949f6e6f82499eec5cd883d47c` | package README, developer docs and Specs |
-| `larena/access` | `0c504fc86a02cd499664a8233d24c54a6854b788` | package README, developer docs and Specs |
-| `larena/property` | `b0253f5f2546ea8bcb8e52b47f31f9f71ae627c7` | package README, module manifest and Specs |
-| `larena/storage` | `b361f6e16ed8b5e18d78b47b9d9fa6620b588a16` | package README, developer docs and Specs |
+| `larena/auth` | `640c6c2f6c791fed1590b39f3920e65b511c7ccb` | package README, developer docs and Specs |
+| `larena/access` | `d8fcd4ceae598991f93f05d5b439e76b3c9f9f4a` | package README, developer docs and Specs |
+| `larena/property` | `d0053051ad9616cc24c460ffea249028c881649d` | package README, module manifest and Specs |
+| `larena/storage` | `17e9df2274bb027b08308c0522ff6c42bd4e47ee` | package README, developer docs and Specs |
 | `larena/filesystem` | `996093e547237f740af8c2cb2a0fca96cabd4c96` | package README, module manifest and Specs |
-| `larena/dataview` | `685919570a7a57654528c4577bd119e436189e23` | package README, module manifest and Specs |
-| `larena/layout` | `30c4ab5f452584d7c95d6186ed4d4b9ab999a5f5` | package README, module manifest and Specs |
-| `larena/ui` | `7506dac223bfe981144e2f40d42ef3826b5d58b8` | package README, module manifest and Specs |
-| `larena/admin` | `e9c2969b80f279e38e700ccf2fa013580b2383a0` | package README, module manifest and Specs |
+| `larena/dataview` | `a838384e9dc3b143116a9c60dff3eb952feaac9b` | package README, module manifest and Specs |
+| `larena/layout` | `5c098f51e497944f50ee8ae719d91077b949e0ed` | package README, module manifest and Specs |
+| `larena/ui` | `2b45c2ac1eb99ac962a60e13fdf6b4bd978982f0` | package README, module manifest and Specs |
+| `larena/admin` | `3f6fcd87f0c148c487cf4d7792acb50399cb20a7` | package README, module manifest and Specs |
 
 ## Precedence
 
