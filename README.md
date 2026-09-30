@@ -1,7 +1,7 @@
 # Larena Documentation
 
 Russian documentation for the Larena developer foundation. The site is built
-with Docara 2.11.0 and is intended to be served locally at
+with Docara 2.12.0 and is intended to be served locally at
 `https://larena-doc.test`.
 
 ## Build

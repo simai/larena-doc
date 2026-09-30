@@ -1,8 +1,8 @@
 {
     "engine_files": {
-        "dependency-lock.json": "cfc464787585f103abdd38754f6e131a0d15cc75d5e7ee6b42db3972ff734b07",
-        "framework-lock.json": "f84c5759f5aedebe66d93b6abd8d179aad716dfebeacc701b406c46940dfe4a2",
-        "package-revision.json": "a42f90c3c4669c33bd5f136564fd45d773df10f26e30ec18ede0202484edcaa9",
+        "dependency-lock.json": "6c989dded097dda8702700a0eb847c5fd04ee9b56398434cbcc57c3fc93d372c",
+        "framework-lock.json": "bcda173fbb18d26c6d884d2702c94136046ff3552c39ec7fa5a3479d69b79669",
+        "package-revision.json": "aa906af9c3662759b8695a8c5bef64a976bb883d118868abb43589d3a08de842",
         "schemas/authoring.schema.json": "521d33ba765ef41098ab13fd8b94c09c1a93148a234126d51b1bccb0307f9b10",
         "schemas/binding-branding-props.schema.json": "930bbfdbd0dbe714d3d57b75c6eaa3791ac5bf12e6087d64d5334f40989a2b24",
         "schemas/binding-descriptor.schema.json": "93b32c03babadb340c22571049092e57ac66774454392e16f559d85638cc134f",
@@ -300,11 +300,11 @@
         },
         "contracts/generated/documentation-source.json": {
             "owner": "project",
-            "sha256": "db637aafd02aaa4768c809d3637edd4b4b83437383c39c21fc4cc75fcafd93a0"
+            "sha256": "ead22985880f28e4578d72b1a19d9f10aa4d13e541a064a4640c13700e5957cc"
         },
         "contracts/generated/framework-contract-registry.json": {
             "owner": "project",
-            "sha256": "5e4cabe54e86a55efd6bcfa843bc36acca8a02d858c9fe0d3e0952e77ec69ec6"
+            "sha256": "14577d036c016abcc68968ee686f8a92291635afa3038347e51aed33bce96af1"
         },
         "design/blocks/project.footer-smart.json": {
             "owner": "project",
@@ -328,7 +328,7 @@
         },
         "simai-framework.lock.json": {
             "owner": "project",
-            "sha256": "bb53ecbdb397735ab1524a68f413fdd6ac059be4645a6398589599b72a6a9b8f"
+            "sha256": "f12976089fcd546160d83689d986209934b8e06a58fda6d20cf8f233676cc7ae"
         },
         "smart/project.footer-links/assets/footer-links.css": {
             "owner": "project",
