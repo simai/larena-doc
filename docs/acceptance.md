@@ -17,7 +17,7 @@ Verified on 2026-09-14 against the revisions in `docs/source-map.md`.
 
 ## Docara and static output
 
-- `composer.lock` resolves `simai/docara` 2.9.1 at the published tag commit.
+- `composer.lock` resolves `simai/docara` 2.11.0 at the published tag commit.
 - ServBay PHP 8.4.20 satisfies the project's explicit PHP 8.4.1 minimum; the system PHP 8.2 runtime is intentionally rejected by Composer.
 - `"$LARENA_DOC_PHP" vendor/bin/docara doctor --json` passed.
 - `"$LARENA_DOC_PHP" vendor/bin/docara validate project --json` reported 0 errors, 0 undeclared pages and 24 passed checks. The 22 public pages remain visible in the authoring report for human editorial review.

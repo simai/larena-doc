@@ -62,6 +62,8 @@ try {
     $relevantCommits = gitLines($temporary, [
         'log', '--format=%H', $latestTag . '..refs/remotes/origin/main', '--', '.',
         ':(exclude).github/release-request.json',
+        // Listing a published release in the release index is a publication marker too.
+        ':(exclude)docs/releases/README.md',
     ]);
 
     $errors = [];

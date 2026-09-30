@@ -1,7 +1,7 @@
 # Larena Documentation
 
 Russian documentation for the Larena developer foundation. The site is built
-with Docara 2.9.1 and is intended to be served locally at
+with Docara 2.11.0 and is intended to be served locally at
 `https://larena-doc.test`.
 
 ## Build
@@ -11,6 +11,10 @@ LARENA_DOC_PHP="${LARENA_DOC_PHP:-/Applications/ServBay/package/php/8.4/8.4.20/b
 LARENA_DOC_COMPOSER="${LARENA_DOC_COMPOSER:-/Applications/ServBay/package/bin/composer}"
 "$LARENA_DOC_PHP" "$LARENA_DOC_COMPOSER" install
 "$LARENA_DOC_PHP" vendor/bin/docara doctor --json
+# The build compiles Composition Recipes with the exact pinned Framework:
+# a checkout of simai/ui at the revision named in simai-framework.lock.json
+# (runtime.ui.commit) and Node.js 20.
+DOCARA_SIMAI_UI_ROOT=/absolute/path/to/ui DOCARA_NODE_BINARY=/absolute/path/to/node \
 "$LARENA_DOC_PHP" vendor/bin/docara build production
 "$LARENA_DOC_PHP" vendor/bin/docara verify-static build_production
 ```

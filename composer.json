@@ -1,7 +1,7 @@
 {
     "require": {
         "php": ">=8.4.1",
-        "simai/docara": "2.9.1"
+        "simai/docara": "2.11.0"
     },
     "scripts": {
         "docs:status": "@php scripts/documentation-impact.php status",
