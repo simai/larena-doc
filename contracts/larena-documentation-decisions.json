@@ -1735,6 +1735,132 @@
             },
             "accepted_at": "2026-09-30T19:50:51+00:00",
             "id": "1d93488a8450544cfa5110c708ab454d16efc57d8739e5b0bb076a0362343222"
+        },
+        {
+            "source": "specs",
+            "from_revision": "30c908f24d72aa437f8354b8de772f629aad89d9",
+            "to_revision": "d9c947fcdc2b013c4aac7e4c78a0438c93a5a57a",
+            "changed_paths": [
+                "graph/specs/evolution-tracks/storage-localized-values.json",
+                "graph/specs/evolution-tracks/storage-publication-lifecycle.json",
+                "graph/specs/evolution-tracks/storage-read-contracts.json",
+                "graph/specs/evolution-tracks/storage-record-relations.json",
+                "graph/specs/evolution-tracks/storage-structure-roles.json",
+                "graph/specs/objects/feature-storage-localized-values.json",
+                "graph/specs/objects/feature-storage-publication-lifecycle.json",
+                "graph/specs/objects/feature-storage-read-contracts.json",
+                "graph/specs/objects/feature-storage-record-relations.json",
+                "graph/specs/objects/feature-storage-structure-roles.json",
+                "specs/packages/storage/features.json",
+                "specs/packages/storage/features/localized-values/feature.json",
+                "specs/packages/storage/features/publication-lifecycle/feature.json",
+                "specs/packages/storage/features/read-contracts/feature.json",
+                "specs/packages/storage/features/record-relations/feature.json",
+                "specs/packages/storage/features/structure-roles/feature.json"
+            ],
+            "changed_paths_sha256": "fa8f48526390679e4c957350b436301551455f291ddba84aa3d74b957ddc1279",
+            "impacted_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page states that public reads follow Lang's locale order and that the scheduler runs the publication sweep; the other impacted pages were reviewed and hold.",
+            "updated_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "page_sha256": {
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "packages.storage": "ee888d03d57ba43bf76a86985a46691a43b1380fe3a248efe4ba82fb40e21082",
+                "standards": "704117b0d68f1219277696db8561d3ee0c0129be239ab13cf2ff747fb56fa2b8"
+            },
+            "accepted_at": "2026-09-30T21:15:29+00:00",
+            "id": "d21321511148ba51a54c08bc4db7ef1d3d679ca13deaaed5954d68ced70649a6"
+        },
+        {
+            "source": "root",
+            "from_revision": "f0d5821fad633c28228f2b9110bd30d1cb5323c9",
+            "to_revision": "c00920249e9c4ef5c157fa098f7dcd179f4817f1",
+            "changed_paths": [
+                "docs/developer/storage-backed-page-runtime.md"
+            ],
+            "changed_paths_sha256": "1c4a337d278b6746bd9ac6622f39ab512d5bf45db6d56cc7d49c7c3e1d76de2e",
+            "impacted_pages": [],
+            "decision": "documentation_not_affected",
+            "reason": "Root adds the Lang-backed locale fallback binding, the site fallback locale setting and a runtime guide section; no mapped page describes them beyond the Storage page.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-09-30T21:15:30+00:00",
+            "id": "a6b5190188696c9b19fdb1c7150d025ccb79a24c8cebaa55c4091545eba693a3"
+        },
+        {
+            "source": "package.lang",
+            "from_revision": "b668a2ff3d4d39958938a40ce7a57771d554f101",
+            "to_revision": "dad8b2e8ee24d41f052f9cbcd960f8caee302d90",
+            "changed_paths": [
+                "src/Contracts/FallbackPolicy.php"
+            ],
+            "changed_paths_sha256": "f751a85e017c67e23524f6cfd1e4e10b67bf5f26c115ac1f20ba275e07c0ac91",
+            "impacted_pages": [
+                "concepts",
+                "packages.lang"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Lang page explains FallbackPolicy::chainFor as the locale order for localized data shared with interface text.",
+            "updated_pages": [
+                "concepts",
+                "packages.lang"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "packages.lang": "81c1ebc8f791c0a20df7ddefc2a26be86e2b470781a2a5594dbf48c3e93dcb9f"
+            },
+            "accepted_at": "2026-09-30T21:15:31+00:00",
+            "id": "47caf4505af225d5b962233fb252dc2d53a5a9916db85571a9228fb2937983c5"
+        },
+        {
+            "source": "package.storage",
+            "from_revision": "17e9df2274bb027b08308c0522ff6c42bd4e47ee",
+            "to_revision": "2dc08fb8d3a652d0d5d8b1c4f2aa21ba582b4e6e",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/runtime.md",
+                "src/Contracts/LocaleFallbackResolver.php"
+            ],
+            "changed_paths_sha256": "22d98d34bce0ec376b3e1bb48c5ecaf52ae0ffeb5f59fd6c8ef784e4d2cf22db",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page describes the Lang locale order for public reads and the storage:publication:sweep command with its cron line.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "operations": "d46d0a3f02e28dedd91bd5866cb6159d410e82f7d0edf77fc22f30812a8dc21a",
+                "packages.storage": "ee888d03d57ba43bf76a86985a46691a43b1380fe3a248efe4ba82fb40e21082",
+                "versions": "eafb2501dd8d597bd9333bd55a18b977485d01667f543294a849ccc7a0783bf9"
+            },
+            "accepted_at": "2026-09-30T21:15:32+00:00",
+            "id": "e6350f2d8752f17f997f91ab2c92a61e2dcb5cc41052187f2d3649f63289116c"
         }
     ]
 }
