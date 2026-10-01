@@ -2343,6 +2343,99 @@
             },
             "accepted_at": "2026-10-01T13:07:55+00:00",
             "id": "3e880141bcfeecc023f4298e79319e71df5bcdf255632183f144d4ad6e27e914"
+        },
+        {
+            "source": "specs",
+            "from_revision": "7823a34d7a06a08e0a28fe7d37089dc098e00069",
+            "to_revision": "5210357c6f0a3e99d5b58d9880eb7c74d6f7ada1",
+            "changed_paths": [
+                "graph/specs/evolution-tracks/storage-record-relations.json",
+                "graph/specs/evolution-tracks/storage-structure-roles.json",
+                "graph/specs/objects/feature-storage-record-relations.json",
+                "specs/packages/storage/features/record-relations/feature.json",
+                "specs/packages/storage/features/structure-roles/feature.json"
+            ],
+            "changed_paths_sha256": "db4d743cd37c0a6e376eb1a7337d45699163be10e1e80658057ad7eba0f087f0",
+            "impacted_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page reports relations at 6 of 7, roles at 7 of 8 and the audit count of 31 of 34; the other impacted pages were reviewed and hold.",
+            "updated_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "page_sha256": {
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "packages.storage": "1d28d262a01f9a289b274a537fe8742eb978e04d44c89c3ffccd59437aed51b8",
+                "standards": "704117b0d68f1219277696db8561d3ee0c0129be239ab13cf2ff747fb56fa2b8"
+            },
+            "accepted_at": "2026-10-01T14:29:02+00:00",
+            "id": "321a0a6fb3b05e2facfee66bb3ffaef7c636fb505e0dbd6e592329871d65db9c"
+        },
+        {
+            "source": "root",
+            "from_revision": "aeab956fb79804123d49e089f9bb61cf38e86e2e",
+            "to_revision": "7fe7412262b05ca2876ffde24dbec697e6283c85",
+            "changed_paths": [
+                "docs/developer/storage-backed-page-runtime.md"
+            ],
+            "changed_paths_sha256": "1c4a337d278b6746bd9ac6622f39ab512d5bf45db6d56cc7d49c7c3e1d76de2e",
+            "impacted_pages": [],
+            "decision": "documentation_not_affected",
+            "reason": "Root binds scope visibility and the site's role dependency; the Storage page describes the behaviour.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-10-01T14:29:03+00:00",
+            "id": "5dc9b47223eba712bfad791d5daac2f46bf238a9f9ccae9c8f5b1af32addd598"
+        },
+        {
+            "source": "package.storage",
+            "from_revision": "dca5e85e4d5328e091d17b664573a6ae80f9b7bf",
+            "to_revision": "a91ec857ee06d501d79663b2207ebf11fb5c88cd",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/runtime.md",
+                "src/Contracts/RecordReadVisibility.php",
+                "src/Contracts/RelationTargets.php",
+                "src/Contracts/StorageSecurityEvent.php",
+                "src/Contracts/StructureRoleRegistry.php"
+            ],
+            "changed_paths_sha256": "41a0d0ae72e4c917363206219da266090850f6665b6048f26d095351bd288ed9",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page describes relation checks, delete policies, scoped trees, role fixtures, diagnostics, version migration and dependencies.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "operations": "44aedfa782ab5c6211a34276c48f447aa459e8a8bc0f764a9df481fc03cca025",
+                "packages.storage": "1d28d262a01f9a289b274a537fe8742eb978e04d44c89c3ffccd59437aed51b8",
+                "versions": "bfcc3b24ada881e1d709befb9fda2138af3ea34cee29b2fb62bdc868517cbb2b"
+            },
+            "accepted_at": "2026-10-01T14:29:04+00:00",
+            "id": "59fac7fe9d111137589e653717ed7eaec9bffbeb456f9f136e1406f56b5939e4"
         }
     ]
 }
