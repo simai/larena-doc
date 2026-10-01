@@ -2045,6 +2045,38 @@
             },
             "accepted_at": "2026-10-01T10:08:02+00:00",
             "id": "b960001048002190d6adfb138413a75429002b8a12a994d5bef480a97afbadf2"
+        },
+        {
+            "source": "specs",
+            "from_revision": "d7f2c143620aacdd80193db05d389f988eb48db2",
+            "to_revision": "b1395b3b0ed9ee0e9a865d97f6263d58c43c2f1f",
+            "changed_paths": [
+                "graph/specs/evolution-tracks/storage-publication-lifecycle.json",
+                "specs/packages/storage/features/publication-lifecycle/feature.json"
+            ],
+            "changed_paths_sha256": "034e3de4d18152b2a53d38d843d337fcf9f6d6550dd77ee3044bc1739700e831",
+            "impacted_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page states the rewritten publication criteria (scheduler sweep, a read never publishes; unpublish reports the withdrawn revision) and the audit count of 14 of 34; the other impacted pages were reviewed and hold.",
+            "updated_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "page_sha256": {
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "packages.storage": "22e8ae9ea12c0048298c6d8c159313f309cf86641da10a5db0ae2c0f20d10a42",
+                "standards": "704117b0d68f1219277696db8561d3ee0c0129be239ab13cf2ff747fb56fa2b8"
+            },
+            "accepted_at": "2026-10-01T10:48:45+00:00",
+            "id": "33154bedce9989483a9c330f5d91350879fc624e23ad9932f968ac0cffba5628"
         }
     ]
 }

@@ -7,7 +7,7 @@
             "id": "specs",
             "label": "Larena Specs",
             "repository": "../larena-specs",
-            "verified_revision": "d7f2c143620aacdd80193db05d389f988eb48db2",
+            "verified_revision": "b1395b3b0ed9ee0e9a865d97f6263d58c43c2f1f",
             "public_paths": [
                 "README.md",
                 "standards/**",
@@ -17,7 +17,7 @@
                 "specs/interface-program/**",
                 "frontend-program.standards.project.json"
             ],
-            "last_decision": "efb78978d019867aab1da6784c5036aaf92001bb416349eb6d87987cd5f54f94"
+            "last_decision": "33154bedce9989483a9c330f5d91350879fc624e23ad9932f968ac0cffba5628"
         },
         {
             "id": "root",
