@@ -2166,6 +2166,94 @@
             },
             "accepted_at": "2026-10-01T11:32:35+00:00",
             "id": "5920bfd7beeb8a03b823600ecd6e3644a2196617ed3e7d0c6ad6cb44ce3fe2e5"
+        },
+        {
+            "source": "specs",
+            "from_revision": "455cc11fcbb141725d0836c9a00176b4a2a0a09e",
+            "to_revision": "a78ee7c6bb1711194694255332271b9920e90551",
+            "changed_paths": [
+                "graph/specs/evolution-tracks/storage-read-contracts.json",
+                "specs/packages/storage/features/read-contracts/feature.json"
+            ],
+            "changed_paths_sha256": "d9be6e918519b43bc98539bd56278013ce93f0dcc5a83f7fd3d53b15d0f98a70",
+            "impacted_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page reports read contracts at 6 of 6 criteria and the audit count of 19 of 34; the other impacted pages were reviewed and hold.",
+            "updated_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "page_sha256": {
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "packages.storage": "a6516ec9cf9f18f882fc54f7b4dbcbef34adb32013b29d81d09197f48ee51f85",
+                "standards": "704117b0d68f1219277696db8561d3ee0c0129be239ab13cf2ff747fb56fa2b8"
+            },
+            "accepted_at": "2026-10-01T12:14:19+00:00",
+            "id": "7e21f937b9db6d8fe2753f402c88873413522a0912fbace82c2f1e228faf4172"
+        },
+        {
+            "source": "root",
+            "from_revision": "0bc37962e7642d0e5d9d570fca54da6de6b6270a",
+            "to_revision": "c8a273823f21e5cd3c5b39a67be6d7df663db481",
+            "changed_paths": [
+                "docs/developer/storage-backed-page-runtime.md"
+            ],
+            "changed_paths_sha256": "1c4a337d278b6746bd9ac6622f39ab512d5bf45db6d56cc7d49c7c3e1d76de2e",
+            "impacted_pages": [],
+            "decision": "documentation_not_affected",
+            "reason": "Root declares the site slug key, adds the Search rebuild test and mends the headless composition; the Storage page describes the behaviour.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-10-01T12:14:22+00:00",
+            "id": "73ad4ded5eeb7a13f0f4c4fc17d2cd9f09d60bc9f3069b63b3ab2d0b4fce10d8"
+        },
+        {
+            "source": "package.storage",
+            "from_revision": "64201ba4f7605356f838e0fd58c5c3ba3721af5f",
+            "to_revision": "94976a1da58cc52db028fb0faef33c2539ac3d79",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/runtime.md",
+                "src/Contracts/PublicationGuard.php",
+                "src/Contracts/PublishedKeyPolicy.php"
+            ],
+            "changed_paths_sha256": "5e640519ec45c5e241f21362d957a208f4a72b014d4a4c8ce3be04f7b834b045",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page describes key uniqueness on publish, full key lookups, the Search rebuild and the headless composition.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "operations": "44aedfa782ab5c6211a34276c48f447aa459e8a8bc0f764a9df481fc03cca025",
+                "packages.storage": "a6516ec9cf9f18f882fc54f7b4dbcbef34adb32013b29d81d09197f48ee51f85",
+                "versions": "bfcc3b24ada881e1d709befb9fda2138af3ea34cee29b2fb62bdc868517cbb2b"
+            },
+            "accepted_at": "2026-10-01T12:14:23+00:00",
+            "id": "ba8adfabcffd7d011b4bdc2f2230a7679553e4d8a1ed7530e50ec58dbbdaa8af"
         }
     ]
 }
