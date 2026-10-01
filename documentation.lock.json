@@ -126,11 +126,11 @@
             "key": "larena.package.storage",
             "kind": "package",
             "page_path": "content/ru/packages/storage.md",
-            "page_sha256": "a6516ec9cf9f18f882fc54f7b4dbcbef34adb32013b29d81d09197f48ee51f85",
+            "page_sha256": "26a65fc0f8e9ae0e891b60af411980cc0ab2ef8a88894cf3e7ea6b293b273b8a",
             "review": "ai_verified",
             "route": "/ru/packages/storage/",
             "source": "larena",
-            "source_sha256": "cdc7190a3a224ce7343d9453e412bb91e24bb232fd8af2da6365220aaf420d66"
+            "source_sha256": "61e069232827943a97e85c2e92beea77f884ab6af044467573a663e04260ed63"
         },
         {
             "examples": [],

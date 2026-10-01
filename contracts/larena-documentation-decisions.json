@@ -2254,6 +2254,95 @@
             },
             "accepted_at": "2026-10-01T12:14:23+00:00",
             "id": "ba8adfabcffd7d011b4bdc2f2230a7679553e4d8a1ed7530e50ec58dbbdaa8af"
+        },
+        {
+            "source": "specs",
+            "from_revision": "a78ee7c6bb1711194694255332271b9920e90551",
+            "to_revision": "7823a34d7a06a08e0a28fe7d37089dc098e00069",
+            "changed_paths": [
+                "graph/specs/evolution-tracks/storage-localized-values.json",
+                "specs/packages/storage/features/localized-values/feature.json"
+            ],
+            "changed_paths_sha256": "b6708bae74efc86d5aa10b3052e24f59dbaa04d80378339d8b261568f14bb83e",
+            "impacted_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page reports localized values at 5 of 6 criteria and the audit count of 22 of 34; the other impacted pages were reviewed and hold.",
+            "updated_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "page_sha256": {
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "packages.storage": "26a65fc0f8e9ae0e891b60af411980cc0ab2ef8a88894cf3e7ea6b293b273b8a",
+                "standards": "704117b0d68f1219277696db8561d3ee0c0129be239ab13cf2ff747fb56fa2b8"
+            },
+            "accepted_at": "2026-10-01T13:07:52+00:00",
+            "id": "c9b5dd3cdb0a8e4ae33ac9a5c84dd5640e15031a138a01399d7548a6322fee93"
+        },
+        {
+            "source": "root",
+            "from_revision": "c8a273823f21e5cd3c5b39a67be6d7df663db481",
+            "to_revision": "aeab956fb79804123d49e089f9bb61cf38e86e2e",
+            "changed_paths": [
+                "docs/developer/storage-backed-page-runtime.md"
+            ],
+            "changed_paths_sha256": "1c4a337d278b6746bd9ac6622f39ab512d5bf45db6d56cc7d49c7c3e1d76de2e",
+            "impacted_pages": [],
+            "decision": "documentation_not_affected",
+            "reason": "Root only pins Storage and documents the starter site's localized fields; the Storage page describes the behaviour.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-10-01T13:07:54+00:00",
+            "id": "26b658fc970b52c34ac8199e70bd66ed914fb3aae36d230f28d9461e4df7d27e"
+        },
+        {
+            "source": "package.storage",
+            "from_revision": "94976a1da58cc52db028fb0faef33c2539ac3d79",
+            "to_revision": "dca5e85e4d5328e091d17b664573a6ae80f9b7bf",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/runtime.md",
+                "src/Contracts/ReadContracts.php",
+                "src/Contracts/ResolvedKey.php",
+                "src/Contracts/StorageSecurityEvent.php"
+            ],
+            "changed_paths_sha256": "18d8eb8d5e5a2f69d12a07f3e2327611d1d10fb1568024bc78ec67ce3570888b",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page describes translation rules from the schema, the primary locale, audited translations and value source marks.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "operations": "44aedfa782ab5c6211a34276c48f447aa459e8a8bc0f764a9df481fc03cca025",
+                "packages.storage": "26a65fc0f8e9ae0e891b60af411980cc0ab2ef8a88894cf3e7ea6b293b273b8a",
+                "versions": "bfcc3b24ada881e1d709befb9fda2138af3ea34cee29b2fb62bdc868517cbb2b"
+            },
+            "accepted_at": "2026-10-01T13:07:55+00:00",
+            "id": "3e880141bcfeecc023f4298e79319e71df5bcdf255632183f144d4ad6e27e914"
         }
     ]
 }
