@@ -7,7 +7,7 @@
             "id": "specs",
             "label": "Larena Specs",
             "repository": "../larena-specs",
-            "verified_revision": "352cb084b0b5ff06075d65d699e1c8877fa67b8e",
+            "verified_revision": "d7f2c143620aacdd80193db05d389f988eb48db2",
             "public_paths": [
                 "README.md",
                 "standards/**",
@@ -17,13 +17,13 @@
                 "specs/interface-program/**",
                 "frontend-program.standards.project.json"
             ],
-            "last_decision": "918e881b223bb1fb83ba1662a2075b2dd504a648ac43de7afe3c5350685e3d74"
+            "last_decision": "efb78978d019867aab1da6784c5036aaf92001bb416349eb6d87987cd5f54f94"
         },
         {
             "id": "root",
             "label": "Larena Root",
             "repository": "../larena",
-            "verified_revision": "45fd570f55f633870d104a885dde1c8af7765000",
+            "verified_revision": "0f8ac71741fc481e3df0e6a486715a9afe2c2c76",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -32,7 +32,7 @@
                 "docs/developer/**",
                 "scripts/larena-runtime.php"
             ],
-            "last_decision": "3efbea8940bc2393b29c520f29957f999925d7ee9c2c87b75527e0bd8b1145f8"
+            "last_decision": "471f82ca044bd2e45c8f5135db06727e2a07f2708c076ab2aef229731865b950"
         },
         {
             "id": "workspace",
@@ -147,7 +147,7 @@
             "id": "package.storage",
             "label": "larena/storage",
             "repository": "../larena-workspace/packages/storage",
-            "verified_revision": "f05e0b35c4fcb2d2b53127d06d07c8adf059c4e2",
+            "verified_revision": "34a93ec168a34ecae24b61666a12553ed94610f8",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -157,7 +157,7 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "abd0154e0461854231e5498ed50c059a32804ca6841a3dc17de843ebc72ea1c4"
+            "last_decision": "b960001048002190d6adfb138413a75429002b8a12a994d5bef480a97afbadf2"
         },
         {
             "id": "package.filesystem",

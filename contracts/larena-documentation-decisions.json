@@ -1949,6 +1949,102 @@
             },
             "accepted_at": "2026-10-01T09:17:05+00:00",
             "id": "abd0154e0461854231e5498ed50c059a32804ca6841a3dc17de843ebc72ea1c4"
+        },
+        {
+            "source": "specs",
+            "from_revision": "352cb084b0b5ff06075d65d699e1c8877fa67b8e",
+            "to_revision": "d7f2c143620aacdd80193db05d389f988eb48db2",
+            "changed_paths": [
+                "graph/specs/evolution-tracks/storage-localized-values.json",
+                "graph/specs/evolution-tracks/storage-publication-lifecycle.json",
+                "graph/specs/evolution-tracks/storage-read-contracts.json",
+                "graph/specs/evolution-tracks/storage-record-relations.json",
+                "graph/specs/evolution-tracks/storage-structure-roles.json",
+                "specs/packages/storage/features/localized-values/feature.json",
+                "specs/packages/storage/features/publication-lifecycle/feature.json",
+                "specs/packages/storage/features/read-contracts/feature.json",
+                "specs/packages/storage/features/record-relations/feature.json",
+                "specs/packages/storage/features/structure-roles/feature.json"
+            ],
+            "changed_paths_sha256": "0b336b8bf301ed37b130d100bf14162f35fd784cf0d77d12c63c5d3f9ade2cfa",
+            "impacted_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page summarises the acceptance audit of five Storage features (12 of 34 criteria met) and points to the matrix; the other impacted pages were reviewed and hold.",
+            "updated_pages": [
+                "development",
+                "development.materials-catalog",
+                "packages.storage",
+                "standards"
+            ],
+            "page_sha256": {
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "packages.storage": "52216cc7d6c1e2126fd25fa7c58b5efad3baf5d69c0081bf559aea550e927f91",
+                "standards": "704117b0d68f1219277696db8561d3ee0c0129be239ab13cf2ff747fb56fa2b8"
+            },
+            "accepted_at": "2026-10-01T10:08:00+00:00",
+            "id": "efb78978d019867aab1da6784c5036aaf92001bb416349eb6d87987cd5f54f94"
+        },
+        {
+            "source": "root",
+            "from_revision": "45fd570f55f633870d104a885dde1c8af7765000",
+            "to_revision": "0f8ac71741fc481e3df0e6a486715a9afe2c2c76",
+            "changed_paths": [
+                "docs/developer/storage-backed-page-runtime.md"
+            ],
+            "changed_paths_sha256": "1c4a337d278b6746bd9ac6622f39ab512d5bf45db6d56cc7d49c7c3e1d76de2e",
+            "impacted_pages": [],
+            "decision": "documentation_not_affected",
+            "reason": "Root passes the caller visibility filter to the REST and HTML site reads; the Storage page describes the behaviour, no Root-specific page is mapped.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-10-01T10:08:01+00:00",
+            "id": "471f82ca044bd2e45c8f5135db06727e2a07f2708c076ab2aef229731865b950"
+        },
+        {
+            "source": "package.storage",
+            "from_revision": "f05e0b35c4fcb2d2b53127d06d07c8adf059c4e2",
+            "to_revision": "34a93ec168a34ecae24b61666a12553ed94610f8",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/runtime.md",
+                "src/Contracts/PublishedReadVisibility.php",
+                "src/Contracts/ReadContracts.php"
+            ],
+            "changed_paths_sha256": "79e94917f9b441975ec1aedc1b275846d5a9271dae22fc1e1577449f0160ac86",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "The Storage page describes Property validation of translations and the PublishedReadVisibility port used by every read surface.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "31edc36d228d4990c8f28db0e5eae1eb36a7fa4da2d33c4885f70c9f19aabc29",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "918fc0365dc4eb5563c9afcbcd83e66c122ec9f4ec4c8c47323e6b43fad51da2",
+                "operations": "44aedfa782ab5c6211a34276c48f447aa459e8a8bc0f764a9df481fc03cca025",
+                "packages.storage": "52216cc7d6c1e2126fd25fa7c58b5efad3baf5d69c0081bf559aea550e927f91",
+                "versions": "bfcc3b24ada881e1d709befb9fda2138af3ea34cee29b2fb62bdc868517cbb2b"
+            },
+            "accepted_at": "2026-10-01T10:08:02+00:00",
+            "id": "b960001048002190d6adfb138413a75429002b8a12a994d5bef480a97afbadf2"
         }
     ]
 }
