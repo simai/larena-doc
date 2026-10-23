@@ -1,0 +1,26 @@
+version = 1
+SPDX-PackageName = "Larena documentation"
+SPDX-PackageSupplier = "Rim Zabarov <rim@zabarov.com>"
+SPDX-PackageDownloadLocation = "https://github.com/simai/larena-doc"
+
+# Later annotations override earlier ones for the same file.
+
+# Documentation text and everything else not listed below.
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Rim Zabarov"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["content/**/*.md", "docs/**", "source/**/*.md", "README.md"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Rim Zabarov"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Code and code samples.
+[[annotations]]
+path = ["scripts/**", "snippets/**", "smart/**", "tests/**", "**/*.php", "**/*.js", "**/*.mjs", "**/*.css"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Rim Zabarov"
+SPDX-License-Identifier = "Apache-2.0"
