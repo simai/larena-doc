@@ -1,4 +1,11 @@
 {
+    "authors": [
+        {
+            "name": "Rim Zabarov",
+            "homepage": "https://github.com/zabarov",
+            "role": "Author"
+        }
+    ],
     "require": {
         "php": ">=8.4.1",
         "simai/docara": "^3.0.2"

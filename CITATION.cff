@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you refer to Larena Documentation, please cite it as below."
+title: "Larena Documentation"
+abstract: "Russian documentation for the Larena developer foundation."
+type: software
+authors:
+  - family-names: "Zabarov"
+    given-names: "Rim"
+    email: "rim@zabarov.com"
+repository-code: "https://github.com/simai/larena-doc"
