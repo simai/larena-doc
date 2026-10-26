@@ -5692,6 +5692,180 @@
             },
             "accepted_at": "2026-10-25T23:56:39+00:00",
             "id": "75b86482cbefc073020437c1e82d72ce1f7a3d25705ea41fdbaff24c8f565144"
+        },
+        {
+            "source": "root",
+            "from_revision": "87e6430f8095f437a5c1011e1925566bb2f2688f",
+            "to_revision": "48ff545f78b4421496b5e557e3dd7a2c791e23b2",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/clean-distribution-and-upgrade.md",
+                "routes/console.php",
+                "routes/console/guarded-settings-apply.php",
+                "routes/console/public-link.php",
+                "routes/console/settings-property.php",
+                "routes/larena/data-content-preview.php",
+                "routes/larena/internal-preview.php",
+                "routes/larena/internal.php",
+                "routes/larena/operator.php"
+            ],
+            "changed_paths_sha256": "1b554326bcb258c94dae7eadc441f05ba239a6bbb4b7b74f9481a46bcf0c4d75",
+            "impacted_pages": [
+                "home",
+                "operations",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Start: the installer verifies providers, migrations and Minimal CMS before success, a moved installation is refused, two check modes (installed distribution vs repository quality:full); versions: current Root, Workspace and Specs revisions. The removed preview screens were never described on public pages.",
+            "updated_pages": [
+                "home",
+                "operations",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "home": "706ca7d07310a98752e063ea2a7418861344b8047c56d4d66ec2a61a1f416a25",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "start": "801e4f18bf226d2084fd8a202be6cd6c0f780345a02b54162846ec1dac2b923f",
+                "versions": "4f62ef4742f432616899739503fb103b370bc1fdae937a75a5eaaaa255b8b795"
+            },
+            "accepted_at": "2026-10-26T18:55:10+00:00",
+            "id": "42cf4c9def7d1ba5c78f18b88fbd9c379625e94ee45ad90c9ce8758b82c61360"
+        },
+        {
+            "source": "package.setting",
+            "from_revision": "e61a03480dde17575411336c92ef64df8fcad8cf",
+            "to_revision": "f44f1e249541235b71b2527ce18ac0dc470e0324",
+            "changed_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "routes/internal.php"
+            ],
+            "changed_paths_sha256": "a54663a0f7840fb634d08a10c7d7ae223046b0026dce9aa68ef1a830ce5ccbf6",
+            "impacted_pages": [
+                "cms",
+                "concepts",
+                "packages.setting",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Setting page: the check section no longer cites the removed guarded-apply smokes; changes go through a draft. Source revision updated.",
+            "updated_pages": [
+                "cms",
+                "concepts",
+                "packages.setting",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "bd5e0c8b27723a76184ac61fddbe364c366f85a1aa16514ec7a8265802d0e4b4",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "packages.setting": "3350849312edfdc8f7a373f381bf221e58804bbda8d6914513737b51c4f6aacb",
+                "versions": "4f62ef4742f432616899739503fb103b370bc1fdae937a75a5eaaaa255b8b795"
+            },
+            "accepted_at": "2026-10-26T18:55:11+00:00",
+            "id": "14c1f6448e5bb20bf960543f512e3b7be2f3561a11b0a9756818e077980d99cf"
+        },
+        {
+            "source": "package.property",
+            "from_revision": "5ae11ae70d5942eec20761d551f5cc82cb19d04c",
+            "to_revision": "fd8c8b6e2af1ce2e44c3374b08dcfc6f15446cdc",
+            "changed_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "routes/internal.php"
+            ],
+            "changed_paths_sha256": "a54663a0f7840fb634d08a10c7d7ae223046b0026dce9aa68ef1a830ce5ccbf6",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.property",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Only obsolete preview screens were removed from the package; the property page now cites the current source revision.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.property",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "bd6b28e702143661e51710bf7c9f10f918ea9fe74fa4239caeb5e712d8e46428",
+                "packages.property": "f0425d7ee6f4fef269f82b09817738ea66eb9b59d8fa0bc8c3099806b22b3709",
+                "versions": "4f62ef4742f432616899739503fb103b370bc1fdae937a75a5eaaaa255b8b795"
+            },
+            "accepted_at": "2026-10-26T18:55:12+00:00",
+            "id": "445b664cee211e5401ca927c31578e0ea768af25e69a550f54978281f0ddb45f"
+        },
+        {
+            "source": "package.admin",
+            "from_revision": "238d1899efa271bab4efb30488ba4c96a728accf",
+            "to_revision": "7072bcc99f6b565eab76d9b9664671d1a1d53d4b",
+            "changed_paths": [
+                "composer.json",
+                "config/larena-admin.php",
+                "routes/admin-inventory.php",
+                "routes/admin-product.php",
+                "routes/admin.php",
+                "routes/admin/diagnostics.php",
+                "routes/admin/frontend-demo.php",
+                "routes/admin/internal-preview.php",
+                "routes/admin/operator.php",
+                "routes/admin/package-owned-frontend.php",
+                "routes/admin/protected-frontend.php",
+                "routes/admin/provider.php",
+                "routes/admin/settings-preview.php",
+                "src/Contracts/AdminDiagnosticsNavigationShellIndexSource.php",
+                "src/Contracts/AdminOperatorWorkflowStatusTimelineSource.php",
+                "src/Contracts/AdminReadinessChecklistMatrixSource.php",
+                "src/Contracts/AdminStatusCardDashboardSource.php",
+                "src/Contracts/AdminStatusPreviewSource.php"
+            ],
+            "changed_paths_sha256": "1cc206ae07efad3e72cb8cb838ecd153b2dcdda387b51d1758f5cf0fc9c0cfae",
+            "impacted_pages": [
+                "cms",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Admin page: routes section (working admin always loaded, preview flag only for the developer entry and five demo stands, no fallback screen at /admin). Shared pages reviewed: they describe only working sections.",
+            "updated_pages": [
+                "cms",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "bd5e0c8b27723a76184ac61fddbe364c366f85a1aa16514ec7a8265802d0e4b4",
+                "cms.storage": "7ba7d59af602163f37192a93e9bb5759a8bba56ccbd47b4ed45d1f0716891ff9",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "bd6b28e702143661e51710bf7c9f10f918ea9fe74fa4239caeb5e712d8e46428",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "packages.admin": "54d9ce7f7a74988f35b1d88662d9b229da9698dcb08cc9b1688cb7f804506aba",
+                "start": "801e4f18bf226d2084fd8a202be6cd6c0f780345a02b54162846ec1dac2b923f",
+                "versions": "4f62ef4742f432616899739503fb103b370bc1fdae937a75a5eaaaa255b8b795"
+            },
+            "accepted_at": "2026-10-26T18:55:14+00:00",
+            "id": "448fb4d706e5b9bd14ef2a1f895996babf185acd7ca90083164bb8e64dea700e"
         }
     ]
 }

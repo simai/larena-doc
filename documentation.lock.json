@@ -18,11 +18,11 @@
             "key": "larena.package.admin",
             "kind": "package",
             "page_path": "content/ru/packages/admin.md",
-            "page_sha256": "c9b393b5b5c697354a3b0a3bed95d9cfe3ce67017112ba396a52723bf9cad32e",
+            "page_sha256": "54d9ce7f7a74988f35b1d88662d9b229da9698dcb08cc9b1688cb7f804506aba",
             "review": "ai_verified",
             "route": "/ru/packages/admin/",
             "source": "larena",
-            "source_sha256": "8478913e885874983fdf4bb33634a19423cb793de78470554878f520222af16a"
+            "source_sha256": "c2c7ad49c9e2d4c013b57e1851a7e954f7a6d09c79114bf22f803cc041379593"
         },
         {
             "examples": [],
@@ -102,11 +102,11 @@
             "key": "larena.package.property",
             "kind": "package",
             "page_path": "content/ru/packages/property.md",
-            "page_sha256": "5b74275d9d445a2cc677399cd7d5bf31e74f7cde26359f93aa84d6fe06b110e0",
+            "page_sha256": "f0425d7ee6f4fef269f82b09817738ea66eb9b59d8fa0bc8c3099806b22b3709",
             "review": "ai_verified",
             "route": "/ru/packages/property/",
             "source": "larena",
-            "source_sha256": "f2daf4c9fc8607f206e95842348a106d0f503ca3525214971d86dd67165b9b46"
+            "source_sha256": "bf2a959830010369d28066456d266a974004c8642cc3b4baac80369e4579d1ee"
         },
         {
             "examples": [],
@@ -114,11 +114,11 @@
             "key": "larena.package.setting",
             "kind": "package",
             "page_path": "content/ru/packages/setting.md",
-            "page_sha256": "6a9a99023b4386e350850d0e9272e61ea751af1bbb38bac2b87db5984ccfdf11",
+            "page_sha256": "3350849312edfdc8f7a373f381bf221e58804bbda8d6914513737b51c4f6aacb",
             "review": "ai_verified",
             "route": "/ru/packages/setting/",
             "source": "larena",
-            "source_sha256": "1a9192fdd75ad2fce46e218ff574dc1387ba5c6315cd8dfa58756973cda2d409"
+            "source_sha256": "07ec7d60f008684e5cb7c64f697a7d0fe8f4d27d3e5664f22f47a1e8fbb717da"
         },
         {
             "examples": [],

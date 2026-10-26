@@ -40,6 +40,13 @@ translation_key: larena.start
 командой проверяет установку и ничего не меняет. Подробности — в
 `docs/developer/clean-distribution-and-upgrade.md` приложения.
 
+Перед сообщением об успехе установщик выполняет `php artisan
+larena:installation-verify` и `php artisan larena:minimal-cms-smoke`. Первая
+команда проверяет, что подключён каждый провайдер установленных пакетов
+`larena/*`, нет миграций в ожидании и собирается Minimal CMS. Установку нельзя
+переносить в другую папку: установщик откажет и назовёт оба пути. Ставьте
+сразу в нужную папку.
+
 ## Работа из репозитория
 
 1. Установите зависимости Composer.
@@ -68,9 +75,11 @@ php artisan larena:runtime-security-smoke
 
 ## Проверка результата
 
-`larena:doctor` должен подтвердить среду, а runtime smoke — базовые границы
-операций. Для полного текущего набора проверок используйте `composer
-quality:full` в entry-приложении. Не применяйте миграции или installer-команды
+Проверок два вида. Установленную сборку проверяют `php artisan
+larena:installation-verify --json` и `php artisan larena:minimal-cms-smoke
+--json`: в ней нет PHPUnit и dev-зависимостей, так задумано. Исходники Root и
+пакетов проверяет `composer quality:full` в репозитории entry-приложения.
+`larena:doctor` подтверждает среду, runtime smoke — базовые границы операций. Не применяйте миграции или installer-команды
 к существующим данным только ради знакомства с документацией.
 
 Дальше прочитайте [устройство платформы](/concepts/) и откройте
