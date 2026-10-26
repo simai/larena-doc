@@ -5866,6 +5866,27 @@
             },
             "accepted_at": "2026-10-26T18:55:14+00:00",
             "id": "448fb4d706e5b9bd14ef2a1f895996babf185acd7ca90083164bb8e64dea700e"
+        },
+        {
+            "source": "root",
+            "from_revision": "48ff545f78b4421496b5e557e3dd7a2c791e23b2",
+            "to_revision": "1bd7ad20cffdb60fedb523b694d7ae70f492a5fb",
+            "changed_paths": [
+                ".env.example",
+                "routes/larena/internal-preview.php",
+                "routes/larena/internal.php",
+                "routes/larena/public.php"
+            ],
+            "changed_paths_sha256": "af6f82388c2927c92a2f9e24af689a3cdd61221a61fd768a6ad510ee606baf33",
+            "impacted_pages": [
+                "start"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "Root no longer mounts /larena routes (link and admin mount them) and .env.example turns LARENA_LINK_PUBLIC_ROUTES on; the start page describes none of these files. Versions page refreshed to the current revisions separately.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-10-26T20:29:37+00:00",
+            "id": "2fe02fe2f72738998480a9ebe324c16c6d7b70d6568b4bc54c70336d250a531f"
         }
     ]
 }

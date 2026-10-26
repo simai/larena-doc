@@ -17,9 +17,9 @@ translation_key: larena.versions
 
 Документируемые проектные источники:
 
-- Larena Specs: `db8371f6f`;
-- Larena Workspace: `3a18ce08`;
-- Larena entry app: `48ff545f`.
+- Larena Specs: `03b92a16c`;
+- Larena Workspace: `2a8b9d03`;
+- Larena entry app: `1bd7ad20`.
 
 Entry app собирает 26 пакетов Larena. Точные ревизии пакетов записаны в
 `release/developer-alpha-manifest.json` entry app, а архивы с контрольными

@@ -23,7 +23,7 @@
             "id": "root",
             "label": "Larena Root",
             "repository": "../larena",
-            "verified_revision": "48ff545f78b4421496b5e557e3dd7a2c791e23b2",
+            "verified_revision": "1bd7ad20cffdb60fedb523b694d7ae70f492a5fb",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -32,7 +32,7 @@
                 "docs/developer/**",
                 "scripts/larena-runtime.php"
             ],
-            "last_decision": "42cf4c9def7d1ba5c78f18b88fbd9c379625e94ee45ad90c9ce8758b82c61360"
+            "last_decision": "2fe02fe2f72738998480a9ebe324c16c6d7b70d6568b4bc54c70336d250a531f"
         },
         {
             "id": "workspace",
