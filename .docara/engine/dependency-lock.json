@@ -1,34 +1,34 @@
 {
-    "composer_lock_sha256": "419c02a28a437004ed7cb421526372adfc0722490142bcde328e76461bf19bd1",
+    "composer_lock_sha256": "d251ae37bc5ee244eb04da0c94abe3122ac79aca428f35ee5ba31847d9f55278",
     "mode": "consumer_composer_lock",
     "moving_references_allowed": false,
     "owner": "consumer",
     "packages": {
         "illuminate/filesystem": {
-            "reference": "dc0b7440f12753060b574fa8c20c2db259fa37c9",
-            "version": "v12.69.2"
+            "reference": "4e2bff4d2ac439db7a2903b8a99bc8dc5c8d5de4",
+            "version": "v12.70.1"
         },
         "illuminate/support": {
-            "reference": "7d7a7d2dc5084aa4b1fd8b0a42094e1d3fb51e00",
-            "version": "v12.69.2"
+            "reference": "9e9ff99fc4405664faa02f231a25aaf968c6f02b",
+            "version": "v12.70.1"
         },
         "illuminate/view": {
-            "reference": "83bf8a22bb61145bcc1b8912103f6fb85078e35c",
-            "version": "v12.69.2"
+            "reference": "ea300ac93680690580927fda447fdd883034f263",
+            "version": "v12.70.1"
         },
         "league/commonmark": {
-            "reference": "9d489ab67a02960fd8ffe624d93f751daf95439e",
-            "version": "2.10.1"
+            "reference": "40821b7606d8d946bac57dbd2290076c722e3a65",
+            "version": "2.10.4"
         },
         "symfony/console": {
-            "reference": "23d6f88a29f6d0eac45bd77d70307adf83ba7ab0",
-            "version": "v7.4.18"
+            "reference": "21f1bc2296f7ff6043241a8dcbc09559b3732820",
+            "version": "v7.4.21"
         },
         "symfony/process": {
-            "reference": "058d17fc284cce14efb2385783b55014a461b176",
-            "version": "v7.4.18"
+            "reference": "e5247f4a5e0797d232ad8e8e6803aeb341843c83",
+            "version": "v7.4.21"
         }
     },
-    "runtime_tuple_sha256": "11d850a8263f1328dcb2d0e7c4c9383f6b43c9969436f6afa4917d981c62366c",
+    "runtime_tuple_sha256": "50015e84cc3ba25ab3f0ef87dde209d0bd6462eb581b37c9ed1f552898500213",
     "schema": "docara.dependency_lock.v1"
 }

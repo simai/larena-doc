@@ -1,17 +1,17 @@
 {
     "engine_files": {
-        "dependency-lock.json": "6c989dded097dda8702700a0eb847c5fd04ee9b56398434cbcc57c3fc93d372c",
+        "dependency-lock.json": "8c22ba953e8280bde82790b85a78858b1699eba6595c6e46a937ab33d9907c9a",
         "framework-lock.json": "bcda173fbb18d26c6d884d2702c94136046ff3552c39ec7fa5a3479d69b79669",
-        "package-revision.json": "aa906af9c3662759b8695a8c5bef64a976bb883d118868abb43589d3a08de842",
-        "schemas/authoring.schema.json": "521d33ba765ef41098ab13fd8b94c09c1a93148a234126d51b1bccb0307f9b10",
+        "package-revision.json": "f6568b5391bd7b4d9a5e21270329614ef08033f2c17b04ad06a3dab7251fd60e",
+        "schemas/authoring.schema.json": "733ff0f86ac40e700dd32d3112e619902ddc76787072942415ca9e964f3cf656",
         "schemas/binding-branding-props.schema.json": "930bbfdbd0dbe714d3d57b75c6eaa3791ac5bf12e6087d64d5334f40989a2b24",
         "schemas/binding-descriptor.schema.json": "93b32c03babadb340c22571049092e57ac66774454392e16f559d85638cc134f",
         "schemas/binding-navigation-props.schema.json": "be59c3270504705b577f2cd0c940d28cfd07c1ea47ccc1824028d20ffcb249a6",
         "schemas/binding-outline-props.schema.json": "81c0dbdeab6dde52bd5d5a6428726e8c505362b8f8aadd6394e6ec82d8856ea0",
-        "schemas/capabilities.schema.json": "e0da6b342e71d9a5700b9ba21402286634ef2ba2320858eae4c4f85c7f6651e6",
+        "schemas/capabilities.schema.json": "f1a7710434bb262d1e468de55b71d6ff2f243fe86b3321e31f9d21cede5442cd",
         "schemas/component-call.schema.json": "e6328ef33fa187fdc92259dbdc45ccc44af8d79a46cf5d0126e5c511d38466f4",
-        "schemas/component-catalog-entry.schema.json": "470493093fa79b76eb22aa8375c9928a87c7209ca388ca3e4d02c42dbfd9b612",
-        "schemas/component-source-metadata.schema.json": "f07f0e5a7d04d0b35ffe55ece2246c1f6a64628db10db954cdb2ceaf1a82141b",
+        "schemas/component-catalog-entry.schema.json": "77d685e0d6e7933b14384fa35ec541b1dac51ae8a19daeedb777eba92090a833",
+        "schemas/component-source-metadata.schema.json": "e96361140c1fe2d7e4702757c4789205600f7c125cf13bd53dba04a640140958",
         "schemas/declarative-block.schema.json": "db50096a67fd94c70885e554dfc400ebc81f59cc244f424577b188a5d9c14a5d",
         "schemas/declarative-layout.schema.json": "a2c8e2a4beb300496410e49f231a5975b9619fc994bd20dca48f1905dfeac4de",
         "schemas/declarative-section.schema.json": "1072ce45bb6e298e7d29c421a08c1d8b5702c0a0e1db26eb6664ce5578535a34",
@@ -22,13 +22,13 @@
         "schemas/documentation-source.schema.json": "8178f2369939f85fe6655d2f5a6de98c7301a9bdeef54cf51dedaf00fe919d94",
         "schemas/documentation-status.schema.json": "29ea5ea1d3ed3018915a48074a3c74bd1cd03099c12282e74f3a573b8fa26a51",
         "schemas/effective-component-catalog.schema.json": "6df4e4801dd2c0d897a6437a5ea9d4fabf852714ea0e97516dd7829c4c738b44",
-        "schemas/framework-lock.schema.json": "e46e1b559b1f65677f14c5e92068e82da38f09fff9f89ee1c32d21f730dcb35d",
-        "schemas/lang.schema.json": "4702a2c696157f2cae9653a4e2bee2c2a37aa8fb8e3cd26c6f60e91b39458dc1",
+        "schemas/framework-lock.schema.json": "dd912d4158bba1829d34040c98f9043d9d6acbcfed1493bf08cd8d5667beb2b3",
+        "schemas/lang.schema.json": "77329e1286a5fbb762b0ed50a54ca760170cd39098fed9865e32b91cc97118a3",
         "schemas/locale-route-receipt.schema.json": "d53423c27ada694f54328f6bf1ed7d0958ddf7a96fa811f5c967247bc2fa1ee7",
         "schemas/operation-result.schema.json": "1a9156fd3f6a0ddb12bf8bd42a60c003aaa46c27ffbcb85d708496d4fdb2c85c",
         "schemas/page.schema.json": "c46db707b815752dad056ae26f198bcfb60974134db596e29bddaf8e6fa00188",
-        "schemas/performance-receipt.schema.json": "65302525cdb3ae7e8941bdd6d3da56128d58de1e8069841c6c8c8c41beed7f5b",
-        "schemas/presentation.schema.json": "eef695e7dd36662bf55f29537e1ac894f7c33eb41db1329972a4d6347a4f8be6",
+        "schemas/performance-receipt.schema.json": "05c38cc62cbb89e37f47c39fb4af34d453d33f6b44e64bec9398ea4fe6f05fae",
+        "schemas/presentation.schema.json": "4aebaad4c43bed3eb182947c42b1e5b894001205208f00b357017f7eb74d9214",
         "schemas/qa-plan-draft.schema.json": "27c1e4c0024dccf8d1a55374c0c1f06592fbe916421f45e140d176cf7c412c5c",
         "schemas/qa-plan.schema.json": "f76070a19af860858499cafebc6153e9add1b0bc975263ca83ecec09d0eacec9",
         "schemas/qa-reference-draft.schema.json": "87dcd5d5e5509a10f56fb97192500addc566d62dd4bd938a28582e6f05f22154",
@@ -40,14 +40,14 @@
         "schemas/redirects.schema.json": "eeff1b296f7a75bfd45f8abe2f2e0621e2979e46ff8798fdefb5454d8dccd764",
         "schemas/release-artifact-manifest.schema.json": "2f785f9431b73e2023a9aa7e13dc74b7451a3303da7c4fa67982f4bce855284c",
         "schemas/scaffold-plan.schema.json": "265d9c80ff664635bb3213f0b8b213fe58a945dfb8fce3072f83c16c9faecf66",
-        "schemas/search-index.schema.json": "f6d24084bd7e45cea16c915df3f84ed7081d03cc5562a9c5869724569ef95428",
+        "schemas/search-index.schema.json": "21b9990de915615505e0e05758497e8fcc93c4464483df3f06a3cda916f47eac",
         "schemas/section.schema.json": "12c97635d17c41e0c5290fe2b8dabdf3fdd1d1ebf52a5171d4431172d7410cd6",
-        "schemas/site.schema.json": "c5eba748487f4f82b2dc92605e41e237b51a0aff88960e02cc8703d3de3a1a45",
+        "schemas/site.schema.json": "3981f1d627cab2ce9a3722b7de7c8ab8d1d17a1715e37bbffee3dc3f02a582cc",
         "schemas/smart.manifest.schema.json": "9d65a9b3d63567ef8a12dd43f5c3e24913e2659105b088778dc50476a9578037",
         "schemas/smart.preset.schema.json": "d2307c3fcafe6cf6349d16e4084471a2959af72df58fa648020991b719098ee3",
         "schemas/smart.view.schema.json": "22471684bb6c1606633cb5e266acfd48e73bdb5f03b1e0a57dafd309229927de",
         "schemas/translation-lock.schema.json": "b3ba1ea8d0076f70f6c092b3f73487084287e061caacff61a2f5166c17e7de54",
-        "schemas/translation-status.schema.json": "4fb1d133660c0b5b9a05b1e3efbc2c3f793aa8e3070ab2a380ba5b1d9296294f",
+        "schemas/translation-status.schema.json": "3ac68f01b570a3d2879527ca0ba49838110191d2c0b52b185135b67b0c686f25",
         "schemas/typed-component-definition.schema.json": "e405177c7f1f0893c6b29668e7fd7cd129f4ff8941ad7d10688617d017989666",
         "schemas/upgrade-journal.schema.json": "ec6bb14b53a2f9d79ac1a636cd0f3e35240e8f4bbf1075926fd92e6d70a4b649",
         "schemas/upgrade-plan.schema.json": "971d0b4cd3c7d46fb8f12d856a53ab867677ecc4c10f4beaac03e1e990fded83",
@@ -88,15 +88,15 @@
     "starter_project_files": {
         "assets/docara-mark.svg": {
             "owner": "project",
-            "sha256": "10781f8fb31318e8807a215ec002ec1f8033227bf8678300e3dc63a7e3c1aebc"
+            "sha256": "e1fe76f6c231cd53f11110c31f5df5d53cd8b0f8077da84e6c1f2f708dbeef92"
         },
         "assets/favicon.ico": {
             "owner": "project",
-            "sha256": "9bcd7305a24235227b13096694eca338fddc72731a948bdf7a8a6d6a0958afda"
+            "sha256": "3397f52b6aff10952f4866522f35f84a72ef2d53b5f9be673c3758ee71635818"
         },
         "content/ru/assets/docara-mark.svg": {
             "owner": "project",
-            "sha256": "10781f8fb31318e8807a215ec002ec1f8033227bf8678300e3dc63a7e3c1aebc"
+            "sha256": "e1fe76f6c231cd53f11110c31f5df5d53cd8b0f8077da84e6c1f2f708dbeef92"
         },
         "content/ru/components.md": {
             "owner": "project",
@@ -200,7 +200,7 @@
         },
         "content/ru/components/logos.md": {
             "owner": "project",
-            "sha256": "bcecbe11bf88cb1c7ecd1ba87b6b6bd7b5103dbce2226e6f9a8ff7c6d7a800bb"
+            "sha256": "4e98c50182234ce89a0202960cb114fd899f3d92be8f5c21002014e9e38e3fb8"
         },
         "content/ru/components/math.md": {
             "owner": "project",
@@ -284,11 +284,11 @@
         },
         "content/ru/lang.json": {
             "owner": "project",
-            "sha256": "212777c237184509e34e176e224e3df6813e940e8309c0f1799227a2d94103c5"
+            "sha256": "563d7980a0aa29910be658d8447cd118a0701e185f8e5adb311ee87fd5ae46e2"
         },
         "content/ru/project-demos.md": {
             "owner": "project",
-            "sha256": "f9ddfb2963a52633a61b74c6eefc935fa957316b9881488812654bed161a8ff4"
+            "sha256": "eefbcd9af9e41c899fd015c07787d686544ce01acfea03a055aa358604f40b1e"
         },
         "content/ru/project-demos.page.json": {
             "owner": "project",
@@ -300,11 +300,11 @@
         },
         "contracts/generated/documentation-source.json": {
             "owner": "project",
-            "sha256": "ead22985880f28e4578d72b1a19d9f10aa4d13e541a064a4640c13700e5957cc"
+            "sha256": "cc86b818656104d58435b6d64da607e4095c9285b50fe5411b4ef97290def6bb"
         },
         "contracts/generated/framework-contract-registry.json": {
             "owner": "project",
-            "sha256": "14577d036c016abcc68968ee686f8a92291635afa3038347e51aed33bce96af1"
+            "sha256": "fe0a0dfb6627eddc47c42ea036bc75791a7e0cf46448049cb4de6a811fd12204"
         },
         "design/blocks/project.footer-smart.json": {
             "owner": "project",
@@ -320,7 +320,7 @@
         },
         "docara.json": {
             "owner": "project",
-            "sha256": "668f021d140e8a1fe8527803dab1e64719d091b101340e0c066952f78553cf7a"
+            "sha256": "a2e484767a9e34ff40a5c86b3f6a147fcd8142e4cc3fd6b2e11708f16a758d98"
         },
         "redirects.json": {
             "owner": "project",
@@ -328,11 +328,11 @@
         },
         "simai-framework.lock.json": {
             "owner": "project",
-            "sha256": "f12976089fcd546160d83689d986209934b8e06a58fda6d20cf8f233676cc7ae"
+            "sha256": "5191ff0d72665a55a8236d0be40db569f4a81b57db4b6d2a9b7d17e04280c007"
         },
         "smart/project.footer-links/assets/footer-links.css": {
             "owner": "project",
-            "sha256": "15cc324c81031d01595c90221d4217f39d3e7e319931b9b883a4bcd67f89ac78"
+            "sha256": "967fb6f14307fa9c14aeff0ed2379fc673351ce13fea6ace33f6a815942b2b0e"
         },
         "smart/project.footer-links/manifest.json": {
             "owner": "project",
@@ -348,7 +348,7 @@
         },
         "smart/project.install-builder/assets/install-builder.css": {
             "owner": "project",
-            "sha256": "e123864aa5c33b75df23ce900a64f5befc40d8a5aac94f4fe6ed569350e8d8fa"
+            "sha256": "2fdcf90fcc00d344d58dcb51159080e3cc349c50322a39e7327230d5d7d3cc21"
         },
         "smart/project.install-builder/assets/install-builder.js": {
             "owner": "project",
@@ -360,15 +360,15 @@
         },
         "smart/project.install-builder/template/default.php": {
             "owner": "project",
-            "sha256": "4ab3de9c72d7a3ba02c6f6b88dff7eebcf142e47025124bdb96e85fdbdf02667"
+            "sha256": "e479bc42ac7c14d8890da2b278384f2a248d54c5438ae2c7ae88651781ea3d6f"
         },
         "smart/project.install-builder/view/default.json": {
             "owner": "project",
-            "sha256": "291e46bc5e7678e40cc23796de5f5eb9ef06e27293f0c4c64cf1cfd29bc41853"
+            "sha256": "f9fa81af753938b0e462dfb8b0ee7dda6b2ce664f92d86d85ef3763747e56947"
         },
         "smart/project.notice/assets/notice.css": {
             "owner": "project",
-            "sha256": "3408ba21be33152ac714cbb232201d1af650ceb93bf301275bc74e4d839b4a9a"
+            "sha256": "147925cc708d0163a48025a44f0429d0ff9fa38cd20fce435026025458a200d3"
         },
         "smart/project.notice/manifest.json": {
             "owner": "project",
@@ -384,7 +384,7 @@
         },
         "smart/project.product-configurator/assets/product-configurator.css": {
             "owner": "project",
-            "sha256": "abea37efa338c1b4c7745ae9c0cae2a21556ae0428d0fa102784ffeb89ecad7e"
+            "sha256": "5699e85dd278893bd1b1f1b77d0c94583a996729588dd5ce257ae50abc260211"
         },
         "smart/project.product-configurator/assets/product-configurator.js": {
             "owner": "project",
