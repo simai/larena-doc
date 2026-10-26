@@ -5936,6 +5936,28 @@
             },
             "accepted_at": "2026-10-26T22:22:24+00:00",
             "id": "78690e272e910b8cf88f78299f7399e57255442dae6af633da2712746f3d2842"
+        },
+        {
+            "source": "package.ui",
+            "from_revision": "979a0ecaa48ace19f46809a5580b727a4d272487",
+            "to_revision": "9fcc1cb69cbed7e165e447a0ea7fc325a8c0b886",
+            "changed_paths": [
+                "composer.json"
+            ],
+            "changed_paths_sha256": "d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.ui",
+                "versions"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "Only the test list in composer.json changed publicly; the new sf-* element node types are internal to the registered document renderer the ui page already describes.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-10-26T23:20:56+00:00",
+            "id": "aab362f067f214f7d5f88951d503bfcd4789c590f1695d71d822fe73de574b4e"
         }
     ]
 }

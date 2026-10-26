@@ -142,7 +142,7 @@
             "review": "ai_verified",
             "route": "/ru/packages/ui/",
             "source": "larena",
-            "source_sha256": "4c4932f4414cdeb8a809619c52c82f010fe35c83be87aa325ee223f1a4b26cc7"
+            "source_sha256": "1d0225ea0a923f5c4485f3046876893bd0a37f2d0564f57704d8a50b72798dca"
         }
     ],
     "exclusions": [],
