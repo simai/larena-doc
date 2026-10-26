@@ -9,14 +9,17 @@ translation_key: larena.package.access
 
 > **Для кого:** разработчик защищённых операций. **Результат:** зарегистрировать
 > и проверить право через поддерживаемый сервис. **Источник:** package README и
-> developer docs. **Статус:** developer-testable Backend V1.
+> developer docs. **Статус:** developer-testable Backend V1; сверено с кодом
+> 26.10.2026.
 
 Access владеет зарегистрированными операциями, системными и пользовательскими
 ролями, назначениями, query scopes и объяснением решения. Поддерживаемая граница:
 `CustomRoleService`, `RoleAssignmentService` и `EffectiveAccessReader`.
 
 Права доступа всегда относятся к зарегистрированной операции, субъекту и
-области; одного названия роли для решения недостаточно.
+области; одного названия роли для решения недостаточно. Сами области, их
+участников и привязанные ресурсы хранит [Core](/packages/core/); членство в
+области прав не даёт — права решает Access.
 
 ## Подготовка и пример
 
@@ -31,7 +34,7 @@ php artisan larena:access-sync-system-presets
 ```bash
 php artisan larena:access-explain \
   user:admin_identity:1 user:admin_identity:2 \
-  docara.page.write --json
+  storage.record.read --json
 ```
 
 ## Ограничение

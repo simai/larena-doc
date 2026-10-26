@@ -8,28 +8,36 @@ translation_key: larena.versions
 # Версии и ограничения
 
 > **Для кого:** любой читатель. **Результат:** понять, к какой сборке относятся
-> инструкции. **Источник:** Git, Composer lock и core-12 traceability.
-> **Статус:** проверено 30 сентября 2026 года.
+> инструкции. **Источник:** Git, Composer lock и манифест сборки.
+> **Статус:** проверено 26 октября 2026 года.
 
-Сайт использует установленную Docara `2.12.0` на revision
-`b48ef1ae27f7fbc620bc9e55b897c0b290db3928`. Более новая версия движка
+Сайт собран на Docara `3.9.0` (revision
+`ea984908fbfa1c53679dc7a2efb98c688ec9ac74`). Более новая версия движка
 проверяется отдельно и не подменяет эту зафиксированную сборку.
 
 Документируемые проектные источники:
 
-- Larena Specs: `30c908f24d72aa437f8354b8de772f629aad89d9`;
-- Larena Workspace: `614c823837d27664ddb6e8c52b5277239ee8d6fa`;
-- Larena entry app: `f0d5821fad633c28228f2b9110bd30d1cb5323c9`.
+- Larena Specs: `088d35fe3`;
+- Larena Workspace: `2a59b6cd`;
+- Larena entry app: `87e6430f`.
 
-Entry app собирает 23 пакета Larena. С Minimal CMS v1.1 пакеты
-`larena/content` и `larena/docara` в эту сборку не входят: страницы сайта
-отдаются из Storage. Точные ревизии пакетов записаны в
-`release/developer-alpha-manifest.json` entry app. Интерфейс собран на паре
-Framework `ui-e5a1228a9d8a-smart-c184f5944ae6`.
+Entry app собирает 26 пакетов Larena. Точные ревизии пакетов записаны в
+`release/developer-alpha-manifest.json` entry app, а архивы с контрольными
+суммами — в `composer.distribution.lock`. Интерфейс собран на бесплатном
+выпуске SIMAI Framework `ui-357568a20a7e` и наборе компонентов Larena
+`larena-9cbe0610b74b` (собран из `simai/ui-pro`); сборка поставляет их вместе
+с сайтом и не загружает с внешних адресов.
 
-Точные ревизии двенадцати пакетов записаны в repository source map. Текущий
-Root — локальный release-candidate contour. Он не заявляет production readiness,
-полноту frontend или готовность всего портфеля Larena.
+Текущий Root — локальный release-candidate contour. Он не заявляет production
+readiness, полноту frontend или готовность всего портфеля Larena.
+
+## Лицензии
+
+Открытая часть Larena — приложение и открытые пакеты — распространяется по
+Apache-2.0; платные пакеты — по коммерческой лицензии SIMAI. Текст этой
+документации — CC BY 4.0, примеры кода в ней — Apache-2.0. Автор и
+правообладатель — Рим Забаров. Набор компонентов Larena поставляется внутри
+сборки; его условия указаны в манифесте выпуска.
 
 ## Обозначения готовности
 
