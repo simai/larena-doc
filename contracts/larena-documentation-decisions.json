@@ -5905,6 +5905,37 @@
             "page_sha256": [],
             "accepted_at": "2026-10-26T21:19:33+00:00",
             "id": "d326546b52dbdd69eb94231fa8a3624be42b0e6f58eeedf40490e5d96be0c179"
+        },
+        {
+            "source": "package.auth",
+            "from_revision": "2708836fa2e4da591d5d68cba0d40af725950881",
+            "to_revision": "e983ce718d476527bf54f64f4646723d6d354551",
+            "changed_paths": [
+                "src/Contracts/AdminLoginPageRenderer.php"
+            ],
+            "changed_paths_sha256": "97ab4fa1caf70ebcef1f97f94fc8ca16f105ccc03b5ce5e4a87aa48fedb8f203",
+            "impacted_pages": [
+                "cms",
+                "concepts",
+                "packages.auth",
+                "start"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Auth page: one sign-in pipeline through the AdminLoginPageRenderer contract, no second login screen, default look on an unreadable background, 503 without a form when the page cannot be built. CMS, concepts and start pages reviewed: they describe sign-in by route only.",
+            "updated_pages": [
+                "cms",
+                "concepts",
+                "packages.auth",
+                "start"
+            ],
+            "page_sha256": {
+                "cms": "bd5e0c8b27723a76184ac61fddbe364c366f85a1aa16514ec7a8265802d0e4b4",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "packages.auth": "ad440a1832c88a96668ac9d8ce62c13c2e2aa3511d198edbe2322334bc80a662",
+                "start": "801e4f18bf226d2084fd8a202be6cd6c0f780345a02b54162846ec1dac2b923f"
+            },
+            "accepted_at": "2026-10-26T22:22:24+00:00",
+            "id": "78690e272e910b8cf88f78299f7399e57255442dae6af633da2712746f3d2842"
         }
     ]
 }

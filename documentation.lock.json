@@ -30,11 +30,11 @@
             "key": "larena.package.auth",
             "kind": "package",
             "page_path": "content/ru/packages/auth.md",
-            "page_sha256": "4f4800118c6b0c04a86586ec4d06462aeb29a05f339e60c817e4c52a9d3d37b8",
+            "page_sha256": "ad440a1832c88a96668ac9d8ce62c13c2e2aa3511d198edbe2322334bc80a662",
             "review": "ai_verified",
             "route": "/ru/packages/auth/",
             "source": "larena",
-            "source_sha256": "5bbe3e226a1f66130c3d74979c19de8e9c6c6d0bb2d42f7d96ca87ad41a3c981"
+            "source_sha256": "d2720f5a998c3e866034d79701f3b0496404d20ff7d5a29d63518fe9cae33333"
         },
         {
             "examples": [],

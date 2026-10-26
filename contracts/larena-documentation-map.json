@@ -99,7 +99,7 @@
             "id": "package.auth",
             "label": "larena/auth",
             "repository": "../larena-workspace/packages/auth",
-            "verified_revision": "2708836fa2e4da591d5d68cba0d40af725950881",
+            "verified_revision": "e983ce718d476527bf54f64f4646723d6d354551",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -109,7 +109,7 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "8db19e7592d5f1a74113ed260ebaf3f6ab2acd0dd023937fb06674fe4996e025"
+            "last_decision": "78690e272e910b8cf88f78299f7399e57255442dae6af633da2712746f3d2842"
         },
         {
             "id": "package.access",
