@@ -227,7 +227,7 @@
             "id": "package.admin",
             "label": "larena/admin",
             "repository": "../larena-workspace/packages/admin",
-            "verified_revision": "dd93c9f9e069010fbc12758b8039c12302049215",
+            "verified_revision": "b0cd2ceab70a83f8ac4adfd1e1b88e9a3e9f0c82",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -237,7 +237,7 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "4e904374099b9967b00a1469b75b3064de580d02a6005fbf808ae1bceae4837d"
+            "last_decision": "7a5befd8b60de16f9104c9b19812763f97b0c72f41e193af146cebd50738c8e5"
         }
     ],
     "pages": [
