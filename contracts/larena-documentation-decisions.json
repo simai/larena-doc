@@ -6096,6 +6096,49 @@
             },
             "accepted_at": "2026-10-27T05:48:15+00:00",
             "id": "7a5befd8b60de16f9104c9b19812763f97b0c72f41e193af146cebd50738c8e5"
+        },
+        {
+            "source": "package.admin",
+            "from_revision": "b0cd2ceab70a83f8ac4adfd1e1b88e9a3e9f0c82",
+            "to_revision": "d653820be5d13df7d47995a8352f93f9c35b0b4e",
+            "changed_paths": [
+                "src/Contracts/PropertyViewHostPortGateway.php"
+            ],
+            "changed_paths_sha256": "a3509df9ce97dca31680c1eb30e88f6ee2c6a240f81a4f2a3222a5f843a39b58",
+            "impacted_pages": [
+                "cms",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Admin page: the record panel reads a record one group at a time (property-view-port 1.15.0 group.load), one revision for the whole record; versions: Framework ui-9e143bcd37c1 and components larena-c6f3cfc0b36b. Shared pages reviewed: no change in what they describe.",
+            "updated_pages": [
+                "cms",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start"
+            ],
+            "page_sha256": {
+                "cms": "bd5e0c8b27723a76184ac61fddbe364c366f85a1aa16514ec7a8265802d0e4b4",
+                "cms.storage": "7ba7d59af602163f37192a93e9bb5759a8bba56ccbd47b4ed45d1f0716891ff9",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "bd6b28e702143661e51710bf7c9f10f918ea9fe74fa4239caeb5e712d8e46428",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "packages.admin": "6e51e3320b2d9b3f9ef52fab3518fda87d0655bc2c787b02aa7a9d415b226dff",
+                "start": "801e4f18bf226d2084fd8a202be6cd6c0f780345a02b54162846ec1dac2b923f"
+            },
+            "accepted_at": "2026-10-27T18:24:13+00:00",
+            "id": "ece806254a733f349116fbd18c0f33b2485801060a5f6a4461283e82311bd34f"
         }
     ]
 }

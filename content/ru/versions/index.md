@@ -9,7 +9,7 @@ translation_key: larena.versions
 
 > **Для кого:** любой читатель. **Результат:** понять, к какой сборке относятся
 > инструкции. **Источник:** Git, Composer lock и манифест сборки.
-> **Статус:** проверено 26 октября 2026 года.
+> **Статус:** проверено 27 октября 2026 года.
 
 Сайт собран на Docara `3.9.0` (revision
 `ea984908fbfa1c53679dc7a2efb98c688ec9ac74`). Более новая версия движка
@@ -17,15 +17,15 @@ translation_key: larena.versions
 
 Документируемые проектные источники:
 
-- Larena Specs: `03b92a16c`;
-- Larena Workspace: `2a8b9d03`;
-- Larena entry app: `1bd7ad20`.
+- Larena Specs: `620b1e2ad`;
+- Larena Workspace: `b030e254`;
+- Larena entry app: `4f3869a9`.
 
 Entry app собирает 26 пакетов Larena. Точные ревизии пакетов записаны в
 `release/developer-alpha-manifest.json` entry app, а архивы с контрольными
 суммами — в `composer.distribution.lock`. Интерфейс собран на бесплатном
-выпуске SIMAI Framework `ui-357568a20a7e` и наборе компонентов Larena
-`larena-9cbe0610b74b` (собран из `simai/ui-pro`); сборка поставляет их вместе
+выпуске SIMAI Framework `ui-9e143bcd37c1` (стандарт компонентов 1.3.8) и наборе компонентов Larena
+`larena-c6f3cfc0b36b` (собран из `simai/ui-pro`); сборка поставляет их вместе
 с сайтом и не загружает с внешних адресов.
 
 Текущий Root — локальный release-candidate contour. Он не заявляет production
