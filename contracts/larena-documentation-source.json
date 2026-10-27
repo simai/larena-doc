@@ -2,7 +2,7 @@
     "schema": "docara.documentation_source.v1",
     "id": "larena",
     "provider": "contract_json",
-    "revision": "14345f890a30701f18b6c783ff9f366ba47d7824b230302b95fd6390e3f2ce1a",
+    "revision": "b3c9a32ee9b51c405924fff9a194903054622451ee186384e8c80cc431e6b2e5",
     "entities": [
         {
             "key": "larena.package.access",
@@ -107,19 +107,19 @@
                     }
                 ],
                 "contract_parts": {
-                    "package.admin": "16eff12139e5ac69a3850a70c1f62eecd09f2549f0f6953f3bb076abe49586d9",
+                    "package.admin": "ddf8aec67921be7050bef7d26a43cd12385f5cabd1c40cdd7bb0fd77f9150492",
                     "specs": "b0bcf9d0e5fc47f901d0b20c8f398bcf0783a193aa5b2da81bbe2da11a9b77ec"
                 }
             },
             "example_cases": [],
             "provenance": [
-                "package.admin@52761774fee5fa00c27608ad0d30cd1e7f3c6ea7:README.md",
-                "package.admin@52761774fee5fa00c27608ad0d30cd1e7f3c6ea7:composer.json",
-                "package.admin@52761774fee5fa00c27608ad0d30cd1e7f3c6ea7:config/**",
-                "package.admin@52761774fee5fa00c27608ad0d30cd1e7f3c6ea7:docs/developer/**",
-                "package.admin@52761774fee5fa00c27608ad0d30cd1e7f3c6ea7:module.yaml",
-                "package.admin@52761774fee5fa00c27608ad0d30cd1e7f3c6ea7:routes/**",
-                "package.admin@52761774fee5fa00c27608ad0d30cd1e7f3c6ea7:src/Contracts/**",
+                "package.admin@dd93c9f9e069010fbc12758b8039c12302049215:README.md",
+                "package.admin@dd93c9f9e069010fbc12758b8039c12302049215:composer.json",
+                "package.admin@dd93c9f9e069010fbc12758b8039c12302049215:config/**",
+                "package.admin@dd93c9f9e069010fbc12758b8039c12302049215:docs/developer/**",
+                "package.admin@dd93c9f9e069010fbc12758b8039c12302049215:module.yaml",
+                "package.admin@dd93c9f9e069010fbc12758b8039c12302049215:routes/**",
+                "package.admin@dd93c9f9e069010fbc12758b8039c12302049215:src/Contracts/**",
                 "specs@088d35fe34a90d264cb8d43c5eba9541c5851fe7:specs/packages/admin/**"
             ]
         },

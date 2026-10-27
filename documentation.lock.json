@@ -18,11 +18,11 @@
             "key": "larena.package.admin",
             "kind": "package",
             "page_path": "content/ru/packages/admin.md",
-            "page_sha256": "2e2ed4762c2d569b0db4a905d47385c81b1a8aa973b5fe4f6c7e6cf91b627f2e",
+            "page_sha256": "b83a020e7f23ff04af753a4e353d9eef2972a9f2b5ccb92d7ce174c67fa37979",
             "review": "ai_verified",
             "route": "/ru/packages/admin/",
             "source": "larena",
-            "source_sha256": "b76a156fdcff79b715a0dc7e7ca309e3a818550e594fae718e80f1066da8e202"
+            "source_sha256": "5362a241245fb6a7aef488a73b8363981fc76f334ae67b33f8594f4ccb7a9a90"
         },
         {
             "examples": [],

@@ -6004,6 +6004,52 @@
             },
             "accepted_at": "2026-10-27T03:33:38+00:00",
             "id": "a7e5cda348637a2a97ee16a24e3dac4b7cb4619ff941d9cf66f91cdda875fd6e"
+        },
+        {
+            "source": "package.admin",
+            "from_revision": "52761774fee5fa00c27608ad0d30cd1e7f3c6ea7",
+            "to_revision": "dd93c9f9e069010fbc12758b8039c12302049215",
+            "changed_paths": [
+                "composer.json"
+            ],
+            "changed_paths_sha256": "d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34",
+            "impacted_pages": [
+                "cms",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Admin forms (user form, storage field editor, import, jobs, SitePack transfer, settings drafts) are drawn by the shared document renderer with unchanged fields and markup; the admin page cites the current revision, the shared pages describe behaviour that did not change.",
+            "updated_pages": [
+                "cms",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "bd5e0c8b27723a76184ac61fddbe364c366f85a1aa16514ec7a8265802d0e4b4",
+                "cms.storage": "7ba7d59af602163f37192a93e9bb5759a8bba56ccbd47b4ed45d1f0716891ff9",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "bd6b28e702143661e51710bf7c9f10f918ea9fe74fa4239caeb5e712d8e46428",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "packages.admin": "b83a020e7f23ff04af753a4e353d9eef2972a9f2b5ccb92d7ce174c67fa37979",
+                "start": "801e4f18bf226d2084fd8a202be6cd6c0f780345a02b54162846ec1dac2b923f",
+                "versions": "dc57edb4bd9e55afe3761d301cdba80ce75b9a72ba5c269e5a2f040defd7d881"
+            },
+            "accepted_at": "2026-10-27T04:39:33+00:00",
+            "id": "4e904374099b9967b00a1469b75b3064de580d02a6005fbf808ae1bceae4837d"
         }
     ]
 }
