@@ -29,8 +29,10 @@
   "base_url": "/",
   "branding": {
     "title": "Larena",
-    "mode": "compact",
+    "mode": "logo",
     "size": "large",
+    "logo": "assets/larena-logo.svg",
+    "logo_dark": "assets/larena-logo-dark.svg",
     "favicon": "assets/favicon.ico"
   },
   "layout": {
