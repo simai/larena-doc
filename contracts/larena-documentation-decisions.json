@@ -6823,6 +6823,95 @@
             "page_sha256": [],
             "accepted_at": "2026-11-18T01:38:35+00:00",
             "id": "ff326353ea2a50068ccefca9ce79eea5ce95117456d2348d4e6b384ef1523abf"
+        },
+        {
+            "source": "package.backup",
+            "from_revision": "679eceb86de207448df1e3da1bf0176b6eaacf63",
+            "to_revision": "a24348624ca9ffd2463a8fdc087216c73a0624ef",
+            "changed_paths": [
+                "README.md",
+                "composer.json"
+            ],
+            "changed_paths_sha256": "b46f9e2ea55831a774bf7b2c9a9e1153ce38da11c34d987ecb1d56fd5965958d",
+            "impacted_pages": [
+                "cms.backup"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Restore keeps the record of backups: later copies stay listed, copies without files do not return; added to the restore section.",
+            "updated_pages": [
+                "cms.backup"
+            ],
+            "page_sha256": {
+                "cms.backup": "4a87231e611949debe423fdfe65657648277fd382bbe49f1afc0aa18562784aa"
+            },
+            "accepted_at": "2026-11-18T03:29:51+00:00",
+            "id": "733ea30c4c0ee8138705d731eacba6743c43f47873c46b3e01fae033f9b451a5"
+        },
+        {
+            "source": "package.admin",
+            "from_revision": "c3fa8fd660cc68b8510dac3d8bc8f8bfe8a4d4a8",
+            "to_revision": "cc6c9ff387826b05c0ffa35b5b88e8f7ebeb20b5",
+            "changed_paths": [
+                "composer.json",
+                "routes/admin/product.php",
+                "src/Contracts/AdminHistorySource.php"
+            ],
+            "changed_paths_sha256": "c3a58624b0d48c9efa325b5c53f80481abdbac5bbdab4458afb234ae590fd930",
+            "impacted_pages": [
+                "cms",
+                "cms.install",
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "cms.users-roles",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "New «История» page (/admin/history, the journal by days, side panel, filters, /admin/audit leads there, AdminHistorySource contract) described on the admin package page; the owner guide pages and others reviewed: they do not describe the journal.",
+            "updated_pages": [
+                "cms",
+                "cms.install",
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "cms.users-roles",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "9727ecd290cf24d10028c0f023c68e9169a58bd24320933de6a05ae77bf54904",
+                "cms.install": "e2c87950bc8bdf91fef3a14c3a17b4841189179e3981d67125be3992456d4bca",
+                "cms.menus-languages": "2181b6826a7be8dd6663aa56a5b59cb2e5f149aa85eb40959f6434e33fc2b79e",
+                "cms.pages": "69495d2c6137052a57c90bd3a914f070b7be711fa50c8dde4fe61bb2290baac8",
+                "cms.seo": "c67f33d800b1bf4732c9258adadce49c06bad4f6b8fb329df35f60ce50dec134",
+                "cms.sitepack": "394b3d221307b557e6b2a4764c159667ecdafeda76ce831a0dac74b38ee66734",
+                "cms.storage": "95dc4c91e5fb1ad0f55eb76bc90854a983013a3657ba0b7e8383a8a5207d6497",
+                "cms.users-roles": "e239ad550185685619a2339f9c76aabc29f9a0478da086b95c9cef1b2b3cf5b0",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "packages.admin": "a8590640dcb5d2ba49b94b4cd4526f2920e83d48b83bfbd32a4aad9970898ae6",
+                "start": "3d7334a85ae60e347360565481c670a491215df9585d1f349997dffab0b9bacb",
+                "versions": "072da0dc420268f4824689bc46960673c39c58dab98914e54887696eb50a9a29"
+            },
+            "accepted_at": "2026-11-18T03:29:52+00:00",
+            "id": "47e6eee51d4dec731d5eea708723a8fb34a6bcedb6e8c9c301e67d6f551e2131"
         }
     ]
 }

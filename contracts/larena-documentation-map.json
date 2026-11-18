@@ -228,7 +228,7 @@
             "id": "package.admin",
             "label": "larena/admin",
             "repository": "../larena-workspace/packages/admin",
-            "verified_revision": "c3fa8fd660cc68b8510dac3d8bc8f8bfe8a4d4a8",
+            "verified_revision": "cc6c9ff387826b05c0ffa35b5b88e8f7ebeb20b5",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -238,7 +238,7 @@
                 "docs/developer/**",
                 "src/Contracts/**"
             ],
-            "last_decision": "c29d27ae33b347507403339d0b66c798a65ffe31575d285513cac5c948b2db1b"
+            "last_decision": "47e6eee51d4dec731d5eea708723a8fb34a6bcedb6e8c9c301e67d6f551e2131"
         },
         {
             "id": "package.file-manager",
@@ -259,7 +259,7 @@
             "id": "package.backup",
             "label": "larena/backup",
             "repository": "../larena-workspace/packages/backup",
-            "verified_revision": "679eceb86de207448df1e3da1bf0176b6eaacf63",
+            "verified_revision": "a24348624ca9ffd2463a8fdc087216c73a0624ef",
             "public_paths": [
                 "README.md",
                 "composer.json",
@@ -268,7 +268,8 @@
                 "routes/**",
                 "docs/developer/**",
                 "src/Contracts/**"
-            ]
+            ],
+            "last_decision": "733ea30c4c0ee8138705d731eacba6743c43f47873c46b3e01fae033f9b451a5"
         }
     ],
     "pages": [
