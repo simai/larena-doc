@@ -6912,6 +6912,167 @@
             },
             "accepted_at": "2026-11-18T03:29:52+00:00",
             "id": "47e6eee51d4dec731d5eea708723a8fb34a6bcedb6e8c9c301e67d6f551e2131"
+        },
+        {
+            "source": "root",
+            "from_revision": "ee49efc922b2de0b101dc6c880dd57bcbf7518bf",
+            "to_revision": "2ae79ef071835260a8298642e1a19440bb735759",
+            "changed_paths": [
+                "composer.json"
+            ],
+            "changed_paths_sha256": "d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34",
+            "impacted_pages": [
+                "home",
+                "operations",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "Only composer.json pins of package revisions changed.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-11-18T08:18:09+00:00",
+            "id": "f8a804b6bf140a7b27b7a6533221b7b7041d18b2f85f9c39f1eb27b2d931c73b"
+        },
+        {
+            "source": "package.admin",
+            "from_revision": "cc6c9ff387826b05c0ffa35b5b88e8f7ebeb20b5",
+            "to_revision": "1c841d7bde3ef10b4d2e3e517b583a16360be6d1",
+            "changed_paths": [
+                "composer.json"
+            ],
+            "changed_paths_sha256": "d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34",
+            "impacted_pages": [
+                "cms",
+                "cms.install",
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "cms.users-roles",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_not_affected",
+            "reason": "Only composer.json changed in public paths; the hidden-field save rule is described on the setting page.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-11-18T08:18:11+00:00",
+            "id": "370e7b364d827838470b2b300afeaa76aa2a99982a09531a57e3ac6affbb8242"
+        },
+        {
+            "source": "package.backup",
+            "from_revision": "a24348624ca9ffd2463a8fdc087216c73a0624ef",
+            "to_revision": "c9e26f75d8ea734a0dd3ee70d067d471cd0d847e",
+            "changed_paths": [
+                "README.md"
+            ],
+            "changed_paths_sha256": "b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5",
+            "impacted_pages": [
+                "cms.backup"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Restore keeps the journal and offers the point before it as a copy to undo the restore.",
+            "updated_pages": [
+                "cms.backup"
+            ],
+            "page_sha256": {
+                "cms.backup": "02e2250155bc400a84da39a9070a19d04e41f77ef012017d85715187281bab81"
+            },
+            "accepted_at": "2026-11-18T08:18:13+00:00",
+            "id": "191a72bbcc74d477a4841a74f677fad911e0c6f93810ee006d3cc9206a41b36a"
+        },
+        {
+            "source": "package.setting",
+            "from_revision": "6ef989a5d6aba5a06dff9389ea6b0b6bcf44296f",
+            "to_revision": "e33a0ce5d22c0690507576c2fa8eec6d48d53910",
+            "changed_paths": [
+                "src/Contracts/SettingConditions.php"
+            ],
+            "changed_paths_sha256": "a23e0ceab30222eb8ad5ede97090e126285c44c2857df9da03354b35d1c97cc9",
+            "impacted_pages": [
+                "cms",
+                "cms.sitepack",
+                "concepts",
+                "packages.setting"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Ordering operators now reach the browser; hidden fields are not awaited. Other pages reviewed: they do not describe operators.",
+            "updated_pages": [
+                "cms",
+                "cms.sitepack",
+                "concepts",
+                "packages.setting"
+            ],
+            "page_sha256": {
+                "cms": "9727ecd290cf24d10028c0f023c68e9169a58bd24320933de6a05ae77bf54904",
+                "cms.sitepack": "394b3d221307b557e6b2a4764c159667ecdafeda76ce831a0dac74b38ee66734",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "packages.setting": "e74d0ffa5af13982eba904a2ede20cad372780daf9c14a680ba74ef9ab04238f"
+            },
+            "accepted_at": "2026-11-18T08:18:16+00:00",
+            "id": "ab63654d7b3eb48403243d42002aff3a119ed4ef3bcb05fbcf48a504914defd6"
+        },
+        {
+            "source": "package.storage",
+            "from_revision": "491550595f0ee14e3c95931874218059522d7b31",
+            "to_revision": "e8477423505e233aab37f54c03e4a55ea81d6cd6",
+            "changed_paths": [
+                "composer.json",
+                "src/Contracts/StorageWorkbenchCalendar.php",
+                "src/Contracts/StorageWorkbenchCalendarPage.php",
+                "src/Contracts/StorageWorkbenchCalendarQuery.php"
+            ],
+            "changed_paths_sha256": "d37c731c4a0f3782962cd8c3906aef7f8bf823b09bc5275713a811c659ce2d31",
+            "impacted_pages": [
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Server parts of board, cards and calendar views described on the storage page; owner guide pages reviewed: screens of these views are not shipped yet.",
+            "updated_pages": [
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms.menus-languages": "2181b6826a7be8dd6663aa56a5b59cb2e5f149aa85eb40959f6434e33fc2b79e",
+                "cms.pages": "69495d2c6137052a57c90bd3a914f070b7be711fa50c8dde4fe61bb2290baac8",
+                "cms.seo": "c67f33d800b1bf4732c9258adadce49c06bad4f6b8fb329df35f60ce50dec134",
+                "cms.sitepack": "394b3d221307b557e6b2a4764c159667ecdafeda76ce831a0dac74b38ee66734",
+                "cms.storage": "95dc4c91e5fb1ad0f55eb76bc90854a983013a3657ba0b7e8383a8a5207d6497",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "packages.storage": "4fd94a15b2a228e50c2795bd1ef28139897278e71f3261aae7cc63a969915a67",
+                "versions": "072da0dc420268f4824689bc46960673c39c58dab98914e54887696eb50a9a29"
+            },
+            "accepted_at": "2026-11-18T08:18:17+00:00",
+            "id": "8d9776159e6391ba1650c8ef9ced8f4aeff8b892f458189abf9c3df5fa8611f2"
         }
     ]
 }

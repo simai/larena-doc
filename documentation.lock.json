@@ -22,7 +22,7 @@
             "review": "ai_verified",
             "route": "/ru/packages/admin/",
             "source": "larena",
-            "source_sha256": "034af9acdb6ba6751b8c6490b06df563b1b74da96d14a061e6de9e21615fa26b"
+            "source_sha256": "5f9c84577e3cb4164427d3bda48ec1333ba30bbcb297c4c5e91178e6684b9f0e"
         },
         {
             "examples": [],
@@ -114,11 +114,11 @@
             "key": "larena.package.setting",
             "kind": "package",
             "page_path": "content/ru/packages/setting.md",
-            "page_sha256": "ccda08dc6e890cca64cdbb4b57a622e9a6067f3ed88c38df7a4498d419dcff16",
+            "page_sha256": "e74d0ffa5af13982eba904a2ede20cad372780daf9c14a680ba74ef9ab04238f",
             "review": "ai_verified",
             "route": "/ru/packages/setting/",
             "source": "larena",
-            "source_sha256": "308df8982f55905d1213b152de7f3b74646345823dcada52cbfaf4329a45cd12"
+            "source_sha256": "b802d1d18a167183e6af85ef69787f993538dfc1cdb53ebac694749896e166e4"
         },
         {
             "examples": [],
@@ -126,11 +126,11 @@
             "key": "larena.package.storage",
             "kind": "package",
             "page_path": "content/ru/packages/storage.md",
-            "page_sha256": "2e7f24e554c91c0e38ca3c43a846470ebd75127607576c8270ce3e1861bdb022",
+            "page_sha256": "4fd94a15b2a228e50c2795bd1ef28139897278e71f3261aae7cc63a969915a67",
             "review": "ai_verified",
             "route": "/ru/packages/storage/",
             "source": "larena",
-            "source_sha256": "8767e2199758a8ae3d560d72a3301afd187eb55a540f9233752e5e16243950a5"
+            "source_sha256": "7481319272bfd79c9dc59bfe275de67a813a59a14191c231002f79d9b30383b0"
         },
         {
             "examples": [],
