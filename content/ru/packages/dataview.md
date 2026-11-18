@@ -22,8 +22,9 @@ Dataview владеет описанием колонок, фильтров, с�
 - Владелец: normalized query and view descriptor.
 - Зрелость: table/query foundation.
 
-Пакет зависит от Core и Property. Он нормализует descriptor; выполнение прав и
-хранение данных остаются у Access и Storage.
+Обязательных зависимостей от других пакетов Larena у Dataview нет (с
+29.10.2026). Он нормализует descriptor; выполнение прав и хранение данных
+остаются у Access и Storage.
 
 ## Проверка
 

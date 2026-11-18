@@ -30,7 +30,8 @@
                 ".env.example",
                 "routes/**",
                 "docs/developer/**",
-                "scripts/larena-runtime.php"
+                "scripts/larena-runtime.php",
+                "scripts/install-larena-site.sh"
             ],
             "last_decision": "d326546b52dbdd69eb94231fa8a3624be42b0e6f58eeedf40490e5d96be0c179"
         },
@@ -238,6 +239,36 @@
                 "src/Contracts/**"
             ],
             "last_decision": "ece806254a733f349116fbd18c0f33b2485801060a5f6a4461283e82311bd34f"
+        },
+        {
+            "id": "package.file-manager",
+            "label": "larena/file-manager",
+            "repository": "../larena-workspace/packages/file-manager",
+            "verified_revision": "6944dacdabe3e5561f9f5f1bd7027be3e4ab0890",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
+        },
+        {
+            "id": "package.backup",
+            "label": "larena/backup",
+            "repository": "../larena-workspace/packages/backup",
+            "verified_revision": "679eceb86de207448df1e3da1bf0176b6eaacf63",
+            "public_paths": [
+                "README.md",
+                "composer.json",
+                "module.yaml",
+                "config/**",
+                "routes/**",
+                "docs/developer/**",
+                "src/Contracts/**"
+            ]
         }
     ],
     "pages": [
@@ -615,6 +646,443 @@
                 },
                 {
                     "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cms.install",
+            "path": "content/ru/cms/install.md",
+            "route": "/ru/cms/install/",
+            "title": "Установить сайт",
+            "audience": "Владелец сайта и тот, кто ставит сайт",
+            "outcome": "Поставить сайт одним скриптом или через Larena Panel и пройти первый запуск.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "root",
+                    "paths": [
+                        "README.md",
+                        "scripts/install-larena-site.sh"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cms.users-roles",
+            "path": "content/ru/cms/users-roles.md",
+            "route": "/ru/cms/users-roles/",
+            "title": "Войти и раздать права",
+            "audience": "Владелец сайта и администратор",
+            "outcome": "Войти в админку, добавить сотрудников и выбрать им роли.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/auth/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/access/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.auth",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.access",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cms.pages",
+            "path": "content/ru/cms/pages.md",
+            "route": "/ru/cms/pages/",
+            "title": "Страницы и дерево сайта",
+            "audience": "Владелец сайта и редактор",
+            "outcome": "Создать страницы, расставить их по дереву и опубликовать.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "root",
+                    "paths": [
+                        "routes/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/storage/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/layout/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.layout",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cms.menus-languages",
+            "path": "content/ru/cms/menus-languages.md",
+            "route": "/ru/cms/menus-languages/",
+            "title": "Меню и языки",
+            "audience": "Владелец сайта и редактор",
+            "outcome": "Поставить меню и включить второй язык сайта.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "root",
+                    "paths": [
+                        "routes/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/storage/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/layout/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.layout",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cms.files",
+            "path": "content/ru/cms/files.md",
+            "route": "/ru/cms/files/",
+            "title": "Файлы и картинки",
+            "audience": "Владелец сайта и редактор",
+            "outcome": "Загрузить картинки и документы и разложить их по папкам.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/file-manager/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/filesystem/**"
+                    ]
+                },
+                {
+                    "source": "package.file-manager",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.filesystem",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cms.seo",
+            "path": "content/ru/cms/seo.md",
+            "route": "/ru/cms/seo/",
+            "title": "Базовое SEO",
+            "audience": "Владелец сайта",
+            "outcome": "Заполнить метатеги страниц и проверить карту сайта, robots.txt, страницу 404 и переадресации.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "root",
+                    "paths": [
+                        "routes/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/storage/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cms.backup",
+            "path": "content/ru/cms/backup.md",
+            "route": "/ru/cms/backup/",
+            "title": "Копия и восстановление",
+            "audience": "Владелец сайта и тот, кто обслуживает сервер",
+            "outcome": "Сделать и проверить полную копию сайта и знать, как из неё вернуться.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/backup/**"
+                    ]
+                },
+                {
+                    "source": "package.backup",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cms.sitepack",
+            "path": "content/ru/cms/sitepack.md",
+            "route": "/ru/cms/sitepack/",
+            "title": "Перенос сайта",
+            "audience": "Владелец сайта и администратор",
+            "outcome": "Перенести страницы, хранилища и настройки на другой сайт Larena.",
+            "owner": "larena-doc",
+            "sources": [
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/storage/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/setting/**"
+                    ]
+                },
+                {
+                    "source": "specs",
+                    "paths": [
+                        "specs/packages/admin/**"
+                    ]
+                },
+                {
+                    "source": "package.storage",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.setting",
+                    "paths": [
+                        "README.md",
+                        "composer.json",
+                        "module.yaml",
+                        "config/**",
+                        "routes/**",
+                        "docs/developer/**",
+                        "src/Contracts/**"
+                    ]
+                },
+                {
+                    "source": "package.admin",
                     "paths": [
                         "README.md",
                         "composer.json",

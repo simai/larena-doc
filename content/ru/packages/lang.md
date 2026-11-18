@@ -20,7 +20,16 @@ fallback в базовом сценарии.
 - Владелец: interface language resources and fallback.
 - Зрелость: package pre-codegen, ограниченная Root integration.
 
-Пакет зависит от `larena/core`, PHP 8.3 и Illuminate Support 13.
+Пакет зависит только от PHP 8.3 и Illuminate Support 13; других пакетов Larena
+ему не нужно.
+
+## Языки сайта
+
+`Larena\Lang\Contracts\LanguageCatalog` — список языков, из которых сайт
+выбирает свои: код и название языка на нём самом (`ru` — «Русский», `de` —
+«Deutsch»). `codes()` даёт все коды, `name($code)` — название; код вне списка
+называется сам собой. Админка берёт отсюда варианты настройки языков сайта;
+без Lang выбор идёт из настроенных языков по коду.
 
 ## Практическое правило
 

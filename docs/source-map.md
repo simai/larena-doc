@@ -81,3 +81,12 @@ Admin tests, but no translated RTL locale is published or visually claimed.
 The sanitized artifact catalog SHA-256 is
 `f60ef9a3618a91aa43d343a08e2b30544557bf16fbfbcf029248e4cad0a79aca`.
 Current execution is bound to Specs `b15e507b9f2b71f26db30408b2a33de5591027e8`.
+
+## Owner's guide and package review — 2026-11-18
+
+The owner's guide pages under `/ru/cms/` and the package, start, versions and
+tutorial pages were reviewed against Specs `3b52bb3c5`, Workspace `31dccda30`,
+Root `ee49efc9`, Framework `ui-7fb26d395af2` with the component sets
+`pro-db490626ba74` and `chart-58ba480db497`, and the package heads Root pins.
+The exact per-source ranges, changed paths and decisions are recorded in
+`contracts/larena-documentation-decisions.json`.

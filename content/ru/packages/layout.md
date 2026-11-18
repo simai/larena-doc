@@ -11,18 +11,55 @@ translation_key: larena.package.layout
 > без получения данных и решения прав. **Источник:** код пакета (`src/`),
 > package README, CHANGELOG, Specs и Root tests. **Статус:** descriptor and
 > render-plan foundation; список записей хранилища и выбор хранилища снимков
-> проверены по коду `60cb676b` 26.10.2026.
+> проверены по коду `60cb676b` 26.10.2026, блоки страниц и структурированное
+> содержимое — по `37e356c3` 18.11.2026.
 
 Layout нормализует декларативную структуру областей, секций и блоков и строит
 render plan. Текущие точки входа:
-`PageAssemblyDescriptorNormalizer` и `MinimalCmsRenderPlanRuntime`.
+`PageAssemblyDescriptorNormalizer` и `PageRenderPlanRuntime`.
 
 - Composer: `larena/layout`.
 - Владелец: page composition descriptor and render plan.
 - Зрелость: bounded foundation.
 
-Пакет зависит от Core. Он переносит структуру, props и ссылки; получение данных,
-проверка прав и регистрация компонента принадлежат другим пакетам.
+Пакет зависит от Core. Property и Setting необязательны: с Property Layout
+проверяет блоки страниц сайта, с Setting шаблон и области сайта становятся
+настройками (`LayoutSettingDefinitions`). Layout переносит структуру, props и
+ссылки; получение данных, проверка прав и регистрация компонента принадлежат
+другим пакетам.
+
+## Блоки страницы сайта
+
+Блоки страницы могут храниться в её записи — значением Property `content@1`
+(`[{type, version, params}]`). `PageContentBlockValidator` проверяет их по тем
+же правилам, что и блоки сборки страницы; там, где установлен Property,
+провайдер Layout подключает эту проверку к реестру типов.
+`PageAssemblyContentBlocks::fromAssembly()` переводит область содержимого
+(`region.main`) сборки `site.<slug>` в такой список; у блока `larena.list` в
+params попадают его props и `target` и `query` его привязки.
+
+## Структурированное содержимое на сервере
+
+Структурированное содержимое SIMAI Framework (Composition Document профиля
+`structured-content` с узлами `content.*`) Larena рисует на сервере, в Layout:
+
+```php
+use Larena\Layout\StructuredContent\Renderer;
+
+$document = json_decode($json, false);      // объекты, а не массивы
+$page = (new Renderer())->render($document);
+$page->html;         // '' для неверного документа
+$page->assets;       // ресурсы Framework для нарисованных типов
+$page->diagnostics;  // [{code, path, message}]
+```
+
+Только проверку даёт `Validator::validate($document)`. Контрактом служит
+conformance-набор Framework: его копия закреплена в пакете, и
+`StructuredContentConformanceTest` прогоняет каждый случай. Зарегистрированные
+типы (`content.diagram`, `content.math`) рисует хост: здесь они дают
+`renderer_unavailable`. Размеры файлов форматируются по языку страницы через
+`ext-intl`; без расширения это обычные числа. Подробности — в
+`docs/developer/structured-content-renderer.md` пакета.
 
 ## Проверка
 
