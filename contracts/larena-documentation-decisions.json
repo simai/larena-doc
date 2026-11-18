@@ -6139,6 +6139,672 @@
             },
             "accepted_at": "2026-10-27T18:24:13+00:00",
             "id": "ece806254a733f349116fbd18c0f33b2485801060a5f6a4461283e82311bd34f"
+        },
+        {
+            "source": "workspace",
+            "from_revision": "2a59b6cdaa2f6924f279ec234f50f28037d9fcf9",
+            "to_revision": "31dccda305959ee00f8dcd485c1e42677a2a9c8d",
+            "changed_paths": [
+                "scripts/package-selection.py",
+                "scripts/publish/README.md",
+                "scripts/publish/allow-files.py",
+                "scripts/publish/env.sh",
+                "scripts/publish/pkg-gates.sh",
+                "scripts/publish/publish.sh",
+                "scripts/publish/refresh-g410.py",
+                "scripts/publish/rehash-admin.py",
+                "scripts/publish/renew-g49.py",
+                "scripts/publish/repin-g24.py",
+                "scripts/publish/repin-g25-drift.sh",
+                "scripts/publish/repin-g25.py",
+                "scripts/publish/specs-block.sh",
+                "scripts/publish/specs-status.py",
+                "scripts/publish/stand-check.mjs",
+                "scripts/publish/workspace-root-revision.py",
+                "scripts/validate-workspace.sh"
+            ],
+            "changed_paths_sha256": "df027afc507007464a399273fc03b6917fb2279db11f6c2b920ad2559fd1da9d",
+            "impacted_pages": [],
+            "decision": "documentation_not_affected",
+            "reason": "Only the maintainers' publish and validation scripts under scripts/ changed (publish.sh, repin, specs-block, stand check); no public page maps them and the reader's install and build steps are unchanged.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-11-18T01:11:54+00:00",
+            "id": "50b2f9919ff474fe1dded5ab5c5cdd6ee0efb000af4baf886349f0f3480f62c4"
+        },
+        {
+            "source": "specs",
+            "from_revision": "088d35fe34a90d264cb8d43c5eba9541c5851fe7",
+            "to_revision": "07153cd4b78b1468cbba13097b374bd2bc7089d9",
+            "changed_paths": [
+                "README.md",
+                "specs/packages/core/features.json",
+                "specs/packages/core/features/site-addresses/feature.json",
+                "specs/packages/ui/features/component-packages/feature.json"
+            ],
+            "changed_paths_sha256": "a281f0a2664310b008a9c0368c87e7b1196b639669cc280f4988de29c2e2a758",
+            "impacted_pages": [
+                "development",
+                "development.materials-catalog",
+                "home",
+                "packages.core",
+                "packages.ui"
+            ],
+            "decision": "documentation_updated",
+            "reason": "README now links the editions map; core gains the planned core.site_addresses feature (implementation_planning) and ui.component_packages accepts sets over a newer Framework through a pair receipt or pair range. Updated packages.core (sites and domains) and packages.ui (pair receipt and range, pro and chart sets); home, development and the tutorial were reviewed and need no change for these spec paths.",
+            "updated_pages": [
+                "development",
+                "development.materials-catalog",
+                "home",
+                "packages.core",
+                "packages.ui"
+            ],
+            "page_sha256": {
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "home": "435848c3ba9ff15f5783f1c40986f9da7387ac3b18d76fb17d1e8dea3f8a4482",
+                "packages.core": "8c6eae0e84265f594f3de80d30ec2bc902fa611bbda856a2e78d4e7356f7f77e",
+                "packages.ui": "34b18051901a9b73191df54ff659fae550f0c00106cd950dbc893c04d98fa91f"
+            },
+            "accepted_at": "2026-11-18T01:11:56+00:00",
+            "id": "39b35541f62c43f79333e8de934ff557008200589f5abf58a2eee2ef3a953f7e"
+        },
+        {
+            "source": "root",
+            "from_revision": "bb23384348eb0c751fa2ad97e294b99c5ab70321",
+            "to_revision": "ee49efc922b2de0b101dc6c880dd57bcbf7518bf",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/ai-first-setting-pilot.md",
+                "docs/developer/auth/readiness.md",
+                "docs/developer/clean-distribution-and-upgrade.md",
+                "docs/developer/cms-admin-page.md",
+                "docs/developer/minimal-cms-admin-page.md",
+                "docs/developer/minimal-cms-v1-developer-preview.md",
+                "docs/developer/runtime-delivery-v1.md",
+                "docs/developer/storage-backed-page-runtime.md",
+                "routes/console.php",
+                "routes/console/data-content.php",
+                "routes/console/internal-preview.php",
+                "routes/console/public-link.php",
+                "routes/storage-page.php",
+                "routes/web.php",
+                "scripts/install-larena-site.sh"
+            ],
+            "changed_paths_sha256": "9b6c382cb9a51ec4942d771f42c081c2c68d84d8966b33d246f8baa1c4f56ca4",
+            "impacted_pages": [
+                "cms.install",
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "home",
+                "operations",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Root renamed the CMS commands and scripts (larena:cms:smoke, larena:cms:install, test:cms-*; old command names stay aliases), serves site pages at their tree address on the fallback route with a 301 from /site/<locale>/<key>, adds robots.txt, moves the layout recipe page to /developer/composition, ships the free distribution without cockpit and update and adds scripts/install-larena-site.sh. Updated start (cms:smoke, the site install script) and versions (Root ee49efc9, 24-package free distribution); cms.install, cms.pages, cms.menus-languages and cms.seo were written against these routes and scripts on 17.11 and stay correct; home and operations need no change.",
+            "updated_pages": [
+                "cms.install",
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "home",
+                "operations",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms.install": "e2c87950bc8bdf91fef3a14c3a17b4841189179e3981d67125be3992456d4bca",
+                "cms.menus-languages": "2181b6826a7be8dd6663aa56a5b59cb2e5f149aa85eb40959f6434e33fc2b79e",
+                "cms.pages": "69495d2c6137052a57c90bd3a914f070b7be711fa50c8dde4fe61bb2290baac8",
+                "cms.seo": "c67f33d800b1bf4732c9258adadce49c06bad4f6b8fb329df35f60ce50dec134",
+                "home": "435848c3ba9ff15f5783f1c40986f9da7387ac3b18d76fb17d1e8dea3f8a4482",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "start": "3d7334a85ae60e347360565481c670a491215df9585d1f349997dffab0b9bacb",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:12+00:00",
+            "id": "2e9a4820cf0461c888cbd77b999747029d7079ebe5bf07eb69b46c75ae1ab52d"
+        },
+        {
+            "source": "package.core",
+            "from_revision": "37a3775e5ba4365187e441ac9dfa1576fd1fa80a",
+            "to_revision": "359416eb1aea28386ae9db20a68c5edc9bd86491",
+            "changed_paths": [
+                "composer.json",
+                "config/larena-core.php",
+                "src/Contracts/FirstRunOptions.php",
+                "src/Contracts/SiteBinding.php",
+                "src/Contracts/SiteBindings.php",
+                "src/Contracts/SiteFavicon.php",
+                "src/Contracts/SiteLanguageStructure.php",
+                "src/Contracts/SiteLanguages.php"
+            ],
+            "changed_paths_sha256": "ae3775c4cd60b733d199d241164f20580c1091091744c28c71e84714b9e2ea60",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "packages.core",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Core adds site domains (SiteBindings, SiteBinding roles and environments, ResolveSite, the sites config), site languages, favicon and language structure ports, the product's first_run steps and FirstRunOptions, and requires illuminate/http. Updated packages.core (sites and domains, first run) and versions; concepts, development and start were reviewed and need no change.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "packages.core",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "packages.core": "8c6eae0e84265f594f3de80d30ec2bc902fa611bbda856a2e78d4e7356f7f77e",
+                "start": "3d7334a85ae60e347360565481c670a491215df9585d1f349997dffab0b9bacb",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:14+00:00",
+            "id": "215419003c8cb84e91d834f2aebfdaa1e501b4542c3894e970ddedc10fa06874"
+        },
+        {
+            "source": "package.setting",
+            "from_revision": "f44f1e249541235b71b2527ce18ac0dc470e0324",
+            "to_revision": "6ef989a5d6aba5a06dff9389ea6b0b6bcf44296f",
+            "changed_paths": [
+                "composer.json",
+                "src/Contracts/SettingConditions.php",
+                "src/Contracts/SettingDefinition.php",
+                "src/Contracts/ViewSubjectCatalog.php"
+            ],
+            "changed_paths_sha256": "84838b9b403916e3d1dc84d37ba2b568811d9a297984be391f434be61144dfe7",
+            "impacted_pages": [
+                "cms",
+                "cms.sitepack",
+                "concepts",
+                "packages.setting",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Setting carries the settings page structure and the record views part in the common settings pack (ViewSubjectCatalog, larena:views:seed-keys), lets a definition's order be null and names sf-view-properties. Updated packages.setting (structure and views transfer, gaps) and versions; cms, cms.sitepack and concepts were reviewed and need no change.",
+            "updated_pages": [
+                "cms",
+                "cms.sitepack",
+                "concepts",
+                "packages.setting",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "9727ecd290cf24d10028c0f023c68e9169a58bd24320933de6a05ae77bf54904",
+                "cms.sitepack": "394b3d221307b557e6b2a4764c159667ecdafeda76ce831a0dac74b38ee66734",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "packages.setting": "ccda08dc6e890cca64cdbb4b57a622e9a6067f3ed88c38df7a4498d419dcff16",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:17+00:00",
+            "id": "999dcc921b951fcd0220e5d877e461b931cf1eb34e57afb30b6348ef66a7ca12"
+        },
+        {
+            "source": "package.lang",
+            "from_revision": "84971cc1337fff69dc1a103e9eedb79ac4f96f9a",
+            "to_revision": "519cfdeca78b5d9069743f225f61dc5e569a0410",
+            "changed_paths": [
+                "composer.json",
+                "src/Contracts/LanguageCatalog.php"
+            ],
+            "changed_paths_sha256": "c6dd0f619f5795a7b3d04e44436c04bde500f7da2328a60e6f3e76184a3fe4c9",
+            "impacted_pages": [
+                "concepts",
+                "packages.lang",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Lang no longer requires larena/core and adds LanguageCatalog, the languages a site chooses from. Updated packages.lang (dependencies, site languages) and versions; concepts needs no change.",
+            "updated_pages": [
+                "concepts",
+                "packages.lang",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "packages.lang": "3b6a3b40b7dfdcfb4af441110ab251209b51931a1439df22264b482eb7387496",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:19+00:00",
+            "id": "01e506bfdf298589d9e9ea49db7f6b5a4ef776bc62cab733bddf70b65eb08e6a"
+        },
+        {
+            "source": "package.auth",
+            "from_revision": "e983ce718d476527bf54f64f4646723d6d354551",
+            "to_revision": "225dfadfbd52fd911e3d2a2195d768eadf87270d",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/concept-alignment.md",
+                "src/Contracts/AdminIdentityStore.php"
+            ],
+            "changed_paths_sha256": "55bc5387bc49df03b51a3f41a728769c80fb79edadb5096c5e8daab4b0adf4ee",
+            "impacted_pages": [
+                "cms",
+                "cms.users-roles",
+                "concepts",
+                "packages.auth",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Auth adds the AdminIdentityStore contract through which Access administers identities and drops stale suggests. Updated packages.auth (AdminIdentityStore) and versions; cms, cms.users-roles, concepts and start were reviewed and need no change.",
+            "updated_pages": [
+                "cms",
+                "cms.users-roles",
+                "concepts",
+                "packages.auth",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "9727ecd290cf24d10028c0f023c68e9169a58bd24320933de6a05ae77bf54904",
+                "cms.users-roles": "e239ad550185685619a2339f9c76aabc29f9a0478da086b95c9cef1b2b3cf5b0",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "packages.auth": "9243ad19cf8840b69eee52eb90af32adfd495a1f02d447852d32119bfe3d2fee",
+                "start": "3d7334a85ae60e347360565481c670a491215df9585d1f349997dffab0b9bacb",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:21+00:00",
+            "id": "e7c0243c2f43ca66aea94b578eb3345afa1ef67823dbbd3a4d925841873d2df7"
+        },
+        {
+            "source": "package.access",
+            "from_revision": "c19beea540ada1bd854e2f4006e06fa8f3894596",
+            "to_revision": "635f227ab0f8888b2eababef7562063c0b6e7e24",
+            "changed_paths": [
+                "composer.json",
+                "config/features.php",
+                "docs/developer/concept-alignment.md"
+            ],
+            "changed_paths_sha256": "0025947a32ebc39f37f582a4fcdfc6c17167f0e4601beb5567a71df265037736",
+            "impacted_pages": [
+                "cms",
+                "cms.users-roles",
+                "concepts",
+                "development.materials-catalog",
+                "packages.access",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Access declares its roles screens as the product feature access.roles_editor (config/features.php) and renames its CMS tests and alignment note. Updated packages.access (product features) and versions; cms, cms.users-roles, concepts and the tutorial need no change.",
+            "updated_pages": [
+                "cms",
+                "cms.users-roles",
+                "concepts",
+                "development.materials-catalog",
+                "packages.access",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "9727ecd290cf24d10028c0f023c68e9169a58bd24320933de6a05ae77bf54904",
+                "cms.users-roles": "e239ad550185685619a2339f9c76aabc29f9a0478da086b95c9cef1b2b3cf5b0",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "packages.access": "36a494d24abff0e78623795cf53205b9edd2fe41e1bf2feba85a4b9918d53f14",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:24+00:00",
+            "id": "4bef023a9342f43e988c6ad5f7c080a60234027363efadc7c29cb49dbc5035f8"
+        },
+        {
+            "source": "package.property",
+            "from_revision": "fd8c8b6e2af1ce2e44c3374b08dcfc6f15446cdc",
+            "to_revision": "67ec9ef3cb3691834814a54f5b9fb12a2cea2661",
+            "changed_paths": [
+                "composer.json",
+                "src/Contracts/PropertyContentBlockValidator.php",
+                "src/Contracts/PropertyField.php"
+            ],
+            "changed_paths_sha256": "d2ce02cebee0722952db97df6a8cc34f50c5eb6bd451dc3873ecd683633cdc2e",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.property",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Property drops its larena/core requirement, adds html@1, content@1 with PropertyContentBlockValidator, percent@1, money@1, items@1, ru.inn@1 and ru.requisites@1 (registry version 11) and names sf-view-properties. Updated packages.property (type list, new types, panel), the tutorial (type list) and versions; concepts and development need no change.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.property",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "packages.property": "d792d9287eb500f86dfb2dd2f83505cbdc76f465bf153645ebf7562b1367ead7",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:40+00:00",
+            "id": "9cf0822c24ecadcc6b25e9f94b3c1411329d8b133bffddc4ad0270ac9b178ac2"
+        },
+        {
+            "source": "package.storage",
+            "from_revision": "eb07a9625b50a99ed0c2a979cd477859da10b2b6",
+            "to_revision": "491550595f0ee14e3c95931874218059522d7b31",
+            "changed_paths": [
+                "composer.json",
+                "config/larena-admin-storage.php",
+                "module.yaml",
+                "routes/admin/storage-section.php",
+                "routes/admin/workbench.php",
+                "src/Contracts/LocalizedValueGuard.php",
+                "src/Contracts/RecordTreeListener.php",
+                "src/Contracts/RequestSiteScope.php",
+                "src/Contracts/SitePageAddressObserver.php",
+                "src/Contracts/StorageSitePack.php",
+                "src/Contracts/StorageSitePackImportOptions.php",
+                "src/Contracts/StorageSitePackPlan.php",
+                "src/Contracts/StorageWorkbenchBoard.php",
+                "src/Contracts/StorageWorkbenchBoardLane.php",
+                "src/Contracts/StorageWorkbenchBoardPage.php",
+                "src/Contracts/StorageWorkbenchBoardQuery.php",
+                "src/Contracts/StorageWorkbenchLanguages.php",
+                "src/Contracts/StorageWorkbenchRecordActivity.php",
+                "src/Contracts/StorageWorkbenchRecordCard.php",
+                "src/Contracts/StorageWorkbenchStructure.php",
+                "src/Contracts/StructureRoleChoice.php",
+                "src/Contracts/StructureRoleRecordValidator.php",
+                "src/Contracts/StructureRoleRecordWrite.php",
+                "src/Contracts/StructureRoleRegistry.php"
+            ],
+            "changed_paths_sha256": "fcbb10a9ecca1b9e2de9a511f03f2ac0f0196d26aada30448ff50709291d8dce",
+            "impacted_pages": [
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Storage now owns the admin's Storage section (src/Admin, routes/admin/storage-section.php, suggest admin and rest), site pages as an ordinary storage at tree addresses, records with addresses, the per-site Redirects storage, presets, publication for publishable roles, CSV references, the new-records chart, the SitePack load question and REST site read handlers. Updated packages.storage, cms.storage, cms.sitepack, the tutorial and versions; cms.pages, cms.menus-languages and cms.seo were written against this on 17.11 and stay correct; concepts, development and operations need no change.",
+            "updated_pages": [
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.storage",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms.menus-languages": "2181b6826a7be8dd6663aa56a5b59cb2e5f149aa85eb40959f6434e33fc2b79e",
+                "cms.pages": "69495d2c6137052a57c90bd3a914f070b7be711fa50c8dde4fe61bb2290baac8",
+                "cms.seo": "c67f33d800b1bf4732c9258adadce49c06bad4f6b8fb329df35f60ce50dec134",
+                "cms.sitepack": "394b3d221307b557e6b2a4764c159667ecdafeda76ce831a0dac74b38ee66734",
+                "cms.storage": "95dc4c91e5fb1ad0f55eb76bc90854a983013a3657ba0b7e8383a8a5207d6497",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "packages.storage": "2e7f24e554c91c0e38ca3c43a846470ebd75127607576c8270ce3e1861bdb022",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:41+00:00",
+            "id": "e149fae4d491af9f36726025417f2029244e68e061d7ee58dff92b89510a652c"
+        },
+        {
+            "source": "package.filesystem",
+            "from_revision": "f2945aa1d8bef271825f6ca6c0e59bd1aff481d0",
+            "to_revision": "6873c1a2e94aaf015baeb21deac76d91825f05fe",
+            "changed_paths": [
+                "composer.json",
+                "module.yaml",
+                "src/Contracts/ManagedFileRestoreTarget.php"
+            ],
+            "changed_paths_sha256": "a51a5500273ba6c087a19ab23d02a691990a1b993a07f6c9bde020af311a9e27",
+            "impacted_pages": [
+                "cms.files",
+                "concepts",
+                "operations",
+                "packages.filesystem",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Filesystem now requires only larena/property and adds ManagedFileRestoreTarget for putting file bytes back after a backup restore; the module feature is renamed cms_logical_file_lifecycle. Updated packages.filesystem (dependencies, restore) and versions; cms.files, concepts and operations need no change.",
+            "updated_pages": [
+                "cms.files",
+                "concepts",
+                "operations",
+                "packages.filesystem",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms.files": "248ad97b1a350179f3c6c30b4445ca23d91503bae98c992d51e827145726b7d2",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "packages.filesystem": "da61eaa797e364d040944f4baa696a34a1d22a4337ebedb7dce23a81147c090b",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:42+00:00",
+            "id": "e5394f1bb2768bf473b43e7ae46bbd65f2796ae0aba4d2ec8a2f564863250f75"
+        },
+        {
+            "source": "package.dataview",
+            "from_revision": "3db9752e286284662a219a8fc02563808b325814",
+            "to_revision": "a7bcdb1163d7e3c2876136cbb78a994930a394bb",
+            "changed_paths": [
+                "composer.json",
+                "docs/developer/registered-query-boundary.md"
+            ],
+            "changed_paths_sha256": "cf0d5e5e55186c99d184e298d6d61fd6440eed55da764e95a5bc05802c50a635",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.dataview",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Dataview drops its larena/core and larena/property requirements; the registered-query note only renames Minimal CMS. Updated packages.dataview (dependencies) and versions; concepts, development and the tutorial need no change.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.dataview",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "packages.dataview": "abd9a535c2f88eec69de3576dc53d2b133eec3f8a2b33a3054d37e0f31e42c13",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:43+00:00",
+            "id": "932ade67121472df64c350b7f53b0dbd715e273675fc948f0ec89b2f38420d7c"
+        },
+        {
+            "source": "package.layout",
+            "from_revision": "60cb676bcbf2f7660faaade09c79736a7a49cd7f",
+            "to_revision": "37e356c35c85cf860beb346ec445969331b82dd8",
+            "changed_paths": [
+                "README.md",
+                "composer.json",
+                "docs/developer/structured-content-renderer.md",
+                "module.yaml"
+            ],
+            "changed_paths_sha256": "c6ee091141faba9d1bd88e7bd6f921fdff9481901c50bc93d5bd5c9bd2f7ad95",
+            "impacted_pages": [
+                "cms.menus-languages",
+                "cms.pages",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.layout",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Layout adds the structured content renderer, PageContentBlockValidator and PageAssemblyContentBlocks for content@1 page blocks, optional Property and Setting, and renames its CMS descriptor feature. Updated packages.layout (entry point name, page blocks, structured content) and versions; cms.pages, cms.menus-languages, concepts, development and the tutorial need no change.",
+            "updated_pages": [
+                "cms.menus-languages",
+                "cms.pages",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.layout",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms.menus-languages": "2181b6826a7be8dd6663aa56a5b59cb2e5f149aa85eb40959f6434e33fc2b79e",
+                "cms.pages": "69495d2c6137052a57c90bd3a914f070b7be711fa50c8dde4fe61bb2290baac8",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "packages.layout": "d35c31fe1373ebeafa652c9465e896a9e8e4635576a9c8d2edc4ff1fbdb811fd",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:44+00:00",
+            "id": "dd7ddee16de7886bd4737110e1247e4e2877c0c3fb5825aeccfb91407d7566df"
+        },
+        {
+            "source": "package.ui",
+            "from_revision": "9fcc1cb69cbed7e165e447a0ea7fc325a8c0b886",
+            "to_revision": "eced1374ad57ddfa4a9934a0c8a8e253b62380d5",
+            "changed_paths": [
+                "README.md",
+                "composer.json",
+                "docs/developer/composition-regions-routing.md",
+                "module.yaml",
+                "src/Contracts/UiResourcePackManifest.php"
+            ],
+            "changed_paths_sha256": "c5add92700f362207b46a749c36f2c08415b195d6beea8afea0fdb087815b431",
+            "impacted_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.ui",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "UI moves to the pro set released on simai/ui-pro (formerly larena on simai/larena-ui), the Framework tag rename (sf-view-table, sf-view, sf-view-properties, sf-button-icon), makes Layout optional and pins Framework ui-7fb26d395af2 with pro and chart by pair range. Updated packages.ui and versions; concepts, development and the tutorial need no change.",
+            "updated_pages": [
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "packages.ui",
+                "versions"
+            ],
+            "page_sha256": {
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "packages.ui": "34b18051901a9b73191df54ff659fae550f0c00106cd950dbc893c04d98fa91f",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:45+00:00",
+            "id": "6b5c00c7f163a41b92367ec469f0d9dba5ee002f6f064fca5fd8724f8c5d1825"
+        },
+        {
+            "source": "package.admin",
+            "from_revision": "d653820be5d13df7d47995a8352f93f9c35b0b4e",
+            "to_revision": "c3fa8fd660cc68b8510dac3d8bc8f8bfe8a4d4a8",
+            "changed_paths": [
+                "README.md",
+                "composer.json",
+                "config/features.php",
+                "config/larena-admin.php",
+                "docs/developer/concept-alignment.md",
+                "docs/developer/declarative-collection-pages.md",
+                "docs/developer/ui-admin-reference-map.md",
+                "module.yaml",
+                "routes/admin-inventory.php",
+                "routes/admin-product.php",
+                "routes/admin/minimal-cms.php",
+                "routes/admin/product.php",
+                "routes/admin/storage-section.php",
+                "routes/admin/structure-editors.php",
+                "routes/admin/workbench.php",
+                "routes/identity.php",
+                "src/Contracts/AdminAlertSource.php",
+                "src/Contracts/AdminFirstStepsSource.php",
+                "src/Contracts/AdminObjectMenuSource.php",
+                "src/Contracts/AdminRecordSearch.php",
+                "src/Contracts/AdminRecordsGateway.php",
+                "src/Contracts/MinimalCmsGateway.php",
+                "src/Contracts/MinimalCmsRecordSearch.php",
+                "src/Contracts/RecordFilterOptionsGateway.php",
+                "src/Contracts/StorageRecordSearch.php",
+                "src/Contracts/StorageSectionScope.php",
+                "src/Contracts/StorageStructureSearch.php",
+                "src/Contracts/StorageWorkbenchGateway.php"
+            ],
+            "changed_paths_sha256": "9074ac6aa5296e8479e7ecc69ff952c950603005bb8ed168acb5bf3f3d2d6b59",
+            "impacted_pages": [
+                "cms",
+                "cms.install",
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "cms.users-roles",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "decision": "documentation_updated",
+            "reason": "Admin removed the Minimal CMS demo screen, hands the Storage section to Storage, makes storage, layout and lang optional, requires audit, declares product features and menu roots, adds the alert bar, first steps, object menus, the one install wizard, question windows for dangerous actions and planned actions, and needs the pro set. Updated packages.admin, cms (first steps), cms.install (wizard steps, first steps), cms.sitepack, cms.storage and versions; cms.pages, cms.menus-languages, cms.seo, cms.users-roles, concepts, development, the tutorial, operations and start were reviewed and need no change.",
+            "updated_pages": [
+                "cms",
+                "cms.install",
+                "cms.menus-languages",
+                "cms.pages",
+                "cms.seo",
+                "cms.sitepack",
+                "cms.storage",
+                "cms.users-roles",
+                "concepts",
+                "development",
+                "development.materials-catalog",
+                "operations",
+                "packages.admin",
+                "start",
+                "versions"
+            ],
+            "page_sha256": {
+                "cms": "9727ecd290cf24d10028c0f023c68e9169a58bd24320933de6a05ae77bf54904",
+                "cms.install": "e2c87950bc8bdf91fef3a14c3a17b4841189179e3981d67125be3992456d4bca",
+                "cms.menus-languages": "2181b6826a7be8dd6663aa56a5b59cb2e5f149aa85eb40959f6434e33fc2b79e",
+                "cms.pages": "69495d2c6137052a57c90bd3a914f070b7be711fa50c8dde4fe61bb2290baac8",
+                "cms.seo": "c67f33d800b1bf4732c9258adadce49c06bad4f6b8fb329df35f60ce50dec134",
+                "cms.sitepack": "394b3d221307b557e6b2a4764c159667ecdafeda76ce831a0dac74b38ee66734",
+                "cms.storage": "95dc4c91e5fb1ad0f55eb76bc90854a983013a3657ba0b7e8383a8a5207d6497",
+                "cms.users-roles": "e239ad550185685619a2339f9c76aabc29f9a0478da086b95c9cef1b2b3cf5b0",
+                "concepts": "a2c582d665e1db1ce068b2b7de1517e2b8ae65dc4584f3b1b598ffac14330f95",
+                "development": "664199e8e36bba13d78ba4e7d92a40757483efa214bdb8c6eb7e9f47f279f467",
+                "development.materials-catalog": "f97598c36bc69f923a67f026c7f19d9f030da7d605ee8f4912e550c79fcc827e",
+                "operations": "ef21958ce360f9efb460b07f13cdbab6723ef6aa65d1dd229e86add88455eeff",
+                "packages.admin": "466b05e916837bcdeefb090acf146e289d53ea030e56763279255bcf5693923d",
+                "start": "3d7334a85ae60e347360565481c670a491215df9585d1f349997dffab0b9bacb",
+                "versions": "7f9da11022e62b09af4ccec6f2e6fcdd497501ce51492582ea519854aa6aecec"
+            },
+            "accepted_at": "2026-11-18T01:12:47+00:00",
+            "id": "c29d27ae33b347507403339d0b66c798a65ffe31575d285513cac5c948b2db1b"
         }
     ]
 }

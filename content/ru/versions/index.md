@@ -17,7 +17,7 @@ translation_key: larena.versions
 
 Документируемые проектные источники:
 
-- Larena Specs: `3b52bb3c5`;
+- Larena Specs: `07153cd4b`;
 - Larena Workspace: `31dccda30`;
 - Larena entry app: `ee49efc9`.
 
