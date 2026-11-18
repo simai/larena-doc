@@ -6805,6 +6805,24 @@
             },
             "accepted_at": "2026-11-18T01:12:47+00:00",
             "id": "c29d27ae33b347507403339d0b66c798a65ffe31575d285513cac5c948b2db1b"
+        },
+        {
+            "source": "workspace",
+            "from_revision": "31dccda305959ee00f8dcd485c1e42677a2a9c8d",
+            "to_revision": "6642dc7d9944f7e184da9bec05e0e6a52e4c2d9a",
+            "changed_paths": [
+                "scripts/check-update-cycle.sh",
+                "scripts/publish/README.md",
+                "scripts/publish/build-release-archive.php"
+            ],
+            "changed_paths_sha256": "c5e32f0fdc79b85dee7110b26829f98aa455f4474b5e6edf5c727b36111d05eb",
+            "impacted_pages": [],
+            "decision": "documentation_not_affected",
+            "reason": "Internal release tooling only: the release archive builder and the update cycle check are not yet part of the public release path (no signing key, no update source); no page describes them.",
+            "updated_pages": [],
+            "page_sha256": [],
+            "accepted_at": "2026-11-18T01:38:35+00:00",
+            "id": "ff326353ea2a50068ccefca9ce79eea5ce95117456d2348d4e6b384ef1523abf"
         }
     ]
 }

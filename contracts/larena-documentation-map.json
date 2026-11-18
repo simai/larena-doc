@@ -39,14 +39,14 @@
             "id": "workspace",
             "label": "Larena Workspace",
             "repository": "../larena-workspace",
-            "verified_revision": "31dccda305959ee00f8dcd485c1e42677a2a9c8d",
+            "verified_revision": "6642dc7d9944f7e184da9bec05e0e6a52e4c2d9a",
             "public_paths": [
                 "README.md",
                 "composer.json",
                 "packages.json",
                 "scripts/**"
             ],
-            "last_decision": "50b2f9919ff474fe1dded5ab5c5cdd6ee0efb000af4baf886349f0f3480f62c4"
+            "last_decision": "ff326353ea2a50068ccefca9ce79eea5ce95117456d2348d4e6b384ef1523abf"
         },
         {
             "id": "package.core",
