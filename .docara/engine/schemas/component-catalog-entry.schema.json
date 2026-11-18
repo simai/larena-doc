@@ -180,6 +180,24 @@
                         "type": "string",
                         "pattern": "^[a-z][a-z0-9_-]*$"
                     }
+                },
+                "deprecated_names": {
+                    "description": "Former names of this parameter. They still work and report MARKDOWN_PARAMETER_DEPRECATED.",
+                    "type": "array",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "items": {
+                        "type": "string",
+                        "pattern": "^[a-z][a-z0-9_-]*$"
+                    }
+                },
+                "deprecated_values": {
+                    "description": "Former values mapped to their replacement. They still work and report MARKDOWN_PARAMETER_DEPRECATED.",
+                    "type": "object",
+                    "minProperties": 1,
+                    "additionalProperties": {
+                        "$ref": "#/$defs/scalar"
+                    }
                 }
             },
             "additionalProperties": false
@@ -447,9 +465,21 @@
         },
         "gap": {
             "type": "object",
-            "required": ["owner"],
+            "required": ["owner", "reason", "fallback", "admission"],
             "properties": {
                 "owner": {
+                    "$ref": "#/$defs/non_empty_string"
+                },
+                "reason": {
+                    "description": "Why the component is not available yet.",
+                    "$ref": "#/$defs/non_empty_string"
+                },
+                "fallback": {
+                    "description": "What an author uses until it is available.",
+                    "$ref": "#/$defs/non_empty_string"
+                },
+                "admission": {
+                    "description": "The condition under which the requirement is replaced by a supported component.",
                     "$ref": "#/$defs/non_empty_string"
                 }
             },
