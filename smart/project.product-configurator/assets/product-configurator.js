@@ -72,8 +72,9 @@
             summary.textContent = `${result.variant} — ${result.selected.length ? result.selected.join(', ') : 'без дополнительных возможностей'}`;
             return result;
         };
-        dropdown.addEventListener('sf-dropdown:change', (event) => {
-            selectedVariant = event.detail?.label || event.detail?.value || '';
+        dropdown.addEventListener('change', (event) => {
+            if (event.target !== dropdown) return;
+            selectedVariant = event.detail?.label || event.detail?.value || dropdown.value || selectedVariant;
             queueMicrotask(render);
         });
         root.addEventListener('change', render);
